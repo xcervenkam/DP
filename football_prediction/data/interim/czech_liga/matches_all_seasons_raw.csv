@@ -1,0 +1,842 @@
+fixture_id,date,timestamp,status_long,status_short,league_id,league_name,season,round,home_team_id,home_team_name,away_team_id,away_team_name,home_goals,away_goals,halftime_home_goals,halftime_away_goals,result_1x2,goal_diff,total_goals
+880111,2022-07-30 14:00:00,1659189600,Match Finished,FT,345,Czech Liga,2022,Regular Season - 1,603,Zlin,640,Mlada Boleslav,0,0,0,0,D,0,0
+880112,2022-07-30 14:00:00,1659189600,Match Finished,FT,345,Czech Liga,2022,Regular Season - 1,3733,Zbrojovka Brno,3719,Slovácko,2,2,2,1,D,0,4
+880114,2022-07-30 14:00:00,1659189600,Match Finished,FT,345,Czech Liga,2022,Regular Season - 1,3713,Baník Ostrava,2250,Sigma Olomouc,0,3,0,1,A,-3,3
+880107,2022-07-30 17:00:00,1659200400,Match Finished,FT,345,Czech Liga,2022,Regular Season - 1,3720,Teplice,567,Plzen,2,2,1,0,D,0,4
+880108,2022-07-31 14:00:00,1659276000,Match Finished,FT,345,Czech Liga,2022,Regular Season - 1,3724,Pardubice,3736,České Budějovice,0,2,0,1,A,-2,2
+880109,2022-07-31 14:00:00,1659276000,Match Finished,FT,345,Czech Liga,2022,Regular Season - 1,3723,Hradec Králové,560,Slavia Praha,1,0,0,0,H,1,1
+880113,2022-07-31 14:00:00,1659276000,Match Finished,FT,345,Czech Liga,2022,Regular Season - 1,1122,FK Jablonec,3714,Bohemians 1905,0,3,0,1,A,-3,3
+880110,2022-07-31 17:00:00,1659286800,Match Finished,FT,345,Czech Liga,2022,Regular Season - 1,628,Sparta Praha,782,Slovan Liberec,1,2,0,2,A,-1,3
+880117,2022-08-06 14:00:00,1659794400,Match Finished,FT,345,Czech Liga,2022,Regular Season - 2,782,Slovan Liberec,3720,Teplice,5,1,3,1,H,4,6
+880118,2022-08-06 14:00:00,1659794400,Match Finished,FT,345,Czech Liga,2022,Regular Season - 2,567,Plzen,3724,Pardubice,2,1,1,0,H,1,3
+880119,2022-08-06 14:00:00,1659794400,Match Finished,FT,345,Czech Liga,2022,Regular Season - 2,2250,Sigma Olomouc,3733,Zbrojovka Brno,0,2,0,1,A,-2,2
+880122,2022-08-06 17:00:00,1659805200,Match Finished,FT,345,Czech Liga,2022,Regular Season - 2,3714,Bohemians 1905,3713,Baník Ostrava,3,3,3,1,D,0,6
+880115,2022-08-07 14:00:00,1659880800,Match Finished,FT,345,Czech Liga,2022,Regular Season - 2,3736,České Budějovice,628,Sparta Praha,0,2,0,2,A,-2,2
+880116,2022-08-07 14:00:00,1659880800,Match Finished,FT,345,Czech Liga,2022,Regular Season - 2,3719,Slovácko,3723,Hradec Králové,1,0,0,0,H,1,1
+880120,2022-08-07 14:00:00,1659880800,Match Finished,FT,345,Czech Liga,2022,Regular Season - 2,640,Mlada Boleslav,1122,FK Jablonec,2,2,1,2,D,0,4
+880121,2022-08-07 17:00:00,1659891600,Match Finished,FT,345,Czech Liga,2022,Regular Season - 2,560,Slavia Praha,603,Zlin,4,1,2,0,H,3,5
+880123,2022-08-13 14:00:00,1660399200,Match Finished,FT,345,Czech Liga,2022,Regular Season - 3,3713,Baník Ostrava,603,Zlin,3,1,3,0,H,2,4
+880125,2022-08-13 14:00:00,1660399200,Match Finished,FT,345,Czech Liga,2022,Regular Season - 3,3720,Teplice,3714,Bohemians 1905,0,1,0,0,A,-1,1
+880128,2022-08-13 14:00:00,1660399200,Match Finished,FT,345,Czech Liga,2022,Regular Season - 3,3733,Zbrojovka Brno,640,Mlada Boleslav,3,1,0,1,H,2,4
+880127,2022-08-13 17:00:00,1660410000,Match Finished,FT,345,Czech Liga,2022,Regular Season - 3,3723,Hradec Králové,567,Plzen,1,2,1,1,A,-1,3
+880124,2022-08-14 14:00:00,1660485600,Match Finished,FT,345,Czech Liga,2022,Regular Season - 3,1122,FK Jablonec,560,Slavia Praha,2,3,0,1,A,-1,5
+880129,2022-08-14 14:00:00,1660485600,Match Finished,FT,345,Czech Liga,2022,Regular Season - 3,3724,Pardubice,782,Slovan Liberec,2,1,2,0,H,1,3
+880130,2022-08-14 14:00:00,1660485600,Match Finished,FT,345,Czech Liga,2022,Regular Season - 3,3736,České Budějovice,3719,Slovácko,2,2,1,1,D,0,4
+880126,2022-08-14 17:00:00,1660496400,Match Finished,FT,345,Czech Liga,2022,Regular Season - 3,628,Sparta Praha,2250,Sigma Olomouc,2,0,1,0,H,2,2
+880132,2022-08-20 14:00:00,1661004000,Match Finished,FT,345,Czech Liga,2022,Regular Season - 4,3713,Baník Ostrava,3720,Teplice,1,2,1,1,A,-1,3
+880136,2022-08-20 17:00:00,1661014800,Match Finished,FT,345,Czech Liga,2022,Regular Season - 4,640,Mlada Boleslav,628,Sparta Praha,1,3,1,0,A,-2,4
+880131,2022-08-21 14:00:00,1661090400,Match Finished,FT,345,Czech Liga,2022,Regular Season - 4,603,Zlin,1122,FK Jablonec,2,2,1,1,D,0,4
+880133,2022-08-21 14:00:00,1661090400,Match Finished,FT,345,Czech Liga,2022,Regular Season - 4,782,Slovan Liberec,3736,České Budějovice,1,1,1,0,D,0,2
+880135,2022-08-21 14:00:00,1661090400,Match Finished,FT,345,Czech Liga,2022,Regular Season - 4,2250,Sigma Olomouc,3719,Slovácko,1,2,1,0,A,-1,3
+880137,2022-08-21 17:00:00,1661101200,Match Finished,FT,345,Czech Liga,2022,Regular Season - 4,560,Slavia Praha,3724,Pardubice,7,0,2,0,H,7,7
+880138,2022-08-22 17:00:00,1661187600,Match Finished,FT,345,Czech Liga,2022,Regular Season - 4,3714,Bohemians 1905,3723,Hradec Králové,1,2,1,2,A,-1,3
+880139,2022-08-27 14:00:00,1661608800,Match Finished,FT,345,Czech Liga,2022,Regular Season - 5,1122,FK Jablonec,3713,Baník Ostrava,1,1,0,0,D,0,2
+880140,2022-08-27 14:00:00,1661608800,Match Finished,FT,345,Czech Liga,2022,Regular Season - 5,3720,Teplice,603,Zlin,0,0,0,0,D,0,0
+880144,2022-08-27 14:00:00,1661608800,Match Finished,FT,345,Czech Liga,2022,Regular Season - 5,3724,Pardubice,640,Mlada Boleslav,0,3,0,3,A,-3,3
+880145,2022-08-27 14:00:00,1661608800,Match Finished,FT,345,Czech Liga,2022,Regular Season - 5,3736,České Budějovice,567,Plzen,0,1,0,0,A,-1,1
+880141,2022-08-27 17:00:00,1661619600,Match Finished,FT,345,Czech Liga,2022,Regular Season - 5,628,Sparta Praha,3714,Bohemians 1905,1,1,0,1,D,0,2
+880142,2022-08-28 14:00:00,1661695200,Match Finished,FT,345,Czech Liga,2022,Regular Season - 5,3723,Hradec Králové,2250,Sigma Olomouc,1,0,0,0,H,1,1
+880146,2022-08-28 14:00:00,1661695200,Match Finished,FT,345,Czech Liga,2022,Regular Season - 5,3719,Slovácko,782,Slovan Liberec,1,2,0,1,A,-1,3
+880143,2022-08-28 17:00:00,1661706000,Match Finished,FT,345,Czech Liga,2022,Regular Season - 5,3733,Zbrojovka Brno,560,Slavia Praha,0,4,0,3,A,-4,4
+880151,2022-08-30 15:30:00,1661873400,Match Finished,FT,345,Czech Liga,2022,Regular Season - 6,603,Zlin,3724,Pardubice,2,1,1,0,H,1,3
+880152,2022-08-30 15:30:00,1661873400,Match Finished,FT,345,Czech Liga,2022,Regular Season - 6,3714,Bohemians 1905,3736,České Budějovice,1,2,0,1,A,-1,3
+880148,2022-08-30 18:00:00,1661882400,Match Finished,FT,345,Czech Liga,2022,Regular Season - 6,1122,FK Jablonec,628,Sparta Praha,1,1,1,1,D,0,2
+880149,2022-08-31 15:30:00,1661959800,Match Finished,FT,345,Czech Liga,2022,Regular Season - 6,640,Mlada Boleslav,3723,Hradec Králové,1,2,0,1,A,-1,3
+880150,2022-08-31 15:30:00,1661959800,Match Finished,FT,345,Czech Liga,2022,Regular Season - 6,3713,Baník Ostrava,3733,Zbrojovka Brno,1,2,0,0,A,-1,3
+880153,2022-08-31 15:30:00,1661959800,Match Finished,FT,345,Czech Liga,2022,Regular Season - 6,567,Plzen,3719,Slovácko,3,0,2,0,H,3,3
+880154,2022-08-31 15:30:00,1661959800,Match Finished,FT,345,Czech Liga,2022,Regular Season - 6,2250,Sigma Olomouc,782,Slovan Liberec,1,1,1,0,D,0,2
+880147,2022-08-31 18:00:00,1661968800,Match Finished,FT,345,Czech Liga,2022,Regular Season - 6,560,Slavia Praha,3720,Teplice,6,0,2,0,H,6,6
+880157,2022-09-03 14:00:00,1662213600,Match Finished,FT,345,Czech Liga,2022,Regular Season - 7,3720,Teplice,1122,FK Jablonec,3,2,1,2,H,1,5
+880158,2022-09-03 14:00:00,1662213600,Match Finished,FT,345,Czech Liga,2022,Regular Season - 7,782,Slovan Liberec,567,Plzen,0,1,0,1,A,-1,1
+880160,2022-09-03 14:00:00,1662213600,Match Finished,FT,345,Czech Liga,2022,Regular Season - 7,3736,České Budějovice,640,Mlada Boleslav,0,2,0,0,A,-2,2
+880155,2022-09-03 17:00:00,1662224400,Match Finished,FT,345,Czech Liga,2022,Regular Season - 7,628,Sparta Praha,603,Zlin,0,0,0,0,D,0,0
+880156,2022-09-04 14:00:00,1662300000,Match Finished,FT,345,Czech Liga,2022,Regular Season - 7,3723,Hradec Králové,3713,Baník Ostrava,0,0,0,0,D,0,0
+880159,2022-09-04 14:00:00,1662300000,Match Finished,FT,345,Czech Liga,2022,Regular Season - 7,3724,Pardubice,2250,Sigma Olomouc,0,2,0,1,A,-2,2
+880162,2022-09-04 14:00:00,1662300000,Match Finished,FT,345,Czech Liga,2022,Regular Season - 7,3733,Zbrojovka Brno,3714,Bohemians 1905,1,2,0,2,A,-1,3
+880161,2022-09-04 17:00:00,1662310800,Match Finished,FT,345,Czech Liga,2022,Regular Season - 7,3719,Slovácko,560,Slavia Praha,1,1,1,0,D,0,2
+880163,2022-09-10 14:00:00,1662818400,Match Finished,FT,345,Czech Liga,2022,Regular Season - 8,603,Zlin,3733,Zbrojovka Brno,2,3,0,1,A,-1,5
+880167,2022-09-10 14:00:00,1662818400,Match Finished,FT,345,Czech Liga,2022,Regular Season - 8,2250,Sigma Olomouc,567,Plzen,2,3,1,2,A,-1,5
+880166,2022-09-10 17:00:00,1662829200,Match Finished,FT,345,Czech Liga,2022,Regular Season - 8,3720,Teplice,628,Sparta Praha,2,2,1,2,D,0,4
+880164,2022-09-11 14:00:00,1662904800,Match Finished,FT,345,Czech Liga,2022,Regular Season - 8,3713,Baník Ostrava,3724,Pardubice,3,0,1,0,H,3,3
+880165,2022-09-11 14:00:00,1662904800,Match Finished,FT,345,Czech Liga,2022,Regular Season - 8,1122,FK Jablonec,3723,Hradec Králové,3,0,0,0,H,3,3
+880168,2022-09-11 14:00:00,1662904800,Match Finished,FT,345,Czech Liga,2022,Regular Season - 8,640,Mlada Boleslav,3719,Slovácko,1,1,0,1,D,0,2
+880170,2022-09-11 14:00:00,1662904800,Match Finished,FT,345,Czech Liga,2022,Regular Season - 8,3714,Bohemians 1905,782,Slovan Liberec,0,2,0,1,A,-2,2
+880169,2022-09-11 17:00:00,1662915600,Match Finished,FT,345,Czech Liga,2022,Regular Season - 8,560,Slavia Praha,3736,České Budějovice,6,1,3,0,H,5,7
+880173,2022-09-17 14:00:00,1663423200,Match Finished,FT,345,Czech Liga,2022,Regular Season - 9,3733,Zbrojovka Brno,3720,Teplice,2,2,2,2,D,0,4
+880175,2022-09-17 14:00:00,1663423200,Match Finished,FT,345,Czech Liga,2022,Regular Season - 9,3736,České Budějovice,2250,Sigma Olomouc,0,3,0,2,A,-3,3
+880177,2022-09-17 14:00:00,1663423200,Match Finished,FT,345,Czech Liga,2022,Regular Season - 9,782,Slovan Liberec,640,Mlada Boleslav,1,3,1,0,A,-2,4
+880171,2022-09-17 17:00:00,1663434000,Match Finished,FT,345,Czech Liga,2022,Regular Season - 9,628,Sparta Praha,3713,Baník Ostrava,1,1,1,0,D,0,2
+880172,2022-09-18 14:00:00,1663509600,Match Finished,FT,345,Czech Liga,2022,Regular Season - 9,3723,Hradec Králové,603,Zlin,0,0,0,0,D,0,0
+880174,2022-09-18 14:00:00,1663509600,Match Finished,FT,345,Czech Liga,2022,Regular Season - 9,3724,Pardubice,3714,Bohemians 1905,0,1,0,0,A,-1,1
+880176,2022-09-18 14:00:00,1663509600,Match Finished,FT,345,Czech Liga,2022,Regular Season - 9,3719,Slovácko,1122,FK Jablonec,0,2,0,0,A,-2,2
+880178,2022-09-18 17:00:00,1663520400,Match Finished,FT,345,Czech Liga,2022,Regular Season - 9,567,Plzen,560,Slavia Praha,3,0,2,0,H,3,3
+880180,2022-10-01 14:00:00,1664632800,Match Finished,FT,345,Czech Liga,2022,Regular Season - 10,3713,Baník Ostrava,3736,České Budějovice,1,2,0,1,A,-1,3
+880184,2022-10-01 14:00:00,1664632800,Match Finished,FT,345,Czech Liga,2022,Regular Season - 10,640,Mlada Boleslav,2250,Sigma Olomouc,1,1,1,0,D,0,2
+880186,2022-10-01 14:00:00,1664632800,Match Finished,FT,345,Czech Liga,2022,Regular Season - 10,3714,Bohemians 1905,567,Plzen,1,1,0,1,D,0,2
+880183,2022-10-01 17:00:00,1664643600,Match Finished,FT,345,Czech Liga,2022,Regular Season - 10,628,Sparta Praha,3723,Hradec Králové,2,1,0,1,H,1,3
+880179,2022-10-02 14:00:00,1664719200,Match Finished,FT,345,Czech Liga,2022,Regular Season - 10,603,Zlin,3719,Slovácko,0,2,0,0,A,-2,2
+880181,2022-10-02 14:00:00,1664719200,Match Finished,FT,345,Czech Liga,2022,Regular Season - 10,1122,FK Jablonec,3733,Zbrojovka Brno,3,1,1,0,H,2,4
+880182,2022-10-02 14:00:00,1664719200,Match Finished,FT,345,Czech Liga,2022,Regular Season - 10,3720,Teplice,3724,Pardubice,5,1,2,0,H,4,6
+880185,2022-10-02 17:00:00,1664730000,Match Finished,FT,345,Czech Liga,2022,Regular Season - 10,560,Slavia Praha,782,Slovan Liberec,3,0,3,0,H,3,3
+880187,2022-10-08 14:00:00,1665237600,Match Finished,FT,345,Czech Liga,2022,Regular Season - 11,3723,Hradec Králové,3720,Teplice,4,1,1,1,H,3,5
+880188,2022-10-08 14:00:00,1665237600,Match Finished,FT,345,Czech Liga,2022,Regular Season - 11,3733,Zbrojovka Brno,628,Sparta Praha,0,4,0,2,A,-4,4
+880189,2022-10-08 14:00:00,1665237600,Match Finished,FT,345,Czech Liga,2022,Regular Season - 11,3724,Pardubice,1122,FK Jablonec,1,0,0,0,H,1,1
+880193,2022-10-08 17:00:00,1665248400,Match Finished,FT,345,Czech Liga,2022,Regular Season - 11,567,Plzen,640,Mlada Boleslav,2,0,0,0,H,2,2
+880190,2022-10-09 14:00:00,1665324000,Match Finished,FT,345,Czech Liga,2022,Regular Season - 11,3736,České Budějovice,603,Zlin,2,2,2,1,D,0,4
+880191,2022-10-09 14:00:00,1665324000,Match Finished,FT,345,Czech Liga,2022,Regular Season - 11,3719,Slovácko,3714,Bohemians 1905,2,4,0,2,A,-2,6
+880192,2022-10-09 14:00:00,1665324000,Match Finished,FT,345,Czech Liga,2022,Regular Season - 11,782,Slovan Liberec,3713,Baník Ostrava,0,0,0,0,D,0,0
+880194,2022-10-09 17:00:00,1665334800,Match Finished,FT,345,Czech Liga,2022,Regular Season - 11,2250,Sigma Olomouc,560,Slavia Praha,2,0,1,0,H,2,2
+880198,2022-10-15 14:00:00,1665842400,Match Finished,FT,345,Czech Liga,2022,Regular Season - 12,3720,Teplice,3736,České Budějovice,0,2,0,0,A,-2,2
+880200,2022-10-15 14:00:00,1665842400,Match Finished,FT,345,Czech Liga,2022,Regular Season - 12,3723,Hradec Králové,3733,Zbrojovka Brno,2,1,1,1,H,1,3
+880202,2022-10-15 14:00:00,1665842400,Match Finished,FT,345,Czech Liga,2022,Regular Season - 12,3714,Bohemians 1905,2250,Sigma Olomouc,1,1,0,1,D,0,2
+880199,2022-10-15 17:00:00,1665853200,Match Finished,FT,345,Czech Liga,2022,Regular Season - 12,628,Sparta Praha,3724,Pardubice,5,2,2,1,H,3,7
+880196,2022-10-16 13:00:00,1665925200,Match Finished,FT,345,Czech Liga,2022,Regular Season - 12,3713,Baník Ostrava,3719,Slovácko,3,1,2,0,H,2,4
+880195,2022-10-16 14:00:00,1665928800,Match Finished,FT,345,Czech Liga,2022,Regular Season - 12,603,Zlin,782,Slovan Liberec,2,1,1,0,H,1,3
+880197,2022-10-16 14:00:00,1665928800,Match Finished,FT,345,Czech Liga,2022,Regular Season - 12,1122,FK Jablonec,567,Plzen,0,3,0,1,A,-3,3
+880201,2022-10-16 17:00:00,1665939600,Match Finished,FT,345,Czech Liga,2022,Regular Season - 12,560,Slavia Praha,640,Mlada Boleslav,2,1,2,1,H,1,3
+880203,2022-10-22 14:00:00,1666447200,Match Finished,FT,345,Czech Liga,2022,Regular Season - 13,2250,Sigma Olomouc,603,Zlin,2,1,0,1,H,1,3
+880208,2022-10-22 14:00:00,1666447200,Match Finished,FT,345,Czech Liga,2022,Regular Season - 13,3724,Pardubice,3733,Zbrojovka Brno,1,3,0,1,A,-2,4
+880209,2022-10-22 14:00:00,1666447200,Match Finished,FT,345,Czech Liga,2022,Regular Season - 13,782,Slovan Liberec,1122,FK Jablonec,2,0,1,0,H,2,2
+880204,2022-10-22 17:00:00,1666458000,Match Finished,FT,345,Czech Liga,2022,Regular Season - 13,567,Plzen,3713,Baník Ostrava,3,1,2,0,H,2,4
+880205,2022-10-23 13:00:00,1666530000,Match Finished,FT,345,Czech Liga,2022,Regular Season - 13,3736,České Budějovice,3723,Hradec Králové,0,3,0,0,A,-3,3
+880206,2022-10-23 14:00:00,1666533600,Match Finished,FT,345,Czech Liga,2022,Regular Season - 13,3719,Slovácko,3720,Teplice,2,1,0,1,H,1,3
+880210,2022-10-23 14:00:00,1666533600,Match Finished,FT,345,Czech Liga,2022,Regular Season - 13,640,Mlada Boleslav,3714,Bohemians 1905,4,3,1,1,H,1,7
+880207,2022-10-23 17:00:00,1666544400,Match Finished,FT,345,Czech Liga,2022,Regular Season - 13,560,Slavia Praha,628,Sparta Praha,4,0,4,0,H,4,4
+880212,2022-10-29 13:00:00,1667048400,Match Finished,FT,345,Czech Liga,2022,Regular Season - 14,3723,Hradec Králové,3724,Pardubice,1,3,0,0,A,-2,4
+880214,2022-10-29 13:00:00,1667048400,Match Finished,FT,345,Czech Liga,2022,Regular Season - 14,1122,FK Jablonec,3736,České Budějovice,3,0,1,0,H,3,3
+880217,2022-10-29 13:00:00,1667048400,Match Finished,FT,345,Czech Liga,2022,Regular Season - 14,3713,Baník Ostrava,640,Mlada Boleslav,3,1,1,0,H,2,4
+880215,2022-10-29 16:00:00,1667059200,Match Finished,FT,345,Czech Liga,2022,Regular Season - 14,603,Zlin,567,Plzen,0,3,0,1,A,-3,3
+880211,2022-10-30 14:00:00,1667138400,Match Finished,FT,345,Czech Liga,2022,Regular Season - 14,3733,Zbrojovka Brno,782,Slovan Liberec,3,0,0,0,H,3,3
+880216,2022-10-30 14:00:00,1667138400,Match Finished,FT,345,Czech Liga,2022,Regular Season - 14,3720,Teplice,2250,Sigma Olomouc,2,1,1,1,H,1,3
+880218,2022-10-30 14:00:00,1667138400,Match Finished,FT,345,Czech Liga,2022,Regular Season - 14,3714,Bohemians 1905,560,Slavia Praha,1,4,1,2,A,-3,5
+880220,2022-11-05 14:00:00,1667656800,Match Finished,FT,345,Czech Liga,2022,Regular Season - 15,3714,Bohemians 1905,603,Zlin,3,2,0,2,H,1,5
+880221,2022-11-05 14:00:00,1667656800,Match Finished,FT,345,Czech Liga,2022,Regular Season - 15,2250,Sigma Olomouc,1122,FK Jablonec,3,0,1,0,H,3,3
+880225,2022-11-05 14:00:00,1667656800,Match Finished,FT,345,Czech Liga,2022,Regular Season - 15,3736,České Budějovice,3733,Zbrojovka Brno,3,2,1,0,H,1,5
+880223,2022-11-05 17:00:00,1667667600,Match Finished,FT,345,Czech Liga,2022,Regular Season - 15,567,Plzen,628,Sparta Praha,0,1,0,0,A,-1,1
+880222,2022-11-06 14:00:00,1667743200,Match Finished,FT,345,Czech Liga,2022,Regular Season - 15,640,Mlada Boleslav,3720,Teplice,3,0,1,0,H,3,3
+880224,2022-11-06 14:00:00,1667743200,Match Finished,FT,345,Czech Liga,2022,Regular Season - 15,782,Slovan Liberec,3723,Hradec Králové,2,0,1,0,H,2,2
+880226,2022-11-06 14:00:00,1667743200,Match Finished,FT,345,Czech Liga,2022,Regular Season - 15,3719,Slovácko,3724,Pardubice,1,0,0,0,H,1,1
+880219,2022-11-06 17:00:00,1667754000,Match Finished,FT,345,Czech Liga,2022,Regular Season - 15,560,Slavia Praha,3713,Baník Ostrava,3,1,0,0,H,2,4
+880134,2022-11-09 16:00:00,1668009600,Match Finished,FT,345,Czech Liga,2022,Regular Season - 4,567,Plzen,3733,Zbrojovka Brno,4,0,1,0,H,4,4
+880213,2022-11-09 18:30:00,1668018600,Match Finished,FT,345,Czech Liga,2022,Regular Season - 14,628,Sparta Praha,3719,Slovácko,4,0,2,0,H,4,4
+880229,2022-11-12 14:00:00,1668261600,Match Finished,FT,345,Czech Liga,2022,Regular Season - 16,3720,Teplice,782,Slovan Liberec,2,1,1,1,H,1,3
+880232,2022-11-12 14:00:00,1668261600,Match Finished,FT,345,Czech Liga,2022,Regular Season - 16,1122,FK Jablonec,640,Mlada Boleslav,1,2,1,1,A,-1,3
+880233,2022-11-12 14:00:00,1668261600,Match Finished,FT,345,Czech Liga,2022,Regular Season - 16,3713,Baník Ostrava,3714,Bohemians 1905,4,1,2,0,H,3,5
+880227,2022-11-12 17:00:00,1668272400,Match Finished,FT,345,Czech Liga,2022,Regular Season - 16,628,Sparta Praha,3736,České Budějovice,1,0,1,0,H,1,1
+880228,2022-11-13 14:00:00,1668348000,Match Finished,FT,345,Czech Liga,2022,Regular Season - 16,3723,Hradec Králové,3719,Slovácko,1,2,1,0,A,-1,3
+880230,2022-11-13 14:00:00,1668348000,Match Finished,FT,345,Czech Liga,2022,Regular Season - 16,3724,Pardubice,567,Plzen,1,1,0,0,D,0,2
+880231,2022-11-13 14:00:00,1668348000,Match Finished,FT,345,Czech Liga,2022,Regular Season - 16,3733,Zbrojovka Brno,2250,Sigma Olomouc,2,3,1,2,A,-1,5
+880234,2022-11-13 17:00:00,1668358800,Match Finished,FT,345,Czech Liga,2022,Regular Season - 16,603,Zlin,560,Slavia Praha,0,4,0,3,A,-4,4
+880237,2023-01-28 14:00:00,1674914400,Match Finished,FT,345,Czech Liga,2022,Regular Season - 17,3714,Bohemians 1905,3720,Teplice,2,0,0,0,H,2,2
+880239,2023-01-28 14:00:00,1674914400,Match Finished,FT,345,Czech Liga,2022,Regular Season - 17,567,Plzen,3723,Hradec Králové,1,2,1,1,A,-1,3
+880242,2023-01-28 14:00:00,1674914400,Match Finished,FT,345,Czech Liga,2022,Regular Season - 17,3719,Slovácko,3736,České Budějovice,1,0,0,0,H,1,1
+880238,2023-01-28 17:00:00,1674925200,Match Finished,FT,345,Czech Liga,2022,Regular Season - 17,2250,Sigma Olomouc,628,Sparta Praha,1,1,1,1,D,0,2
+880236,2023-01-29 14:00:00,1675000800,Match Finished,FT,345,Czech Liga,2022,Regular Season - 17,560,Slavia Praha,1122,FK Jablonec,5,1,1,1,H,4,6
+880240,2023-01-29 14:00:00,1675000800,Match Finished,FT,345,Czech Liga,2022,Regular Season - 17,640,Mlada Boleslav,3733,Zbrojovka Brno,0,0,0,0,D,0,0
+880241,2023-01-29 14:00:00,1675000800,Match Finished,FT,345,Czech Liga,2022,Regular Season - 17,782,Slovan Liberec,3724,Pardubice,1,1,1,0,D,0,2
+880235,2023-01-29 17:00:00,1675011600,Match Finished,FT,345,Czech Liga,2022,Regular Season - 17,603,Zlin,3713,Baník Ostrava,1,1,0,1,D,0,2
+880243,2023-02-04 14:00:00,1675519200,Match Finished,FT,345,Czech Liga,2022,Regular Season - 18,1122,FK Jablonec,603,Zlin,2,2,0,1,D,0,4
+880244,2023-02-04 14:00:00,1675519200,Match Finished,FT,345,Czech Liga,2022,Regular Season - 18,3720,Teplice,3713,Baník Ostrava,0,5,0,0,A,-5,5
+880247,2023-02-04 14:00:00,1675519200,Match Finished,FT,345,Czech Liga,2022,Regular Season - 18,3719,Slovácko,2250,Sigma Olomouc,0,0,0,0,D,0,0
+880249,2023-02-04 17:00:00,1675530000,Match Finished,FT,345,Czech Liga,2022,Regular Season - 18,3724,Pardubice,560,Slavia Praha,0,2,0,1,A,-2,2
+880245,2023-02-05 14:00:00,1675605600,Match Finished,FT,345,Czech Liga,2022,Regular Season - 18,3736,České Budějovice,782,Slovan Liberec,0,2,0,1,A,-2,2
+880246,2023-02-05 14:00:00,1675605600,Match Finished,FT,345,Czech Liga,2022,Regular Season - 18,3733,Zbrojovka Brno,567,Plzen,1,3,1,0,A,-2,4
+880250,2023-02-05 14:00:00,1675605600,Match Finished,FT,345,Czech Liga,2022,Regular Season - 18,3723,Hradec Králové,3714,Bohemians 1905,0,2,0,2,A,-2,2
+880248,2023-02-05 17:00:00,1675616400,Match Finished,FT,345,Czech Liga,2022,Regular Season - 18,628,Sparta Praha,640,Mlada Boleslav,4,1,2,1,H,3,5
+880251,2023-02-11 14:00:00,1676124000,Match Finished,FT,345,Czech Liga,2022,Regular Season - 19,3713,Baník Ostrava,1122,FK Jablonec,1,2,0,1,A,-1,3
+880252,2023-02-11 14:00:00,1676124000,Match Finished,FT,345,Czech Liga,2022,Regular Season - 19,603,Zlin,3720,Teplice,2,1,2,0,H,1,3
+880258,2023-02-11 14:00:00,1676124000,Match Finished,FT,345,Czech Liga,2022,Regular Season - 19,782,Slovan Liberec,3719,Slovácko,0,1,0,0,A,-1,1
+880255,2023-02-11 17:00:00,1676134800,Match Finished,FT,345,Czech Liga,2022,Regular Season - 19,560,Slavia Praha,3733,Zbrojovka Brno,2,0,0,0,H,2,2
+880254,2023-02-12 14:00:00,1676210400,Match Finished,FT,345,Czech Liga,2022,Regular Season - 19,2250,Sigma Olomouc,3723,Hradec Králové,2,2,1,1,D,0,4
+880256,2023-02-12 14:00:00,1676210400,Match Finished,FT,345,Czech Liga,2022,Regular Season - 19,640,Mlada Boleslav,3724,Pardubice,0,1,0,1,A,-1,1
+880257,2023-02-12 14:00:00,1676210400,Match Finished,FT,345,Czech Liga,2022,Regular Season - 19,567,Plzen,3736,České Budějovice,2,1,1,0,H,1,3
+880253,2023-02-12 17:00:00,1676221200,Match Finished,FT,345,Czech Liga,2022,Regular Season - 19,3714,Bohemians 1905,628,Sparta Praha,2,6,0,1,A,-4,8
+880261,2023-02-18 14:00:00,1676728800,Match Finished,FT,345,Czech Liga,2022,Regular Season - 20,3723,Hradec Králové,640,Mlada Boleslav,0,1,0,0,A,-1,1
+880262,2023-02-18 14:00:00,1676728800,Match Finished,FT,345,Czech Liga,2022,Regular Season - 20,3733,Zbrojovka Brno,3713,Baník Ostrava,2,1,1,0,H,1,3
+880266,2023-02-18 14:00:00,1676728800,Match Finished,FT,345,Czech Liga,2022,Regular Season - 20,782,Slovan Liberec,2250,Sigma Olomouc,2,2,1,1,D,0,4
+880259,2023-02-18 17:00:00,1676739600,Match Finished,FT,345,Czech Liga,2022,Regular Season - 20,3720,Teplice,560,Slavia Praha,1,1,1,0,D,0,2
+880263,2023-02-19 14:00:00,1676815200,Match Finished,FT,345,Czech Liga,2022,Regular Season - 20,3724,Pardubice,603,Zlin,2,1,1,0,H,1,3
+880264,2023-02-19 14:00:00,1676815200,Match Finished,FT,345,Czech Liga,2022,Regular Season - 20,3736,České Budějovice,3714,Bohemians 1905,1,0,0,0,H,1,1
+880265,2023-02-19 14:00:00,1676815200,Match Finished,FT,345,Czech Liga,2022,Regular Season - 20,3719,Slovácko,567,Plzen,2,0,1,0,H,2,2
+880260,2023-02-19 17:00:00,1676826000,Match Finished,FT,345,Czech Liga,2022,Regular Season - 20,628,Sparta Praha,1122,FK Jablonec,3,0,1,0,H,3,3
+880267,2023-02-25 14:00:00,1677333600,Match Finished,FT,345,Czech Liga,2022,Regular Season - 21,603,Zlin,628,Sparta Praha,2,3,0,2,A,-1,5
+880272,2023-02-25 14:00:00,1677333600,Match Finished,FT,345,Czech Liga,2022,Regular Season - 21,640,Mlada Boleslav,3736,České Budějovice,2,2,1,1,D,0,4
+880274,2023-02-25 14:00:00,1677333600,Match Finished,FT,345,Czech Liga,2022,Regular Season - 21,3714,Bohemians 1905,3733,Zbrojovka Brno,1,1,0,0,D,0,2
+880270,2023-02-25 17:00:00,1677344400,Match Finished,FT,345,Czech Liga,2022,Regular Season - 21,567,Plzen,782,Slovan Liberec,2,1,1,0,H,1,3
+880269,2023-02-26 14:00:00,1677420000,Match Finished,FT,345,Czech Liga,2022,Regular Season - 21,1122,FK Jablonec,3720,Teplice,4,1,2,0,H,3,5
+880271,2023-02-26 14:00:00,1677420000,Match Finished,FT,345,Czech Liga,2022,Regular Season - 21,2250,Sigma Olomouc,3724,Pardubice,2,2,0,0,D,0,4
+880273,2023-02-26 14:00:00,1677420000,Match Finished,FT,345,Czech Liga,2022,Regular Season - 21,560,Slavia Praha,3719,Slovácko,2,0,1,0,H,2,2
+880268,2023-02-26 17:00:00,1677430800,Match Finished,FT,345,Czech Liga,2022,Regular Season - 21,3713,Baník Ostrava,3723,Hradec Králové,0,2,0,1,A,-2,2
+880275,2023-03-04 14:00:00,1677938400,Match Finished,FT,345,Czech Liga,2022,Regular Season - 22,3733,Zbrojovka Brno,603,Zlin,1,1,0,1,D,0,2
+880276,2023-03-04 14:00:00,1677938400,Match Finished,FT,345,Czech Liga,2022,Regular Season - 22,3724,Pardubice,3713,Baník Ostrava,1,1,1,1,D,0,2
+880277,2023-03-04 14:00:00,1677938400,Match Finished,FT,345,Czech Liga,2022,Regular Season - 22,3723,Hradec Králové,1122,FK Jablonec,1,4,1,0,A,-3,5
+880279,2023-03-04 14:00:00,1677938400,Match Finished,FT,345,Czech Liga,2022,Regular Season - 22,567,Plzen,2250,Sigma Olomouc,1,1,0,0,D,0,2
+880278,2023-03-04 17:00:00,1677949200,Match Finished,FT,345,Czech Liga,2022,Regular Season - 22,628,Sparta Praha,3720,Teplice,4,1,2,0,H,3,5
+880282,2023-03-05 13:00:00,1678021200,Match Finished,FT,345,Czech Liga,2022,Regular Season - 22,782,Slovan Liberec,3714,Bohemians 1905,1,3,0,2,A,-2,4
+880280,2023-03-05 14:00:00,1678024800,Match Finished,FT,345,Czech Liga,2022,Regular Season - 22,3719,Slovácko,640,Mlada Boleslav,2,1,1,1,H,1,3
+880281,2023-03-05 16:00:00,1678032000,Match Finished,FT,345,Czech Liga,2022,Regular Season - 22,3736,České Budějovice,560,Slavia Praha,1,0,0,0,H,1,1
+880284,2023-03-11 14:00:00,1678543200,Match Finished,FT,345,Czech Liga,2022,Regular Season - 23,2250,Sigma Olomouc,3736,České Budějovice,3,0,0,0,H,3,3
+880289,2023-03-11 14:00:00,1678543200,Match Finished,FT,345,Czech Liga,2022,Regular Season - 23,603,Zlin,3723,Hradec Králové,2,2,2,1,D,0,4
+880290,2023-03-11 14:00:00,1678543200,Match Finished,FT,345,Czech Liga,2022,Regular Season - 23,3713,Baník Ostrava,628,Sparta Praha,0,3,0,2,A,-3,3
+880283,2023-03-11 17:00:00,1678554000,Match Finished,FT,345,Czech Liga,2022,Regular Season - 23,560,Slavia Praha,567,Plzen,2,1,0,1,H,1,3
+880286,2023-03-12 14:00:00,1678629600,Match Finished,FT,345,Czech Liga,2022,Regular Season - 23,3720,Teplice,3733,Zbrojovka Brno,1,1,0,0,D,0,2
+880287,2023-03-12 14:00:00,1678629600,Match Finished,FT,345,Czech Liga,2022,Regular Season - 23,640,Mlada Boleslav,782,Slovan Liberec,4,0,3,0,H,4,4
+880288,2023-03-12 17:00:00,1678640400,Match Finished,FT,345,Czech Liga,2022,Regular Season - 23,3714,Bohemians 1905,3724,Pardubice,2,0,1,0,H,2,2
+880292,2023-03-18 14:00:00,1679148000,Match Finished,FT,345,Czech Liga,2022,Regular Season - 24,3736,České Budějovice,3713,Baník Ostrava,2,1,1,1,H,1,3
+880295,2023-03-18 14:00:00,1679148000,Match Finished,FT,345,Czech Liga,2022,Regular Season - 24,3723,Hradec Králové,628,Sparta Praha,0,2,0,1,A,-2,2
+880296,2023-03-18 14:00:00,1679148000,Match Finished,FT,345,Czech Liga,2022,Regular Season - 24,2250,Sigma Olomouc,640,Mlada Boleslav,2,0,1,0,H,2,2
+880297,2023-03-18 17:00:00,1679158800,Match Finished,FT,345,Czech Liga,2022,Regular Season - 24,782,Slovan Liberec,560,Slavia Praha,2,2,1,1,D,0,4
+880291,2023-03-19 14:00:00,1679234400,Match Finished,FT,345,Czech Liga,2022,Regular Season - 24,3719,Slovácko,603,Zlin,3,0,1,0,H,3,3
+880293,2023-03-19 14:00:00,1679234400,Match Finished,FT,345,Czech Liga,2022,Regular Season - 24,3733,Zbrojovka Brno,1122,FK Jablonec,1,2,1,0,A,-1,3
+880294,2023-03-19 14:00:00,1679234400,Match Finished,FT,345,Czech Liga,2022,Regular Season - 24,3724,Pardubice,3720,Teplice,3,1,2,1,H,2,4
+880298,2023-03-19 17:00:00,1679245200,Match Finished,FT,345,Czech Liga,2022,Regular Season - 24,567,Plzen,3714,Bohemians 1905,1,2,1,0,A,-1,3
+880302,2023-04-01 14:00:00,1680357600,Match Finished,FT,345,Czech Liga,2022,Regular Season - 25,603,Zlin,3736,České Budějovice,5,1,2,0,H,4,6
+880304,2023-04-01 14:00:00,1680357600,Match Finished,FT,345,Czech Liga,2022,Regular Season - 25,3713,Baník Ostrava,782,Slovan Liberec,0,0,0,0,D,0,0
+880305,2023-04-01 14:00:00,1680357600,Match Finished,FT,345,Czech Liga,2022,Regular Season - 25,640,Mlada Boleslav,567,Plzen,0,0,0,0,D,0,0
+880306,2023-04-01 17:00:00,1680368400,Match Finished,FT,345,Czech Liga,2022,Regular Season - 25,560,Slavia Praha,2250,Sigma Olomouc,4,0,1,0,H,4,4
+880299,2023-04-02 14:00:00,1680444000,Match Finished,FT,345,Czech Liga,2022,Regular Season - 25,3720,Teplice,3723,Hradec Králové,1,0,1,0,H,1,1
+880300,2023-04-02 14:00:00,1680444000,Match Finished,FT,345,Czech Liga,2022,Regular Season - 25,628,Sparta Praha,3733,Zbrojovka Brno,3,1,2,1,H,2,4
+880301,2023-04-02 14:00:00,1680444000,Match Finished,FT,345,Czech Liga,2022,Regular Season - 25,1122,FK Jablonec,3724,Pardubice,1,0,0,0,H,1,1
+880303,2023-04-02 17:00:00,1680454800,Match Finished,FT,345,Czech Liga,2022,Regular Season - 25,3714,Bohemians 1905,3719,Slovácko,1,0,0,0,H,1,1
+880285,2023-04-05 15:00:00,1680706800,Match Finished,FT,345,Czech Liga,2022,Regular Season - 23,1122,FK Jablonec,3719,Slovácko,1,1,0,1,D,0,2
+880307,2023-04-08 14:00:00,1680962400,Match Finished,FT,345,Czech Liga,2022,Regular Season - 26,782,Slovan Liberec,603,Zlin,2,1,0,0,H,1,3
+880308,2023-04-08 14:00:00,1680962400,Match Finished,FT,345,Czech Liga,2022,Regular Season - 26,3719,Slovácko,3713,Baník Ostrava,0,1,0,1,A,-1,1
+880312,2023-04-08 14:00:00,1680962400,Match Finished,FT,345,Czech Liga,2022,Regular Season - 26,3733,Zbrojovka Brno,3723,Hradec Králové,1,2,1,1,A,-1,3
+880309,2023-04-08 17:00:00,1680973200,Match Finished,FT,345,Czech Liga,2022,Regular Season - 26,567,Plzen,1122,FK Jablonec,3,2,1,0,H,1,5
+880310,2023-04-09 14:00:00,1681048800,Match Finished,FT,345,Czech Liga,2022,Regular Season - 26,3736,České Budějovice,3720,Teplice,0,3,0,1,A,-3,3
+880313,2023-04-09 14:00:00,1681048800,Match Finished,FT,345,Czech Liga,2022,Regular Season - 26,640,Mlada Boleslav,560,Slavia Praha,1,1,1,1,D,0,2
+880314,2023-04-09 14:00:00,1681048800,Match Finished,FT,345,Czech Liga,2022,Regular Season - 26,2250,Sigma Olomouc,3714,Bohemians 1905,2,2,1,1,D,0,4
+880311,2023-04-09 17:00:00,1681059600,Match Finished,FT,345,Czech Liga,2022,Regular Season - 26,3724,Pardubice,628,Sparta Praha,0,2,0,2,A,-2,2
+880315,2023-04-15 14:00:00,1681567200,Match Finished,FT,345,Czech Liga,2022,Regular Season - 27,603,Zlin,2250,Sigma Olomouc,0,1,0,1,A,-1,1
+880318,2023-04-15 14:00:00,1681567200,Match Finished,FT,345,Czech Liga,2022,Regular Season - 27,3720,Teplice,3719,Slovácko,1,3,0,1,A,-2,4
+880321,2023-04-15 14:00:00,1681567200,Match Finished,FT,345,Czech Liga,2022,Regular Season - 27,1122,FK Jablonec,782,Slovan Liberec,1,1,0,0,D,0,2
+880319,2023-04-15 17:00:00,1681578000,Match Finished,FT,345,Czech Liga,2022,Regular Season - 27,628,Sparta Praha,560,Slavia Praha,3,3,0,1,D,0,6
+880317,2023-04-16 14:00:00,1681653600,Match Finished,FT,345,Czech Liga,2022,Regular Season - 27,3723,Hradec Králové,3736,České Budějovice,2,1,2,0,H,1,3
+880320,2023-04-16 14:00:00,1681653600,Match Finished,FT,345,Czech Liga,2022,Regular Season - 27,3733,Zbrojovka Brno,3724,Pardubice,2,1,0,0,H,1,3
+880322,2023-04-16 14:00:00,1681653600,Match Finished,FT,345,Czech Liga,2022,Regular Season - 27,3714,Bohemians 1905,640,Mlada Boleslav,4,0,1,0,H,4,4
+880316,2023-04-16 17:00:00,1681664400,Match Finished,FT,345,Czech Liga,2022,Regular Season - 27,3713,Baník Ostrava,567,Plzen,2,1,1,0,H,1,3
+880324,2023-04-22 14:00:00,1682172000,Match Finished,FT,345,Czech Liga,2022,Regular Season - 28,3724,Pardubice,3723,Hradec Králové,1,0,0,0,H,1,1
+880325,2023-04-22 14:00:00,1682172000,Match Finished,FT,345,Czech Liga,2022,Regular Season - 28,3719,Slovácko,628,Sparta Praha,1,1,1,0,D,0,2
+880328,2023-04-22 14:00:00,1682172000,Match Finished,FT,345,Czech Liga,2022,Regular Season - 28,2250,Sigma Olomouc,3720,Teplice,1,2,0,1,A,-1,3
+880329,2023-04-22 14:00:00,1682172000,Match Finished,FT,345,Czech Liga,2022,Regular Season - 28,640,Mlada Boleslav,3713,Baník Ostrava,1,0,1,0,H,1,1
+880330,2023-04-22 17:00:00,1682182800,Match Finished,FT,345,Czech Liga,2022,Regular Season - 28,560,Slavia Praha,3714,Bohemians 1905,3,0,3,0,H,3,3
+880323,2023-04-23 14:00:00,1682258400,Match Finished,FT,345,Czech Liga,2022,Regular Season - 28,782,Slovan Liberec,3733,Zbrojovka Brno,3,1,3,0,H,2,4
+880326,2023-04-23 14:00:00,1682258400,Match Finished,FT,345,Czech Liga,2022,Regular Season - 28,3736,České Budějovice,1122,FK Jablonec,5,1,3,0,H,4,6
+880327,2023-04-23 17:00:00,1682269200,Match Finished,FT,345,Czech Liga,2022,Regular Season - 28,567,Plzen,603,Zlin,4,0,1,0,H,4,4
+880334,2023-04-25 15:30:00,1682436600,Match Finished,FT,345,Czech Liga,2022,Regular Season - 29,3720,Teplice,640,Mlada Boleslav,1,1,1,0,D,0,2
+880338,2023-04-25 15:30:00,1682436600,Match Finished,FT,345,Czech Liga,2022,Regular Season - 29,3724,Pardubice,3719,Slovácko,3,1,0,1,H,2,4
+880332,2023-04-25 17:30:00,1682443800,Match Finished,FT,345,Czech Liga,2022,Regular Season - 29,3713,Baník Ostrava,560,Slavia Praha,0,2,0,0,A,-2,2
+880331,2023-04-26 15:30:00,1682523000,Match Finished,FT,345,Czech Liga,2022,Regular Season - 29,603,Zlin,3714,Bohemians 1905,4,1,1,0,H,3,5
+880333,2023-04-26 15:30:00,1682523000,Match Finished,FT,345,Czech Liga,2022,Regular Season - 29,1122,FK Jablonec,2250,Sigma Olomouc,2,2,2,0,D,0,4
+880336,2023-04-26 15:30:00,1682523000,Match Finished,FT,345,Czech Liga,2022,Regular Season - 29,3723,Hradec Králové,782,Slovan Liberec,1,2,0,0,A,-1,3
+880337,2023-04-26 15:30:00,1682523000,Match Finished,FT,345,Czech Liga,2022,Regular Season - 29,3733,Zbrojovka Brno,3736,České Budějovice,1,1,1,0,D,0,2
+880335,2023-04-26 17:30:00,1682530200,Match Finished,FT,345,Czech Liga,2022,Regular Season - 29,628,Sparta Praha,567,Plzen,2,1,1,1,H,1,3
+880339,2023-04-30 13:00:00,1682859600,Match Finished,FT,345,Czech Liga,2022,Regular Season - 30,3736,České Budějovice,3724,Pardubice,3,1,1,0,H,2,4
+880340,2023-04-30 13:00:00,1682859600,Match Finished,FT,345,Czech Liga,2022,Regular Season - 30,3719,Slovácko,3733,Zbrojovka Brno,1,0,1,0,H,1,1
+880341,2023-04-30 13:00:00,1682859600,Match Finished,FT,345,Czech Liga,2022,Regular Season - 30,782,Slovan Liberec,628,Sparta Praha,1,3,1,0,A,-2,4
+880342,2023-04-30 13:00:00,1682859600,Match Finished,FT,345,Czech Liga,2022,Regular Season - 30,567,Plzen,3720,Teplice,1,1,0,0,D,0,2
+880343,2023-04-30 13:00:00,1682859600,Match Finished,FT,345,Czech Liga,2022,Regular Season - 30,2250,Sigma Olomouc,3713,Baník Ostrava,1,4,1,2,A,-3,5
+880344,2023-04-30 13:00:00,1682859600,Match Finished,FT,345,Czech Liga,2022,Regular Season - 30,640,Mlada Boleslav,603,Zlin,1,1,1,0,D,0,2
+880345,2023-04-30 13:00:00,1682859600,Match Finished,FT,345,Czech Liga,2022,Regular Season - 30,560,Slavia Praha,3723,Hradec Králové,1,1,1,1,D,0,2
+880346,2023-04-30 13:00:00,1682859600,Match Finished,FT,345,Czech Liga,2022,Regular Season - 30,3714,Bohemians 1905,1122,FK Jablonec,4,1,2,0,H,3,5
+1024731,2023-05-06 13:00:00,1683378000,Match Finished,FT,345,Czech Liga,2022,Relegation Round - 1,603,Zlin,1122,FK Jablonec,1,1,0,0,D,0,2
+1024732,2023-05-06 13:00:00,1683378000,Match Finished,FT,345,Czech Liga,2022,Relegation Round - 1,3713,Baník Ostrava,3733,Zbrojovka Brno,4,0,3,0,H,4,4
+1024733,2023-05-06 13:00:00,1683378000,Match Finished,FT,345,Czech Liga,2022,Relegation Round - 1,3720,Teplice,3724,Pardubice,1,0,1,0,H,1,1
+1024716,2023-05-06 16:00:00,1683388800,Match Finished,FT,345,Czech Liga,2022,Championship Round - 1,567,Plzen,3719,Slovácko,2,2,0,0,D,0,4
+1024712,2023-05-07 13:00:00,1683464400,Match Finished,FT,345,Czech Liga,2022,Middle Play-offs - Semi-finals,3736,České Budějovice,782,Slovan Liberec,3,2,2,2,H,1,5
+1024714,2023-05-07 13:00:00,1683464400,Match Finished,FT,345,Czech Liga,2022,Middle Play-offs - Semi-finals,640,Mlada Boleslav,3723,Hradec Králové,0,0,0,0,D,0,0
+1024717,2023-05-07 13:00:00,1683464400,Match Finished,FT,345,Czech Liga,2022,Championship Round - 1,2250,Sigma Olomouc,628,Sparta Praha,0,1,0,1,A,-1,1
+1024718,2023-05-07 16:00:00,1683475200,Match Finished,FT,345,Czech Liga,2022,Championship Round - 1,560,Slavia Praha,3714,Bohemians 1905,6,0,1,0,H,6,6
+1024713,2023-05-13 13:00:00,1683982800,Match Finished,FT,345,Czech Liga,2022,Middle Play-offs - Semi-finals,782,Slovan Liberec,3736,České Budějovice,4,0,1,0,H,4,4
+1024715,2023-05-13 13:00:00,1683982800,Match Finished,FT,345,Czech Liga,2022,Middle Play-offs - Semi-finals,3723,Hradec Králové,640,Mlada Boleslav,2,0,2,0,H,2,2
+1024719,2023-05-13 13:00:00,1683982800,Match Finished,FT,345,Czech Liga,2022,Championship Round - 2,567,Plzen,2250,Sigma Olomouc,1,3,1,1,A,-2,4
+1024720,2023-05-13 16:00:00,1683993600,Match Finished,FT,345,Czech Liga,2022,Championship Round - 2,628,Sparta Praha,560,Slavia Praha,3,2,1,1,H,1,5
+1024734,2023-05-14 13:00:00,1684069200,Match Finished,FT,345,Czech Liga,2022,Relegation Round - 2,1122,FK Jablonec,3713,Baník Ostrava,1,1,1,0,D,0,2
+1024735,2023-05-14 13:00:00,1684069200,Match Finished,FT,345,Czech Liga,2022,Relegation Round - 2,3720,Teplice,603,Zlin,2,1,1,0,H,1,3
+1024736,2023-05-14 13:00:00,1684069200,Match Finished,FT,345,Czech Liga,2022,Relegation Round - 2,3733,Zbrojovka Brno,3724,Pardubice,0,2,0,1,A,-2,2
+1024721,2023-05-14 16:00:00,1684080000,Match Finished,FT,345,Czech Liga,2022,Championship Round - 2,3714,Bohemians 1905,3719,Slovácko,0,0,0,0,D,0,0
+1024722,2023-05-20 13:00:00,1684587600,Match Finished,FT,345,Czech Liga,2022,Championship Round - 3,3719,Slovácko,2250,Sigma Olomouc,2,2,1,0,D,0,4
+1024723,2023-05-20 13:00:00,1684587600,Match Finished,FT,345,Czech Liga,2022,Championship Round - 3,628,Sparta Praha,3714,Bohemians 1905,2,1,0,0,H,1,3
+1024724,2023-05-20 16:00:00,1684598400,Match Finished,FT,345,Czech Liga,2022,Championship Round - 3,560,Slavia Praha,567,Plzen,2,1,1,0,H,1,3
+1024737,2023-05-21 13:00:00,1684674000,Match Finished,FT,345,Czech Liga,2022,Relegation Round - 3,1122,FK Jablonec,3733,Zbrojovka Brno,1,0,1,0,H,1,1
+1024738,2023-05-21 13:00:00,1684674000,Match Finished,FT,345,Czech Liga,2022,Relegation Round - 3,3713,Baník Ostrava,3720,Teplice,2,1,0,0,H,1,3
+1024739,2023-05-21 13:00:00,1684674000,Match Finished,FT,345,Czech Liga,2022,Relegation Round - 3,3724,Pardubice,603,Zlin,1,2,1,1,A,-1,3
+1027005,2023-05-21 13:00:00,1684674000,Match Finished,FT,345,Czech Liga,2022,Middle Play-offs - Final,3723,Hradec Králové,782,Slovan Liberec,0,4,0,3,A,-4,4
+1024725,2023-05-23 17:00:00,1684861200,Match Finished,FT,345,Czech Liga,2022,Championship Round - 4,3719,Slovácko,628,Sparta Praha,0,0,0,0,D,0,0
+1024726,2023-05-23 17:00:00,1684861200,Match Finished,FT,345,Czech Liga,2022,Championship Round - 4,2250,Sigma Olomouc,560,Slavia Praha,2,3,2,2,A,-1,5
+1024727,2023-05-23 17:00:00,1684861200,Match Finished,FT,345,Czech Liga,2022,Championship Round - 4,567,Plzen,3714,Bohemians 1905,0,2,0,2,A,-2,2
+1024740,2023-05-24 17:00:00,1684947600,Match Finished,FT,345,Czech Liga,2022,Relegation Round - 4,3724,Pardubice,1122,FK Jablonec,2,0,2,0,H,2,2
+1024741,2023-05-24 17:00:00,1684947600,Match Finished,FT,345,Czech Liga,2022,Relegation Round - 4,603,Zlin,3713,Baník Ostrava,2,1,0,0,H,1,3
+1024742,2023-05-24 17:00:00,1684947600,Match Finished,FT,345,Czech Liga,2022,Relegation Round - 4,3720,Teplice,3733,Zbrojovka Brno,1,1,0,1,D,0,2
+1027006,2023-05-26 16:00:00,1685116800,Match Finished,FT,345,Czech Liga,2022,Middle Play-offs - Final,782,Slovan Liberec,3723,Hradec Králové,2,3,1,0,A,-1,5
+1024728,2023-05-27 14:00:00,1685196000,Match Finished,FT,345,Czech Liga,2022,Championship Round - 5,628,Sparta Praha,567,Plzen,0,1,0,0,A,-1,1
+1024729,2023-05-27 14:00:00,1685196000,Match Finished,FT,345,Czech Liga,2022,Championship Round - 5,560,Slavia Praha,3719,Slovácko,4,0,2,0,H,4,4
+1024730,2023-05-27 14:00:00,1685196000,Match Finished,FT,345,Czech Liga,2022,Championship Round - 5,3714,Bohemians 1905,2250,Sigma Olomouc,0,1,0,0,A,-1,1
+1024743,2023-05-28 15:00:00,1685286000,Match Finished,FT,345,Czech Liga,2022,Relegation Round - 5,1122,FK Jablonec,3720,Teplice,0,2,0,1,A,-2,2
+1024744,2023-05-28 15:00:00,1685286000,Match Finished,FT,345,Czech Liga,2022,Relegation Round - 5,3713,Baník Ostrava,3724,Pardubice,2,4,1,1,A,-2,6
+1024745,2023-05-28 15:00:00,1685286000,Match Finished,FT,345,Czech Liga,2022,Relegation Round - 5,3733,Zbrojovka Brno,603,Zlin,0,0,0,0,D,0,0
+1029782,2023-06-01 15:30:00,1685633400,Match Finished,FT,345,Czech Liga,2022,Relegation Round,3718,Příbram,3724,Pardubice,0,2,0,0,A,-2,2
+1029784,2023-06-01 15:30:00,1685633400,Match Finished,FT,345,Czech Liga,2022,Relegation Round,603,Zlin,7379,Vyškov,1,0,0,0,H,1,1
+1029783,2023-06-04 15:00:00,1685890800,Match Finished,FT,345,Czech Liga,2022,Relegation Round,3724,Pardubice,3718,Příbram,0,0,0,0,D,0,0
+1029785,2023-06-04 15:00:00,1685890800,Match Finished,FT,345,Czech Liga,2022,Relegation Round,7379,Vyškov,603,Zlin,0,0,0,0,D,0,0
+1049493,2023-07-22 13:00:00,1690030800,Match Finished,FT,345,Czech Liga,2023,Regular Season - 1,3724,Pardubice,3714,Bohemians 1905,0,1,0,1,A,-1,1
+1049494,2023-07-22 13:00:00,1690030800,Match Finished,FT,345,Czech Liga,2023,Regular Season - 1,3716,Karviná,603,Zlin,4,1,3,0,H,3,5
+1049495,2023-07-22 13:00:00,1690030800,Match Finished,FT,345,Czech Liga,2023,Regular Season - 1,3720,Teplice,567,Plzen,1,0,1,0,H,1,1
+1049496,2023-07-22 16:00:00,1690041600,Match Finished,FT,345,Czech Liga,2023,Regular Season - 1,560,Slavia Praha,3723,Hradec Králové,2,0,1,0,H,2,2
+1049497,2023-07-23 13:00:00,1690117200,Match Finished,FT,345,Czech Liga,2023,Regular Season - 1,640,Mlada Boleslav,1122,FK Jablonec,3,1,1,0,H,2,4
+1049498,2023-07-23 13:00:00,1690117200,Match Finished,FT,345,Czech Liga,2023,Regular Season - 1,782,Slovan Liberec,3713,Baník Ostrava,3,1,2,0,H,2,4
+1049499,2023-07-23 13:00:00,1690117200,Match Finished,FT,345,Czech Liga,2023,Regular Season - 1,3719,Slovácko,3736,České Budějovice,4,1,2,0,H,3,5
+1049500,2023-07-23 16:00:00,1690128000,Match Finished,FT,345,Czech Liga,2023,Regular Season - 1,628,Sparta Praha,2250,Sigma Olomouc,2,0,1,0,H,2,2
+1049501,2023-07-29 13:00:00,1690635600,Match Finished,FT,345,Czech Liga,2023,Regular Season - 2,2250,Sigma Olomouc,3716,Karviná,3,1,2,1,H,2,4
+1049502,2023-07-29 13:00:00,1690635600,Match Finished,FT,345,Czech Liga,2023,Regular Season - 2,603,Zlin,628,Sparta Praha,0,1,0,0,A,-1,1
+1049503,2023-07-29 13:00:00,1690635600,Match Finished,FT,345,Czech Liga,2023,Regular Season - 2,3724,Pardubice,1122,FK Jablonec,0,0,0,0,D,0,0
+1049504,2023-07-29 16:00:00,1690646400,Match Finished,FT,345,Czech Liga,2023,Regular Season - 2,3713,Baník Ostrava,3719,Slovácko,0,0,0,0,D,0,0
+1049505,2023-07-30 13:00:00,1690722000,Match Finished,FT,345,Czech Liga,2023,Regular Season - 2,3736,České Budějovice,560,Slavia Praha,1,3,0,1,A,-2,4
+1049506,2023-07-30 13:00:00,1690722000,Match Finished,FT,345,Czech Liga,2023,Regular Season - 2,3714,Bohemians 1905,3720,Teplice,1,2,0,1,A,-1,3
+1049507,2023-07-30 13:00:00,1690722000,Match Finished,FT,345,Czech Liga,2023,Regular Season - 2,640,Mlada Boleslav,782,Slovan Liberec,2,2,0,2,D,0,4
+1049508,2023-07-30 16:00:00,1690732800,Match Finished,FT,345,Czech Liga,2023,Regular Season - 2,567,Plzen,3723,Hradec Králové,1,1,0,0,D,0,2
+1049509,2023-08-05 13:00:00,1691240400,Match Finished,FT,345,Czech Liga,2023,Regular Season - 3,628,Sparta Praha,3724,Pardubice,5,2,3,0,H,3,7
+1049510,2023-08-05 13:00:00,1691240400,Match Finished,FT,345,Czech Liga,2023,Regular Season - 3,3716,Karviná,640,Mlada Boleslav,1,2,0,2,A,-1,3
+1049511,2023-08-05 13:00:00,1691240400,Match Finished,FT,345,Czech Liga,2023,Regular Season - 3,3719,Slovácko,2250,Sigma Olomouc,0,2,0,1,A,-2,2
+1049512,2023-08-05 16:00:00,1691251200,Match Finished,FT,345,Czech Liga,2023,Regular Season - 3,3723,Hradec Králové,3736,České Budějovice,5,1,3,0,H,4,6
+1049513,2023-08-06 13:00:00,1691326800,Match Finished,FT,345,Czech Liga,2023,Regular Season - 3,567,Plzen,3713,Baník Ostrava,3,1,2,1,H,2,4
+1049514,2023-08-06 13:00:00,1691326800,Match Finished,FT,345,Czech Liga,2023,Regular Season - 3,3720,Teplice,1122,FK Jablonec,0,0,0,0,D,0,0
+1049515,2023-08-06 13:00:00,1691326800,Match Finished,FT,345,Czech Liga,2023,Regular Season - 3,782,Slovan Liberec,3714,Bohemians 1905,0,1,0,0,A,-1,1
+1049516,2023-08-06 16:00:00,1691337600,Match Finished,FT,345,Czech Liga,2023,Regular Season - 3,560,Slavia Praha,603,Zlin,2,1,0,0,H,1,3
+1049517,2023-08-12 13:00:00,1691845200,Match Finished,FT,345,Czech Liga,2023,Regular Season - 4,3713,Baník Ostrava,3723,Hradec Králové,2,0,0,0,H,2,2
+1049518,2023-08-12 13:00:00,1691845200,Match Finished,FT,345,Czech Liga,2023,Regular Season - 4,603,Zlin,782,Slovan Liberec,1,1,1,1,D,0,2
+1049520,2023-08-12 16:00:00,1691856000,Match Finished,FT,345,Czech Liga,2023,Regular Season - 4,1122,FK Jablonec,628,Sparta Praha,1,5,0,5,A,-4,6
+1049519,2023-08-13 13:00:00,1691931600,Match Finished,FT,345,Czech Liga,2023,Regular Season - 4,3724,Pardubice,3716,Karviná,2,1,1,0,H,1,3
+1049521,2023-08-13 13:00:00,1691931600,Match Finished,FT,345,Czech Liga,2023,Regular Season - 4,3714,Bohemians 1905,3719,Slovácko,0,1,0,1,A,-1,1
+1049522,2023-08-13 13:00:00,1691931600,Match Finished,FT,345,Czech Liga,2023,Regular Season - 4,2250,Sigma Olomouc,3720,Teplice,2,1,0,0,H,1,3
+1049523,2023-08-13 13:00:00,1691931600,Match Finished,FT,345,Czech Liga,2023,Regular Season - 4,640,Mlada Boleslav,560,Slavia Praha,0,1,0,0,A,-1,1
+1049524,2023-08-13 16:00:00,1691942400,Match Finished,FT,345,Czech Liga,2023,Regular Season - 4,3736,České Budějovice,567,Plzen,2,5,1,2,A,-3,7
+1049525,2023-08-19 13:00:00,1692450000,Match Finished,FT,345,Czech Liga,2023,Regular Season - 5,3719,Slovácko,640,Mlada Boleslav,2,2,1,1,D,0,4
+1049526,2023-08-19 13:00:00,1692450000,Match Finished,FT,345,Czech Liga,2023,Regular Season - 5,782,Slovan Liberec,3724,Pardubice,1,0,1,0,H,1,1
+1049527,2023-08-19 13:00:00,1692450000,Match Finished,FT,345,Czech Liga,2023,Regular Season - 5,3716,Karviná,1122,FK Jablonec,1,1,0,0,D,0,2
+1049528,2023-08-19 16:00:00,1692460800,Match Finished,FT,345,Czech Liga,2023,Regular Season - 5,3720,Teplice,628,Sparta Praha,1,1,0,1,D,0,2
+1049529,2023-08-20 13:00:00,1692536400,Match Finished,FT,345,Czech Liga,2023,Regular Season - 5,3736,České Budějovice,3714,Bohemians 1905,3,0,1,0,H,3,3
+1049530,2023-08-20 13:00:00,1692536400,Match Finished,FT,345,Czech Liga,2023,Regular Season - 5,567,Plzen,2250,Sigma Olomouc,2,1,2,1,H,1,3
+1049531,2023-08-20 13:00:00,1692536400,Match Finished,FT,345,Czech Liga,2023,Regular Season - 5,3723,Hradec Králové,603,Zlin,2,0,1,0,H,2,2
+1049532,2023-08-20 16:00:00,1692547200,Match Finished,FT,345,Czech Liga,2023,Regular Season - 5,560,Slavia Praha,3713,Baník Ostrava,1,0,0,0,H,1,1
+1049537,2023-08-26 13:00:00,1693054800,Match Finished,FT,345,Czech Liga,2023,Regular Season - 6,603,Zlin,3720,Teplice,2,1,0,0,H,1,3
+1049540,2023-08-26 13:00:00,1693054800,Match Finished,FT,345,Czech Liga,2023,Regular Season - 6,3724,Pardubice,3719,Slovácko,0,1,0,1,A,-1,1
+1049535,2023-08-26 16:00:00,1693065600,Match Finished,FT,345,Czech Liga,2023,Regular Season - 6,3713,Baník Ostrava,3736,České Budějovice,2,0,0,0,H,2,2
+1049533,2023-08-27 13:00:00,1693141200,Match Finished,FT,345,Czech Liga,2023,Regular Season - 6,3714,Bohemians 1905,3723,Hradec Králové,2,1,1,0,H,1,3
+1049538,2023-08-27 13:00:00,1693141200,Match Finished,FT,345,Czech Liga,2023,Regular Season - 6,2250,Sigma Olomouc,782,Slovan Liberec,2,0,0,0,H,2,2
+1049539,2023-08-27 13:00:00,1693141200,Match Finished,FT,345,Czech Liga,2023,Regular Season - 6,1122,FK Jablonec,560,Slavia Praha,1,1,1,0,D,0,2
+1049536,2023-08-27 16:00:00,1693152000,Match Finished,FT,345,Czech Liga,2023,Regular Season - 6,628,Sparta Praha,3716,Karviná,3,1,2,0,H,2,4
+1049544,2023-09-02 13:00:00,1693659600,Match Finished,FT,345,Czech Liga,2023,Regular Season - 7,3719,Slovácko,603,Zlin,1,0,0,0,H,1,1
+1049546,2023-09-02 13:00:00,1693659600,Match Finished,FT,345,Czech Liga,2023,Regular Season - 7,3736,České Budějovice,1122,FK Jablonec,2,1,1,1,H,1,3
+1049548,2023-09-02 13:00:00,1693659600,Match Finished,FT,345,Czech Liga,2023,Regular Season - 7,3720,Teplice,3724,Pardubice,0,1,0,0,A,-1,1
+1049543,2023-09-02 16:00:00,1693670400,Match Finished,FT,345,Czech Liga,2023,Regular Season - 7,3713,Baník Ostrava,640,Mlada Boleslav,2,0,0,0,H,2,2
+1049541,2023-09-03 13:00:00,1693746000,Match Finished,FT,345,Czech Liga,2023,Regular Season - 7,567,Plzen,3714,Bohemians 1905,2,0,2,0,H,2,2
+1049547,2023-09-03 13:00:00,1693746000,Match Finished,FT,345,Czech Liga,2023,Regular Season - 7,782,Slovan Liberec,628,Sparta Praha,0,2,0,0,A,-2,2
+1049545,2023-09-03 16:00:00,1693756800,Match Finished,FT,345,Czech Liga,2023,Regular Season - 7,560,Slavia Praha,3716,Karviná,5,1,3,1,H,4,6
+1049542,2023-09-03 18:00:00,1693764000,Match Finished,FT,345,Czech Liga,2023,Regular Season - 7,3723,Hradec Králové,2250,Sigma Olomouc,1,3,1,1,A,-2,4
+1049549,2023-09-16 13:00:00,1694869200,Match Finished,FT,345,Czech Liga,2023,Regular Season - 8,640,Mlada Boleslav,3723,Hradec Králové,5,1,3,0,H,4,6
+1049551,2023-09-16 13:00:00,1694869200,Match Finished,FT,345,Czech Liga,2023,Regular Season - 8,2250,Sigma Olomouc,3736,České Budějovice,2,1,2,1,H,1,3
+1049552,2023-09-16 13:00:00,1694869200,Match Finished,FT,345,Czech Liga,2023,Regular Season - 8,3714,Bohemians 1905,3713,Baník Ostrava,1,1,0,0,D,0,2
+1049553,2023-09-16 13:00:00,1694869200,Match Finished,FT,345,Czech Liga,2023,Regular Season - 8,3716,Karviná,3720,Teplice,0,1,0,0,A,-1,1
+1049555,2023-09-16 16:00:00,1694880000,Match Finished,FT,345,Czech Liga,2023,Regular Season - 8,3724,Pardubice,560,Slavia Praha,0,1,0,1,A,-1,1
+1049550,2023-09-17 13:00:00,1694955600,Match Finished,FT,345,Czech Liga,2023,Regular Season - 8,603,Zlin,567,Plzen,1,7,1,4,A,-6,8
+1049554,2023-09-17 13:00:00,1694955600,Match Finished,FT,345,Czech Liga,2023,Regular Season - 8,1122,FK Jablonec,782,Slovan Liberec,1,1,0,1,D,0,2
+1049556,2023-09-17 16:00:00,1694966400,Match Finished,FT,345,Czech Liga,2023,Regular Season - 8,628,Sparta Praha,3719,Slovácko,5,0,3,0,H,5,5
+1049559,2023-09-23 13:00:00,1695474000,Match Finished,FT,345,Czech Liga,2023,Regular Season - 9,3736,České Budějovice,640,Mlada Boleslav,1,2,0,1,A,-1,3
+1049560,2023-09-23 13:00:00,1695474000,Match Finished,FT,345,Czech Liga,2023,Regular Season - 9,3713,Baník Ostrava,603,Zlin,5,1,1,1,H,4,6
+1049562,2023-09-23 13:00:00,1695474000,Match Finished,FT,345,Czech Liga,2023,Regular Season - 9,782,Slovan Liberec,3720,Teplice,3,3,3,2,D,0,6
+1049564,2023-09-23 13:00:00,1695474000,Match Finished,FT,345,Czech Liga,2023,Regular Season - 9,3719,Slovácko,3716,Karviná,2,0,2,0,H,2,2
+1049561,2023-09-23 16:00:00,1695484800,Match Finished,FT,345,Czech Liga,2023,Regular Season - 9,3714,Bohemians 1905,2250,Sigma Olomouc,3,2,1,2,H,1,5
+1049557,2023-09-24 13:00:00,1695560400,Match Finished,FT,345,Czech Liga,2023,Regular Season - 9,3723,Hradec Králové,1122,FK Jablonec,1,0,1,0,H,1,1
+1049558,2023-09-24 13:00:00,1695560400,Match Finished,FT,345,Czech Liga,2023,Regular Season - 9,567,Plzen,3724,Pardubice,6,2,3,1,H,4,8
+1049563,2023-09-24 16:00:00,1695571200,Match Finished,FT,345,Czech Liga,2023,Regular Season - 9,560,Slavia Praha,628,Sparta Praha,1,1,0,0,D,0,2
+1049565,2023-09-30 13:00:00,1696078800,Match Finished,FT,345,Czech Liga,2023,Regular Season - 10,2250,Sigma Olomouc,3713,Baník Ostrava,0,3,0,2,A,-3,3
+1049567,2023-09-30 13:00:00,1696078800,Match Finished,FT,345,Czech Liga,2023,Regular Season - 10,603,Zlin,3736,České Budějovice,1,1,0,1,D,0,2
+1049569,2023-09-30 13:00:00,1696078800,Match Finished,FT,345,Czech Liga,2023,Regular Season - 10,1122,FK Jablonec,3719,Slovácko,2,0,2,0,H,2,2
+1049571,2023-09-30 13:00:00,1696078800,Match Finished,FT,345,Czech Liga,2023,Regular Season - 10,3716,Karviná,782,Slovan Liberec,5,2,3,1,H,3,7
+1049570,2023-09-30 16:00:00,1696089600,Match Finished,FT,345,Czech Liga,2023,Regular Season - 10,628,Sparta Praha,567,Plzen,2,1,2,1,H,1,3
+1049566,2023-10-01 13:00:00,1696165200,Match Finished,FT,345,Czech Liga,2023,Regular Season - 10,640,Mlada Boleslav,3714,Bohemians 1905,2,1,1,0,H,1,3
+1049572,2023-10-01 13:00:00,1696165200,Match Finished,FT,345,Czech Liga,2023,Regular Season - 10,3720,Teplice,560,Slavia Praha,0,0,0,0,D,0,0
+1049568,2023-10-01 16:00:00,1696176000,Match Finished,FT,345,Czech Liga,2023,Regular Season - 10,3724,Pardubice,3723,Hradec Králové,1,1,1,0,D,0,2
+1049575,2023-10-07 13:00:00,1696683600,Match Finished,FT,345,Czech Liga,2023,Regular Season - 11,3736,České Budějovice,3716,Karviná,1,0,0,0,H,1,1
+1049577,2023-10-07 13:00:00,1696683600,Match Finished,FT,345,Czech Liga,2023,Regular Season - 11,3714,Bohemians 1905,603,Zlin,0,0,0,0,D,0,0
+1049578,2023-10-07 13:00:00,1696683600,Match Finished,FT,345,Czech Liga,2023,Regular Season - 11,2250,Sigma Olomouc,640,Mlada Boleslav,4,0,1,0,H,4,4
+1049580,2023-10-07 13:00:00,1696683600,Match Finished,FT,345,Czech Liga,2023,Regular Season - 11,3719,Slovácko,3720,Teplice,2,0,0,0,H,2,2
+1049576,2023-10-07 16:00:00,1696694400,Match Finished,FT,345,Czech Liga,2023,Regular Season - 11,3713,Baník Ostrava,3724,Pardubice,1,1,0,1,D,0,2
+1049573,2023-10-08 13:00:00,1696770000,Match Finished,FT,345,Czech Liga,2023,Regular Season - 11,3723,Hradec Králové,628,Sparta Praha,1,3,0,2,A,-2,4
+1049574,2023-10-08 16:00:00,1696780800,Match Finished,FT,345,Czech Liga,2023,Regular Season - 11,567,Plzen,1122,FK Jablonec,3,2,2,2,H,1,5
+1049579,2023-10-08 16:00:00,1696780800,Match Finished,FT,345,Czech Liga,2023,Regular Season - 11,782,Slovan Liberec,560,Slavia Praha,2,3,2,1,A,-1,5
+1049581,2023-10-21 13:00:00,1697893200,Match Finished,FT,345,Czech Liga,2023,Regular Season - 12,603,Zlin,640,Mlada Boleslav,5,9,2,1,A,-4,14
+1049582,2023-10-21 13:00:00,1697893200,Match Finished,FT,345,Czech Liga,2023,Regular Season - 12,3724,Pardubice,2250,Sigma Olomouc,1,1,1,0,D,0,2
+1049585,2023-10-21 13:00:00,1697893200,Match Finished,FT,345,Czech Liga,2023,Regular Season - 12,3716,Karviná,3723,Hradec Králové,1,0,0,0,H,1,1
+1049587,2023-10-21 13:00:00,1697893200,Match Finished,FT,345,Czech Liga,2023,Regular Season - 12,782,Slovan Liberec,567,Plzen,3,0,1,0,H,3,3
+1049588,2023-10-21 16:00:00,1697904000,Match Finished,FT,345,Czech Liga,2023,Regular Season - 12,560,Slavia Praha,3719,Slovácko,2,0,0,0,H,2,2
+1049584,2023-10-22 13:00:00,1697979600,Match Finished,FT,345,Czech Liga,2023,Regular Season - 12,628,Sparta Praha,3736,České Budějovice,4,0,2,0,H,4,4
+1049586,2023-10-22 13:00:00,1697979600,Match Finished,FT,345,Czech Liga,2023,Regular Season - 12,3720,Teplice,3713,Baník Ostrava,0,1,0,0,A,-1,1
+1049583,2023-10-22 16:00:00,1697990400,Match Finished,FT,345,Czech Liga,2023,Regular Season - 12,1122,FK Jablonec,3714,Bohemians 1905,0,1,0,1,A,-1,1
+1049589,2023-10-28 13:00:00,1698498000,Match Finished,FT,345,Czech Liga,2023,Regular Season - 13,3723,Hradec Králové,3720,Teplice,1,0,1,0,H,1,1
+1049591,2023-10-28 13:00:00,1698498000,Match Finished,FT,345,Czech Liga,2023,Regular Season - 13,3736,České Budějovice,3724,Pardubice,0,1,0,1,A,-1,1
+1049594,2023-10-28 13:00:00,1698498000,Match Finished,FT,345,Czech Liga,2023,Regular Season - 13,2250,Sigma Olomouc,603,Zlin,0,0,0,0,D,0,0
+1049596,2023-10-28 13:00:00,1698498000,Match Finished,FT,345,Czech Liga,2023,Regular Season - 13,3719,Slovácko,782,Slovan Liberec,1,1,1,1,D,0,2
+1049592,2023-10-28 16:00:00,1698508800,Match Finished,FT,345,Czech Liga,2023,Regular Season - 13,3713,Baník Ostrava,1122,FK Jablonec,0,1,0,0,A,-1,1
+1049590,2023-10-29 14:00:00,1698588000,Match Finished,FT,345,Czech Liga,2023,Regular Season - 13,567,Plzen,3716,Karviná,0,1,0,0,A,-1,1
+1049595,2023-10-29 14:00:00,1698588000,Match Finished,FT,345,Czech Liga,2023,Regular Season - 13,640,Mlada Boleslav,628,Sparta Praha,3,1,2,1,H,2,4
+1049593,2023-10-29 17:00:00,1698598800,Match Finished,FT,345,Czech Liga,2023,Regular Season - 13,3714,Bohemians 1905,560,Slavia Praha,0,2,0,1,A,-2,2
+1049597,2023-11-04 14:00:00,1699106400,Match Finished,FT,345,Czech Liga,2023,Regular Season - 14,3724,Pardubice,603,Zlin,0,1,0,1,A,-1,1
+1049598,2023-11-04 14:00:00,1699106400,Match Finished,FT,345,Czech Liga,2023,Regular Season - 14,1122,FK Jablonec,2250,Sigma Olomouc,1,1,1,1,D,0,2
+1049601,2023-11-04 14:00:00,1699106400,Match Finished,FT,345,Czech Liga,2023,Regular Season - 14,3720,Teplice,640,Mlada Boleslav,1,0,0,0,H,1,1
+1049604,2023-11-04 14:00:00,1699106400,Match Finished,FT,345,Czech Liga,2023,Regular Season - 14,3719,Slovácko,3723,Hradec Králové,0,0,0,0,D,0,0
+1049599,2023-11-04 17:00:00,1699117200,Match Finished,FT,345,Czech Liga,2023,Regular Season - 14,628,Sparta Praha,3714,Bohemians 1905,2,0,0,0,H,2,2
+1049600,2023-11-05 14:00:00,1699192800,Match Finished,FT,345,Czech Liga,2023,Regular Season - 14,3716,Karviná,3713,Baník Ostrava,1,3,1,0,A,-2,4
+1049602,2023-11-05 14:00:00,1699192800,Match Finished,FT,345,Czech Liga,2023,Regular Season - 14,782,Slovan Liberec,3736,České Budějovice,1,0,0,0,H,1,1
+1049603,2023-11-05 17:00:00,1699203600,Match Finished,FT,345,Czech Liga,2023,Regular Season - 14,560,Slavia Praha,567,Plzen,1,2,1,0,A,-1,3
+1049605,2023-11-11 14:00:00,1699711200,Match Finished,FT,345,Czech Liga,2023,Regular Season - 15,3723,Hradec Králové,782,Slovan Liberec,1,1,1,1,D,0,2
+1049606,2023-11-11 14:00:00,1699711200,Match Finished,FT,345,Czech Liga,2023,Regular Season - 15,3736,České Budějovice,3720,Teplice,0,1,0,1,A,-1,1
+1049611,2023-11-11 14:00:00,1699711200,Match Finished,FT,345,Czech Liga,2023,Regular Season - 15,640,Mlada Boleslav,3724,Pardubice,1,0,0,0,H,1,1
+1049612,2023-11-11 14:00:00,1699711200,Match Finished,FT,345,Czech Liga,2023,Regular Season - 15,603,Zlin,1122,FK Jablonec,1,1,1,0,D,0,2
+1049609,2023-11-11 17:00:00,1699722000,Match Finished,FT,345,Czech Liga,2023,Regular Season - 15,3714,Bohemians 1905,3716,Karviná,1,0,0,0,H,1,1
+1049607,2023-11-12 14:00:00,1699797600,Match Finished,FT,345,Czech Liga,2023,Regular Season - 15,567,Plzen,3719,Slovácko,1,4,1,1,A,-3,5
+1049608,2023-11-12 14:00:00,1699797600,Match Finished,FT,345,Czech Liga,2023,Regular Season - 15,3713,Baník Ostrava,628,Sparta Praha,0,1,0,0,A,-1,1
+1049610,2023-11-12 17:00:00,1699808400,Match Finished,FT,345,Czech Liga,2023,Regular Season - 15,2250,Sigma Olomouc,560,Slavia Praha,1,3,1,2,A,-2,4
+1049613,2023-11-25 14:00:00,1700920800,Match Finished,FT,345,Czech Liga,2023,Regular Season - 16,3723,Hradec Králové,567,Plzen,1,1,1,0,D,0,2
+1049616,2023-11-25 14:00:00,1700920800,Match Finished,FT,345,Czech Liga,2023,Regular Season - 16,3720,Teplice,3714,Bohemians 1905,1,1,1,0,D,0,2
+1049617,2023-11-25 14:00:00,1700920800,Match Finished,FT,345,Czech Liga,2023,Regular Season - 16,3716,Karviná,2250,Sigma Olomouc,0,2,0,1,A,-2,2
+1049618,2023-11-25 14:00:00,1700920800,Match Finished,FT,345,Czech Liga,2023,Regular Season - 16,782,Slovan Liberec,640,Mlada Boleslav,2,1,1,1,H,1,3
+1049614,2023-11-25 17:00:00,1700931600,Match Finished,FT,345,Czech Liga,2023,Regular Season - 16,560,Slavia Praha,3736,České Budějovice,2,1,1,1,H,1,3
+1049615,2023-11-26 14:00:00,1701007200,Match Finished,FT,345,Czech Liga,2023,Regular Season - 16,3719,Slovácko,3713,Baník Ostrava,2,0,1,0,H,2,2
+1049620,2023-11-26 14:00:00,1701007200,Match Finished,FT,345,Czech Liga,2023,Regular Season - 16,1122,FK Jablonec,3724,Pardubice,2,1,1,1,H,1,3
+1049619,2023-11-26 17:00:00,1701018000,Match Finished,FT,345,Czech Liga,2023,Regular Season - 16,628,Sparta Praha,603,Zlin,2,0,2,0,H,2,2
+1049628,2023-12-02 14:00:00,1701525600,Match Finished,FT,345,Czech Liga,2023,Regular Season - 17,2250,Sigma Olomouc,3719,Slovácko,1,1,1,0,D,0,2
+1049623,2023-12-03 14:00:00,1701612000,Match Finished,FT,345,Czech Liga,2023,Regular Season - 17,3724,Pardubice,628,Sparta Praha,1,2,1,1,A,-1,3
+1049534,2023-12-06 16:00:00,1701878400,Match Finished,FT,345,Czech Liga,2023,Regular Season - 6,640,Mlada Boleslav,567,Plzen,1,3,1,1,A,-2,4
+1049625,2023-12-06 16:00:00,1701878400,Match Finished,FT,345,Czech Liga,2023,Regular Season - 17,1122,FK Jablonec,3720,Teplice,3,2,2,1,H,1,5
+1049631,2023-12-09 14:00:00,1702130400,Match Finished,FT,345,Czech Liga,2023,Regular Season - 18,3719,Slovácko,3714,Bohemians 1905,5,2,2,2,H,3,7
+1049634,2023-12-09 14:00:00,1702130400,Match Finished,FT,345,Czech Liga,2023,Regular Season - 18,782,Slovan Liberec,603,Zlin,5,3,2,1,H,2,8
+1049636,2023-12-09 14:00:00,1702130400,Match Finished,FT,345,Czech Liga,2023,Regular Season - 18,628,Sparta Praha,1122,FK Jablonec,3,0,3,0,H,3,3
+1049630,2023-12-09 17:00:00,1702141200,Match Finished,FT,345,Czech Liga,2023,Regular Season - 18,3723,Hradec Králové,3713,Baník Ostrava,2,3,2,1,A,-1,5
+1049629,2023-12-10 14:00:00,1702216800,Match Finished,FT,345,Czech Liga,2023,Regular Season - 18,567,Plzen,3736,České Budějovice,5,0,2,0,H,5,5
+1049633,2023-12-10 17:00:00,1702227600,Match Finished,FT,345,Czech Liga,2023,Regular Season - 18,560,Slavia Praha,640,Mlada Boleslav,2,0,0,0,H,2,2
+1049621,2023-12-13 16:00:00,1702483200,Match Finished,FT,345,Czech Liga,2023,Regular Season - 17,3736,České Budějovice,3723,Hradec Králové,0,2,0,2,A,-2,2
+1049624,2023-12-13 16:00:00,1702483200,Match Finished,FT,345,Czech Liga,2023,Regular Season - 17,640,Mlada Boleslav,3716,Karviná,2,2,1,2,D,0,4
+1049626,2023-12-13 17:00:00,1702486800,Match Finished,FT,345,Czech Liga,2023,Regular Season - 17,3714,Bohemians 1905,782,Slovan Liberec,0,0,0,0,D,0,0
+1049640,2023-12-16 14:00:00,1702735200,Match Finished,FT,345,Czech Liga,2023,Regular Season - 19,640,Mlada Boleslav,3719,Slovácko,0,1,0,0,A,-1,1
+1049641,2023-12-16 14:00:00,1702735200,Match Finished,FT,345,Czech Liga,2023,Regular Season - 19,603,Zlin,3723,Hradec Králové,4,0,4,0,H,4,4
+1049642,2023-12-16 14:00:00,1702735200,Match Finished,FT,345,Czech Liga,2023,Regular Season - 19,3724,Pardubice,782,Slovan Liberec,2,0,1,0,H,2,2
+1049643,2023-12-16 14:00:00,1702735200,Match Finished,FT,345,Czech Liga,2023,Regular Season - 19,1122,FK Jablonec,3716,Karviná,0,0,0,0,D,0,0
+1049638,2023-12-16 17:00:00,1702746000,Match Finished,FT,345,Czech Liga,2023,Regular Season - 19,3714,Bohemians 1905,3736,České Budějovice,0,0,0,0,D,0,0
+1049637,2023-12-17 14:00:00,1702821600,Match Finished,FT,345,Czech Liga,2023,Regular Season - 19,3713,Baník Ostrava,560,Slavia Praha,2,3,2,2,A,-1,5
+1049639,2023-12-17 14:00:00,1702821600,Match Finished,FT,345,Czech Liga,2023,Regular Season - 19,2250,Sigma Olomouc,567,Plzen,1,3,1,2,A,-2,4
+1049644,2023-12-17 17:00:00,1702832400,Match Finished,FT,345,Czech Liga,2023,Regular Season - 19,628,Sparta Praha,3720,Teplice,2,1,0,1,H,1,3
+1049647,2024-02-10 14:00:00,1707573600,Match Finished,FT,345,Czech Liga,2023,Regular Season - 20,3736,České Budějovice,3713,Baník Ostrava,3,0,0,0,H,3,3
+1049648,2024-02-10 14:00:00,1707573600,Match Finished,FT,345,Czech Liga,2023,Regular Season - 20,3716,Karviná,628,Sparta Praha,0,3,0,1,A,-3,3
+1049650,2024-02-10 14:00:00,1707573600,Match Finished,FT,345,Czech Liga,2023,Regular Season - 20,782,Slovan Liberec,2250,Sigma Olomouc,2,0,0,0,H,2,2
+1049652,2024-02-10 14:00:00,1707573600,Match Finished,FT,345,Czech Liga,2023,Regular Season - 20,3719,Slovácko,3724,Pardubice,1,2,0,1,A,-1,3
+1049646,2024-02-10 17:00:00,1707584400,Match Finished,FT,345,Czech Liga,2023,Regular Season - 20,567,Plzen,640,Mlada Boleslav,1,1,0,0,D,0,2
+1049645,2024-02-11 14:00:00,1707660000,Match Finished,FT,345,Czech Liga,2023,Regular Season - 20,3723,Hradec Králové,3714,Bohemians 1905,2,2,1,0,D,0,4
+1049649,2024-02-11 14:00:00,1707660000,Match Finished,FT,345,Czech Liga,2023,Regular Season - 20,3720,Teplice,603,Zlin,2,1,1,0,H,1,3
+1049651,2024-02-11 17:00:00,1707670800,Match Finished,FT,345,Czech Liga,2023,Regular Season - 20,560,Slavia Praha,1122,FK Jablonec,4,3,3,2,H,1,7
+1049622,2024-02-13 17:00:00,1707843600,Match Finished,FT,345,Czech Liga,2023,Regular Season - 17,3713,Baník Ostrava,567,Plzen,0,1,0,0,A,-1,1
+1049635,2024-02-14 16:00:00,1707926400,Match Finished,FT,345,Czech Liga,2023,Regular Season - 18,3716,Karviná,3724,Pardubice,0,3,0,1,A,-3,3
+1049627,2024-02-14 17:00:00,1707930000,Match Finished,FT,345,Czech Liga,2023,Regular Season - 17,603,Zlin,560,Slavia Praha,1,1,0,1,D,0,2
+1049654,2024-02-17 14:00:00,1708178400,Match Finished,FT,345,Czech Liga,2023,Regular Season - 21,2250,Sigma Olomouc,3723,Hradec Králové,0,0,0,0,D,0,0
+1049655,2024-02-17 14:00:00,1708178400,Match Finished,FT,345,Czech Liga,2023,Regular Season - 21,640,Mlada Boleslav,3713,Baník Ostrava,1,3,1,3,A,-2,4
+1049658,2024-02-17 14:00:00,1708178400,Match Finished,FT,345,Czech Liga,2023,Regular Season - 21,1122,FK Jablonec,3736,České Budějovice,5,2,1,1,H,3,7
+1049660,2024-02-17 14:00:00,1708178400,Match Finished,FT,345,Czech Liga,2023,Regular Season - 21,3724,Pardubice,3720,Teplice,1,1,1,0,D,0,2
+1049653,2024-02-17 17:00:00,1708189200,Match Finished,FT,345,Czech Liga,2023,Regular Season - 21,3714,Bohemians 1905,567,Plzen,0,2,0,2,A,-2,2
+1049656,2024-02-18 14:00:00,1708264800,Match Finished,FT,345,Czech Liga,2023,Regular Season - 21,603,Zlin,3719,Slovácko,2,1,0,1,H,1,3
+1049657,2024-02-18 14:00:00,1708264800,Match Finished,FT,345,Czech Liga,2023,Regular Season - 21,3716,Karviná,560,Slavia Praha,0,3,0,2,A,-3,3
+1049659,2024-02-18 17:00:00,1708275600,Match Finished,FT,345,Czech Liga,2023,Regular Season - 21,628,Sparta Praha,782,Slovan Liberec,2,1,0,0,H,1,3
+1049632,2024-02-21 16:30:00,1708533000,Match Finished,FT,345,Czech Liga,2023,Regular Season - 18,3720,Teplice,2250,Sigma Olomouc,2,0,1,0,H,2,2
+1049661,2024-02-24 14:00:00,1708783200,Match Finished,FT,345,Czech Liga,2023,Regular Season - 22,3723,Hradec Králové,640,Mlada Boleslav,0,0,0,0,D,0,0
+1049664,2024-02-24 14:00:00,1708783200,Match Finished,FT,345,Czech Liga,2023,Regular Season - 22,3713,Baník Ostrava,3714,Bohemians 1905,1,1,1,0,D,0,2
+1049665,2024-02-24 14:00:00,1708783200,Match Finished,FT,345,Czech Liga,2023,Regular Season - 22,3720,Teplice,3716,Karviná,2,2,0,1,D,0,4
+1049666,2024-02-24 14:00:00,1708783200,Match Finished,FT,345,Czech Liga,2023,Regular Season - 22,782,Slovan Liberec,1122,FK Jablonec,3,3,0,1,D,0,6
+1049662,2024-02-24 17:00:00,1708794000,Match Finished,FT,345,Czech Liga,2023,Regular Season - 22,567,Plzen,603,Zlin,3,0,1,0,H,3,3
+1049663,2024-02-25 14:00:00,1708869600,Match Finished,FT,345,Czech Liga,2023,Regular Season - 22,3736,České Budějovice,2250,Sigma Olomouc,2,1,0,0,H,1,3
+1049667,2024-02-25 14:00:00,1708869600,Match Finished,FT,345,Czech Liga,2023,Regular Season - 22,560,Slavia Praha,3724,Pardubice,3,0,0,0,H,3,3
+1049668,2024-02-25 17:00:00,1708880400,Match Finished,FT,345,Czech Liga,2023,Regular Season - 22,3719,Slovácko,628,Sparta Praha,1,3,1,1,A,-2,4
+1049669,2024-03-02 14:00:00,1709388000,Match Finished,FT,345,Czech Liga,2023,Regular Season - 23,1122,FK Jablonec,3723,Hradec Králové,1,1,1,1,D,0,2
+1049671,2024-03-02 14:00:00,1709388000,Match Finished,FT,345,Czech Liga,2023,Regular Season - 23,640,Mlada Boleslav,3736,České Budějovice,3,1,2,1,H,2,4
+1049673,2024-03-02 14:00:00,1709388000,Match Finished,FT,345,Czech Liga,2023,Regular Season - 23,2250,Sigma Olomouc,3714,Bohemians 1905,2,2,2,2,D,0,4
+1049676,2024-03-02 14:00:00,1709388000,Match Finished,FT,345,Czech Liga,2023,Regular Season - 23,3716,Karviná,3719,Slovácko,1,3,1,1,A,-2,4
+1049670,2024-03-02 17:00:00,1709398800,Match Finished,FT,345,Czech Liga,2023,Regular Season - 23,3724,Pardubice,567,Plzen,2,3,0,1,A,-1,5
+1049674,2024-03-03 13:00:00,1709470800,Match Finished,FT,345,Czech Liga,2023,Regular Season - 23,3720,Teplice,782,Slovan Liberec,2,0,2,0,H,2,2
+1049672,2024-03-03 14:00:00,1709474400,Match Finished,FT,345,Czech Liga,2023,Regular Season - 23,603,Zlin,3713,Baník Ostrava,0,1,0,1,A,-1,1
+1049675,2024-03-03 17:00:00,1709485200,Match Finished,FT,345,Czech Liga,2023,Regular Season - 23,628,Sparta Praha,560,Slavia Praha,0,0,0,0,D,0,0
+1049678,2024-03-09 14:00:00,1709992800,Match Finished,FT,345,Czech Liga,2023,Regular Season - 24,3714,Bohemians 1905,640,Mlada Boleslav,0,0,0,0,D,0,0
+1049680,2024-03-09 14:00:00,1709992800,Match Finished,FT,345,Czech Liga,2023,Regular Season - 24,3723,Hradec Králové,3724,Pardubice,2,0,0,0,H,2,2
+1049681,2024-03-09 14:00:00,1709992800,Match Finished,FT,345,Czech Liga,2023,Regular Season - 24,3719,Slovácko,1122,FK Jablonec,0,1,0,0,A,-1,1
+1049683,2024-03-09 14:00:00,1709992800,Match Finished,FT,345,Czech Liga,2023,Regular Season - 24,782,Slovan Liberec,3716,Karviná,1,0,0,0,H,1,1
+1049677,2024-03-09 17:00:00,1710003600,Match Finished,FT,345,Czech Liga,2023,Regular Season - 24,3713,Baník Ostrava,2250,Sigma Olomouc,1,2,0,2,A,-1,3
+1049679,2024-03-10 14:00:00,1710079200,Match Finished,FT,345,Czech Liga,2023,Regular Season - 24,3736,České Budějovice,603,Zlin,2,2,1,1,D,0,4
+1049684,2024-03-10 14:00:00,1710079200,Match Finished,FT,345,Czech Liga,2023,Regular Season - 24,560,Slavia Praha,3720,Teplice,4,0,2,0,H,4,4
+1049682,2024-03-10 17:00:00,1710090000,Match Finished,FT,345,Czech Liga,2023,Regular Season - 24,567,Plzen,628,Sparta Praha,4,0,1,0,H,4,4
+1049687,2024-03-16 14:00:00,1710597600,Match Finished,FT,345,Czech Liga,2023,Regular Season - 25,3716,Karviná,3736,České Budějovice,2,1,1,1,H,1,3
+1049689,2024-03-16 14:00:00,1710597600,Match Finished,FT,345,Czech Liga,2023,Regular Season - 25,603,Zlin,3714,Bohemians 1905,2,2,0,1,D,0,4
+1049690,2024-03-16 14:00:00,1710597600,Match Finished,FT,345,Czech Liga,2023,Regular Season - 25,640,Mlada Boleslav,2250,Sigma Olomouc,2,1,1,0,H,1,3
+1049692,2024-03-16 17:00:00,1710608400,Match Finished,FT,345,Czech Liga,2023,Regular Season - 25,3720,Teplice,3719,Slovácko,1,1,1,1,D,0,2
+1049686,2024-03-17 14:00:00,1710684000,Match Finished,FT,345,Czech Liga,2023,Regular Season - 25,1122,FK Jablonec,567,Plzen,1,2,0,1,A,-1,3
+1049688,2024-03-17 14:00:00,1710684000,Match Finished,FT,345,Czech Liga,2023,Regular Season - 25,3724,Pardubice,3713,Baník Ostrava,0,1,0,0,A,-1,1
+1049691,2024-03-17 14:00:00,1710684000,Match Finished,FT,345,Czech Liga,2023,Regular Season - 25,560,Slavia Praha,782,Slovan Liberec,3,0,1,0,H,3,3
+1049685,2024-03-17 17:00:00,1710694800,Match Finished,FT,345,Czech Liga,2023,Regular Season - 25,628,Sparta Praha,3723,Hradec Králové,2,1,1,0,H,1,3
+1049694,2024-03-30 14:00:00,1711807200,Match Finished,FT,345,Czech Liga,2023,Regular Season - 26,2250,Sigma Olomouc,3724,Pardubice,0,2,0,1,A,-2,2
+1049695,2024-03-30 14:00:00,1711807200,Match Finished,FT,345,Czech Liga,2023,Regular Season - 26,3714,Bohemians 1905,1122,FK Jablonec,2,0,2,0,H,2,2
+1049699,2024-03-30 14:00:00,1711807200,Match Finished,FT,345,Czech Liga,2023,Regular Season - 26,567,Plzen,782,Slovan Liberec,1,3,0,0,A,-2,4
+1049700,2024-03-30 17:00:00,1711818000,Match Finished,FT,345,Czech Liga,2023,Regular Season - 26,3719,Slovácko,560,Slavia Praha,1,3,1,2,A,-2,4
+1049693,2024-03-31 13:00:00,1711890000,Match Finished,FT,345,Czech Liga,2023,Regular Season - 26,640,Mlada Boleslav,603,Zlin,3,2,2,1,H,1,5
+1049697,2024-03-31 13:00:00,1711890000,Match Finished,FT,345,Czech Liga,2023,Regular Season - 26,3723,Hradec Králové,3716,Karviná,2,1,1,1,H,1,3
+1049698,2024-03-31 13:00:00,1711890000,Match Finished,FT,345,Czech Liga,2023,Regular Season - 26,3713,Baník Ostrava,3720,Teplice,4,1,2,0,H,3,5
+1049696,2024-03-31 16:00:00,1711900800,Match Finished,FT,345,Czech Liga,2023,Regular Season - 26,3736,České Budějovice,628,Sparta Praha,0,1,0,1,A,-1,1
+1049702,2024-04-06 13:00:00,1712408400,Match Finished,FT,345,Czech Liga,2023,Regular Season - 27,3716,Karviná,567,Plzen,0,0,0,0,D,0,0
+1049706,2024-04-06 13:00:00,1712408400,Match Finished,FT,345,Czech Liga,2023,Regular Season - 27,603,Zlin,2250,Sigma Olomouc,3,2,1,0,H,1,5
+1049708,2024-04-06 13:00:00,1712408400,Match Finished,FT,345,Czech Liga,2023,Regular Season - 27,782,Slovan Liberec,3719,Slovácko,4,1,2,0,H,3,5
+1049705,2024-04-06 16:00:00,1712419200,Match Finished,FT,345,Czech Liga,2023,Regular Season - 27,560,Slavia Praha,3714,Bohemians 1905,2,1,0,0,H,1,3
+1049701,2024-04-07 13:00:00,1712494800,Match Finished,FT,345,Czech Liga,2023,Regular Season - 27,3720,Teplice,3723,Hradec Králové,0,1,0,1,A,-1,1
+1049703,2024-04-07 13:00:00,1712494800,Match Finished,FT,345,Czech Liga,2023,Regular Season - 27,3724,Pardubice,3736,České Budějovice,1,1,1,0,D,0,2
+1049704,2024-04-07 13:00:00,1712494800,Match Finished,FT,345,Czech Liga,2023,Regular Season - 27,1122,FK Jablonec,3713,Baník Ostrava,2,3,1,2,A,-1,5
+1049707,2024-04-07 16:00:00,1712505600,Match Finished,FT,345,Czech Liga,2023,Regular Season - 27,628,Sparta Praha,640,Mlada Boleslav,1,1,1,1,D,0,2
+1049711,2024-04-13 13:00:00,1713013200,Match Finished,FT,345,Czech Liga,2023,Regular Season - 28,3714,Bohemians 1905,628,Sparta Praha,1,3,1,1,A,-2,4
+1049713,2024-04-13 13:00:00,1713013200,Match Finished,FT,345,Czech Liga,2023,Regular Season - 28,640,Mlada Boleslav,3720,Teplice,1,2,0,0,A,-1,3
+1049714,2024-04-13 13:00:00,1713013200,Match Finished,FT,345,Czech Liga,2023,Regular Season - 28,3736,České Budějovice,782,Slovan Liberec,3,2,1,1,H,1,5
+1049716,2024-04-13 16:00:00,1713024000,Match Finished,FT,345,Czech Liga,2023,Regular Season - 28,3723,Hradec Králové,3719,Slovácko,1,0,0,0,H,1,1
+1049709,2024-04-14 13:00:00,1713099600,Match Finished,FT,345,Czech Liga,2023,Regular Season - 28,603,Zlin,3724,Pardubice,1,1,1,0,D,0,2
+1049710,2024-04-14 13:00:00,1713099600,Match Finished,FT,345,Czech Liga,2023,Regular Season - 28,2250,Sigma Olomouc,1122,FK Jablonec,1,0,0,0,H,1,1
+1049712,2024-04-14 13:00:00,1713099600,Match Finished,FT,345,Czech Liga,2023,Regular Season - 28,3713,Baník Ostrava,3716,Karviná,2,2,1,0,D,0,4
+1049715,2024-04-14 16:00:00,1713110400,Match Finished,FT,345,Czech Liga,2023,Regular Season - 28,567,Plzen,560,Slavia Praha,1,0,0,0,H,1,1
+1049720,2024-04-20 13:00:00,1713618000,Match Finished,FT,345,Czech Liga,2023,Regular Season - 29,628,Sparta Praha,3713,Baník Ostrava,4,3,1,0,H,1,7
+1049721,2024-04-20 13:00:00,1713618000,Match Finished,FT,345,Czech Liga,2023,Regular Season - 29,3716,Karviná,3714,Bohemians 1905,1,1,0,0,D,0,2
+1049724,2024-04-20 13:00:00,1713618000,Match Finished,FT,345,Czech Liga,2023,Regular Season - 29,1122,FK Jablonec,603,Zlin,0,0,0,0,D,0,0
+1049718,2024-04-20 16:00:00,1713628800,Match Finished,FT,345,Czech Liga,2023,Regular Season - 29,3720,Teplice,3736,České Budějovice,2,2,2,1,D,0,4
+1049717,2024-04-21 13:00:00,1713704400,Match Finished,FT,345,Czech Liga,2023,Regular Season - 29,782,Slovan Liberec,3723,Hradec Králové,0,0,0,0,D,0,0
+1049722,2024-04-21 13:00:00,1713704400,Match Finished,FT,345,Czech Liga,2023,Regular Season - 29,560,Slavia Praha,2250,Sigma Olomouc,2,2,0,0,D,0,4
+1049723,2024-04-21 13:00:00,1713704400,Match Finished,FT,345,Czech Liga,2023,Regular Season - 29,3724,Pardubice,640,Mlada Boleslav,1,2,0,2,A,-1,3
+1049719,2024-04-21 16:00:00,1713715200,Match Finished,FT,345,Czech Liga,2023,Regular Season - 29,3719,Slovácko,567,Plzen,1,1,0,1,D,0,2
+1049725,2024-04-28 13:00:00,1714309200,Match Finished,FT,345,Czech Liga,2023,Regular Season - 30,3714,Bohemians 1905,3724,Pardubice,2,1,1,0,H,1,3
+1049726,2024-04-28 13:00:00,1714309200,Match Finished,FT,345,Czech Liga,2023,Regular Season - 30,1122,FK Jablonec,640,Mlada Boleslav,1,1,1,0,D,0,2
+1049727,2024-04-28 13:00:00,1714309200,Match Finished,FT,345,Czech Liga,2023,Regular Season - 30,2250,Sigma Olomouc,628,Sparta Praha,1,4,0,2,A,-3,5
+1049728,2024-04-28 13:00:00,1714309200,Match Finished,FT,345,Czech Liga,2023,Regular Season - 30,603,Zlin,3716,Karviná,0,1,0,1,A,-1,1
+1049729,2024-04-28 13:00:00,1714309200,Match Finished,FT,345,Czech Liga,2023,Regular Season - 30,567,Plzen,3720,Teplice,3,0,0,0,H,3,3
+1049730,2024-04-28 13:00:00,1714309200,Match Finished,FT,345,Czech Liga,2023,Regular Season - 30,3713,Baník Ostrava,782,Slovan Liberec,2,2,1,0,D,0,4
+1049731,2024-04-28 13:00:00,1714309200,Match Finished,FT,345,Czech Liga,2023,Regular Season - 30,3723,Hradec Králové,560,Slavia Praha,1,2,0,2,A,-1,3
+1049732,2024-04-28 13:00:00,1714309200,Match Finished,FT,345,Czech Liga,2023,Regular Season - 30,3736,České Budějovice,3719,Slovácko,2,2,1,1,D,0,4
+1198008,2024-05-04 13:00:00,1714827600,Match Finished,FT,345,Czech Liga,2023,Relegation Round - 1,3736,České Budějovice,3714,Bohemians 1905,2,1,1,1,H,1,3
+1198009,2024-05-04 13:00:00,1714827600,Match Finished,FT,345,Czech Liga,2023,Relegation Round - 1,1122,FK Jablonec,3716,Karviná,3,2,1,1,H,1,5
+1198010,2024-05-04 13:00:00,1714827600,Match Finished,FT,345,Czech Liga,2023,Relegation Round - 1,3724,Pardubice,603,Zlin,2,0,0,0,H,2,2
+1197993,2024-05-04 16:00:00,1714838400,Match Finished,FT,345,Czech Liga,2023,Championship Round - 1,560,Slavia Praha,3713,Baník Ostrava,5,0,1,0,H,5,5
+1197989,2024-05-05 13:00:00,1714914000,Match Finished,FT,345,Czech Liga,2023,Middle Play-offs - Semi-finals,3720,Teplice,782,Slovan Liberec,2,0,0,0,H,2,2
+1197991,2024-05-05 13:00:00,1714914000,Match Finished,FT,345,Czech Liga,2023,Middle Play-offs - Semi-finals,3723,Hradec Králové,2250,Sigma Olomouc,3,1,3,1,H,2,4
+1197994,2024-05-05 13:00:00,1714914000,Match Finished,FT,345,Czech Liga,2023,Championship Round - 1,567,Plzen,640,Mlada Boleslav,3,0,2,0,H,3,3
+1197995,2024-05-05 16:00:00,1714924800,Match Finished,FT,345,Czech Liga,2023,Championship Round - 1,3719,Slovácko,628,Sparta Praha,2,4,1,2,A,-2,6
+1197996,2024-05-11 13:00:00,1715432400,Match Finished,FT,345,Czech Liga,2023,Championship Round - 2,3713,Baník Ostrava,640,Mlada Boleslav,0,1,0,1,A,-1,1
+1197997,2024-05-11 13:00:00,1715432400,Match Finished,FT,345,Czech Liga,2023,Championship Round - 2,567,Plzen,3719,Slovácko,4,2,2,1,H,2,6
+1197998,2024-05-11 15:30:00,1715441400,Match Finished,FT,345,Czech Liga,2023,Championship Round - 2,628,Sparta Praha,560,Slavia Praha,0,0,0,0,D,0,0
+1197990,2024-05-12 13:00:00,1715518800,Match Finished,FT,345,Czech Liga,2023,Middle Play-offs - Semi-finals,782,Slovan Liberec,3720,Teplice,1,2,0,0,A,-1,3
+1197992,2024-05-12 13:00:00,1715518800,Match Finished,FT,345,Czech Liga,2023,Middle Play-offs - Semi-finals,2250,Sigma Olomouc,3723,Hradec Králové,1,3,0,2,A,-2,4
+1198011,2024-05-12 13:00:00,1715518800,Match Finished,FT,345,Czech Liga,2023,Relegation Round - 2,3724,Pardubice,3736,České Budějovice,3,2,1,1,H,1,5
+1198012,2024-05-12 13:00:00,1715518800,Match Finished,FT,345,Czech Liga,2023,Relegation Round - 2,3714,Bohemians 1905,1122,FK Jablonec,1,1,0,1,D,0,2
+1198013,2024-05-12 16:00:00,1715529600,Match Finished,FT,345,Czech Liga,2023,Relegation Round - 2,3716,Karviná,603,Zlin,2,2,2,0,D,0,4
+1197999,2024-05-14 15:00:00,1715698800,Match Finished,FT,345,Czech Liga,2023,Championship Round - 3,640,Mlada Boleslav,3719,Slovácko,0,1,0,1,A,-1,1
+1198000,2024-05-14 17:30:00,1715707800,Match Finished,FT,345,Czech Liga,2023,Championship Round - 3,628,Sparta Praha,3713,Baník Ostrava,2,1,1,0,H,1,3
+1198001,2024-05-15 17:30:00,1715794200,Match Finished,FT,345,Czech Liga,2023,Championship Round - 3,560,Slavia Praha,567,Plzen,3,0,2,0,H,3,3
+1198014,2024-05-16 15:00:00,1715871600,Match Finished,FT,345,Czech Liga,2023,Relegation Round - 3,3714,Bohemians 1905,3716,Karviná,1,3,1,0,A,-2,4
+1198015,2024-05-16 15:00:00,1715871600,Match Finished,FT,345,Czech Liga,2023,Relegation Round - 3,1122,FK Jablonec,3724,Pardubice,3,0,0,0,H,3,3
+1198016,2024-05-16 15:00:00,1715871600,Match Finished,FT,345,Czech Liga,2023,Relegation Round - 3,603,Zlin,3736,České Budějovice,1,1,0,0,D,0,2
+1198002,2024-05-18 15:00:00,1716044400,Match Finished,FT,345,Czech Liga,2023,Championship Round - 4,640,Mlada Boleslav,628,Sparta Praha,0,5,0,3,A,-5,5
+1198003,2024-05-18 15:00:00,1716044400,Match Finished,FT,345,Czech Liga,2023,Championship Round - 4,3719,Slovácko,560,Slavia Praha,1,2,0,0,A,-1,3
+1198004,2024-05-18 15:00:00,1716044400,Match Finished,FT,345,Czech Liga,2023,Championship Round - 4,567,Plzen,3713,Baník Ostrava,1,1,0,0,D,0,2
+1200250,2024-05-19 13:00:00,1716123600,Match Finished,FT,345,Czech Liga,2023,Middle Play-offs - Final,3720,Teplice,3723,Hradec Králové,0,1,0,0,A,-1,1
+1198017,2024-05-19 15:00:00,1716130800,Match Finished,FT,345,Czech Liga,2023,Relegation Round - 4,3724,Pardubice,3716,Karviná,4,0,2,0,H,4,4
+1198018,2024-05-19 15:00:00,1716130800,Match Finished,FT,345,Czech Liga,2023,Relegation Round - 4,3736,České Budějovice,1122,FK Jablonec,2,2,2,2,D,0,4
+1198019,2024-05-19 15:00:00,1716130800,Match Finished,FT,345,Czech Liga,2023,Relegation Round - 4,603,Zlin,3714,Bohemians 1905,1,2,1,1,A,-1,3
+1198020,2024-05-25 16:00:00,1716652800,Match Finished,FT,345,Czech Liga,2023,Relegation Round - 5,3714,Bohemians 1905,3724,Pardubice,0,1,0,0,A,-1,1
+1198021,2024-05-25 16:00:00,1716652800,Match Finished,FT,345,Czech Liga,2023,Relegation Round - 5,1122,FK Jablonec,603,Zlin,1,0,1,0,H,1,1
+1198022,2024-05-25 16:00:00,1716652800,Match Finished,FT,345,Czech Liga,2023,Relegation Round - 5,3716,Karviná,3736,České Budějovice,1,0,1,0,H,1,1
+1200251,2024-05-25 16:00:00,1716652800,Match Finished,FT,345,Czech Liga,2023,Middle Play-offs - Final,3723,Hradec Králové,3720,Teplice,2,0,0,0,H,2,2
+1198005,2024-05-26 14:00:00,1716732000,Match Finished,FT,345,Czech Liga,2023,Championship Round - 5,628,Sparta Praha,567,Plzen,1,1,1,0,D,0,2
+1198006,2024-05-26 14:00:00,1716732000,Match Finished,FT,345,Czech Liga,2023,Championship Round - 5,560,Slavia Praha,640,Mlada Boleslav,4,0,2,0,H,4,4
+1198007,2024-05-26 14:00:00,1716732000,Match Finished,FT,345,Czech Liga,2023,Championship Round - 5,3713,Baník Ostrava,3719,Slovácko,6,0,3,0,H,6,6
+1201620,2024-05-30 16:00:00,1717084800,Match Finished,FT,345,Czech Liga,2023,Relegation Round,7379,Vyškov,3716,Karviná,0,1,0,1,A,-1,1
+1201622,2024-05-30 16:00:00,1717084800,Match Finished,FT,345,Czech Liga,2023,Relegation Round,3736,České Budějovice,3726,Táborsko,2,1,0,1,H,1,3
+1201619,2024-05-31 16:00:00,1717171200,Match Finished,FT,345,Czech Liga,2023,Conference League Play-offs - Final,640,Mlada Boleslav,3723,Hradec Králové,3,1,2,0,H,2,4
+1201621,2024-06-02 15:30:00,1717342200,Match Finished,FT,345,Czech Liga,2023,Relegation Round,3716,Karviná,7379,Vyškov,1,0,0,0,H,1,1
+1201623,2024-06-02 15:30:00,1717342200,Match Finished,FT,345,Czech Liga,2023,Relegation Round,3726,Táborsko,3736,České Budějovice,1,1,0,1,D,0,2
+1210384,2024-07-19 17:00:00,1721408400,Match Finished,FT,345,Czech Liga,2024,Regular Season - 1,628,Sparta Praha,3724,Pardubice,2,1,1,1,H,1,3
+1210383,2024-07-20 12:30:00,1721478600,Match Finished,FT,345,Czech Liga,2024,Regular Season - 1,1122,FK Jablonec,640,Mlada Boleslav,2,0,1,0,H,2,2
+1210380,2024-07-20 15:00:00,1721487600,Match Finished,FT,345,Czech Liga,2024,Regular Season - 1,3736,České Budějovice,2250,Sigma Olomouc,0,2,0,0,A,-2,2
+1210386,2024-07-20 15:00:00,1721487600,Match Finished,FT,345,Czech Liga,2024,Regular Season - 1,3714,Bohemians 1905,3713,Baník Ostrava,2,1,0,0,H,1,3
+1210385,2024-07-20 18:00:00,1721498400,Match Finished,FT,345,Czech Liga,2024,Regular Season - 1,3715,Dukla Praha,567,Plzen,1,3,0,2,A,-2,4
+1210379,2024-07-21 12:30:00,1721565000,Match Finished,FT,345,Czech Liga,2024,Regular Season - 1,3716,Karviná,782,Slovan Liberec,1,3,1,2,A,-2,4
+1210381,2024-07-21 15:00:00,1721574000,Match Finished,FT,345,Czech Liga,2024,Regular Season - 1,3719,Slovácko,560,Slavia Praha,0,0,0,0,D,0,0
+1210382,2024-07-21 18:00:00,1721584800,Match Finished,FT,345,Czech Liga,2024,Regular Season - 1,3723,Hradec Králové,3720,Teplice,1,0,0,0,H,1,1
+1210394,2024-07-27 12:30:00,1722083400,Match Finished,FT,345,Czech Liga,2024,Regular Season - 2,3715,Dukla Praha,3714,Bohemians 1905,1,0,0,0,H,1,1
+1210389,2024-07-27 15:00:00,1722092400,Match Finished,FT,345,Czech Liga,2024,Regular Season - 2,3720,Teplice,628,Sparta Praha,1,4,0,0,A,-3,5
+1210391,2024-07-27 15:00:00,1722092400,Match Finished,FT,345,Czech Liga,2024,Regular Season - 2,3724,Pardubice,3716,Karviná,0,1,0,1,A,-1,1
+1210388,2024-07-27 18:00:00,1722103200,Match Finished,FT,345,Czech Liga,2024,Regular Season - 2,560,Slavia Praha,3736,České Budějovice,4,0,2,0,H,4,4
+1210387,2024-07-28 12:30:00,1722169800,Match Finished,FT,345,Czech Liga,2024,Regular Season - 2,782,Slovan Liberec,2250,Sigma Olomouc,1,1,1,0,D,0,2
+1210390,2024-07-28 15:00:00,1722178800,Match Finished,FT,345,Czech Liga,2024,Regular Season - 2,640,Mlada Boleslav,3719,Slovácko,3,0,2,0,H,3,3
+1210393,2024-07-28 15:00:00,1722178800,Match Finished,FT,345,Czech Liga,2024,Regular Season - 2,3713,Baník Ostrava,1122,FK Jablonec,1,0,0,0,H,1,1
+1210392,2024-07-28 18:00:00,1722189600,Match Finished,FT,345,Czech Liga,2024,Regular Season - 2,567,Plzen,3723,Hradec Králové,1,0,0,0,H,1,1
+1210395,2024-08-02 15:30:00,1722612600,Match Finished,FT,345,Czech Liga,2024,Regular Season - 3,782,Slovan Liberec,560,Slavia Praha,0,1,0,1,A,-1,1
+1210397,2024-08-02 18:00:00,1722621600,Match Finished,FT,345,Czech Liga,2024,Regular Season - 3,628,Sparta Praha,3715,Dukla Praha,2,0,1,0,H,2,2
+1210399,2024-08-03 12:30:00,1722688200,Match Finished,FT,345,Czech Liga,2024,Regular Season - 3,3719,Slovácko,3714,Bohemians 1905,0,0,0,0,D,0,0
+1210398,2024-08-03 15:00:00,1722697200,Match Finished,FT,345,Czech Liga,2024,Regular Season - 3,1122,FK Jablonec,567,Plzen,0,0,0,0,D,0,0
+1210396,2024-08-03 18:00:00,1722708000,Match Finished,FT,345,Czech Liga,2024,Regular Season - 3,2250,Sigma Olomouc,3720,Teplice,2,1,1,1,H,1,3
+1210402,2024-08-04 12:30:00,1722774600,Match Finished,FT,345,Czech Liga,2024,Regular Season - 3,3736,České Budějovice,3724,Pardubice,1,3,0,3,A,-2,4
+1210400,2024-08-04 15:00:00,1722783600,Match Finished,FT,345,Czech Liga,2024,Regular Season - 3,3723,Hradec Králové,640,Mlada Boleslav,2,1,1,1,H,1,3
+1210409,2024-08-10 12:30:00,1723293000,Match Finished,FT,345,Czech Liga,2024,Regular Season - 4,3715,Dukla Praha,1122,FK Jablonec,0,2,0,1,A,-2,2
+1210404,2024-08-10 15:00:00,1723302000,Match Finished,FT,345,Czech Liga,2024,Regular Season - 4,3720,Teplice,782,Slovan Liberec,2,1,1,0,H,1,3
+1210410,2024-08-10 15:00:00,1723302000,Match Finished,FT,345,Czech Liga,2024,Regular Season - 4,3714,Bohemians 1905,628,Sparta Praha,1,2,1,1,A,-1,3
+1210403,2024-08-10 18:00:00,1723312800,Match Finished,FT,345,Czech Liga,2024,Regular Season - 4,560,Slavia Praha,2250,Sigma Olomouc,2,0,1,0,H,2,2
+1210406,2024-08-11 12:30:00,1723379400,Match Finished,FT,345,Czech Liga,2024,Regular Season - 4,3724,Pardubice,3719,Slovácko,0,1,0,0,A,-1,1
+1210405,2024-08-11 15:00:00,1723388400,Match Finished,FT,345,Czech Liga,2024,Regular Season - 4,640,Mlada Boleslav,3736,České Budějovice,4,0,1,0,H,4,4
+1210408,2024-08-11 15:00:00,1723388400,Match Finished,FT,345,Czech Liga,2024,Regular Season - 4,3713,Baník Ostrava,3723,Hradec Králové,1,0,0,0,H,1,1
+1210407,2024-08-11 18:00:00,1723399200,Match Finished,FT,345,Czech Liga,2024,Regular Season - 4,567,Plzen,3716,Karviná,5,0,2,0,H,5,5
+1210416,2024-08-17 12:30:00,1723897800,Match Finished,FT,345,Czech Liga,2024,Regular Season - 5,3723,Hradec Králové,3715,Dukla Praha,1,0,1,0,H,1,1
+1210413,2024-08-17 15:00:00,1723906800,Match Finished,FT,345,Czech Liga,2024,Regular Season - 5,560,Slavia Praha,3720,Teplice,2,1,0,0,H,1,3
+1210417,2024-08-17 15:00:00,1723906800,Match Finished,FT,345,Czech Liga,2024,Regular Season - 5,3716,Karviná,3714,Bohemians 1905,1,2,1,2,A,-1,3
+1210414,2024-08-17 18:00:00,1723917600,Match Finished,FT,345,Czech Liga,2024,Regular Season - 5,1122,FK Jablonec,628,Sparta Praha,1,2,0,1,A,-1,3
+1210411,2024-08-18 12:30:00,1723984200,Match Finished,FT,345,Czech Liga,2024,Regular Season - 5,2250,Sigma Olomouc,640,Mlada Boleslav,3,2,2,1,H,1,5
+1210412,2024-08-18 15:00:00,1723993200,Match Finished,FT,345,Czech Liga,2024,Regular Season - 5,782,Slovan Liberec,3724,Pardubice,3,0,2,0,H,3,3
+1210418,2024-08-18 15:00:00,1723993200,Match Finished,FT,345,Czech Liga,2024,Regular Season - 5,3736,České Budějovice,567,Plzen,0,3,0,1,A,-3,3
+1210415,2024-08-18 18:00:00,1724004000,Match Finished,FT,345,Czech Liga,2024,Regular Season - 5,3719,Slovácko,3713,Baník Ostrava,1,0,1,0,H,1,1
+1210425,2024-08-24 12:30:00,1724502600,Match Finished,FT,345,Czech Liga,2024,Regular Season - 6,3714,Bohemians 1905,1122,FK Jablonec,1,2,1,1,A,-1,3
+1210419,2024-08-24 15:00:00,1724511600,Match Finished,FT,345,Czech Liga,2024,Regular Season - 6,3720,Teplice,3716,Karviná,1,3,0,1,A,-2,4
+1210426,2024-08-24 15:00:00,1724511600,Match Finished,FT,345,Czech Liga,2024,Regular Season - 6,628,Sparta Praha,3719,Slovácko,2,2,1,2,D,0,4
+1210421,2024-08-24 18:00:00,1724522400,Match Finished,FT,345,Czech Liga,2024,Regular Season - 6,3724,Pardubice,3723,Hradec Králové,2,1,0,0,H,1,3
+1210423,2024-08-25 12:30:00,1724589000,Match Finished,FT,345,Czech Liga,2024,Regular Season - 6,3713,Baník Ostrava,782,Slovan Liberec,2,0,0,0,H,2,2
+1210424,2024-08-25 15:00:00,1724598000,Match Finished,FT,345,Czech Liga,2024,Regular Season - 6,3715,Dukla Praha,3736,České Budějovice,3,0,0,0,H,3,3
+1210401,2024-08-28 16:00:00,1724860800,Match Finished,FT,345,Czech Liga,2024,Regular Season - 3,3716,Karviná,3713,Baník Ostrava,0,0,0,0,D,0,0
+1210434,2024-08-31 12:30:00,1725107400,Match Finished,FT,345,Czech Liga,2024,Regular Season - 7,3736,České Budějovice,3714,Bohemians 1905,0,0,0,0,D,0,0
+1210431,2024-08-31 15:00:00,1725116400,Match Finished,FT,345,Czech Liga,2024,Regular Season - 7,3719,Slovácko,1122,FK Jablonec,0,0,0,0,D,0,0
+1210432,2024-08-31 18:00:00,1725127200,Match Finished,FT,345,Czech Liga,2024,Regular Season - 7,3723,Hradec Králové,628,Sparta Praha,0,2,0,2,A,-2,2
+1210428,2024-09-01 12:30:00,1725193800,Match Finished,FT,345,Czech Liga,2024,Regular Season - 7,2250,Sigma Olomouc,3713,Baník Ostrava,2,2,1,1,D,0,4
+1210433,2024-09-01 12:30:00,1725193800,Match Finished,FT,345,Czech Liga,2024,Regular Season - 7,3716,Karviná,3715,Dukla Praha,0,0,0,0,D,0,0
+1210429,2024-09-01 15:00:00,1725202800,Match Finished,FT,345,Czech Liga,2024,Regular Season - 7,560,Slavia Praha,3724,Pardubice,2,0,1,0,H,2,2
+1210430,2024-09-01 15:00:00,1725202800,Match Finished,FT,345,Czech Liga,2024,Regular Season - 7,3720,Teplice,640,Mlada Boleslav,1,2,1,1,A,-1,3
+1210427,2024-09-01 18:00:00,1725213600,Match Finished,FT,345,Czech Liga,2024,Regular Season - 7,782,Slovan Liberec,567,Plzen,1,1,0,0,D,0,2
+1210422,2024-09-17 15:00:00,1726585200,Match Finished,FT,345,Czech Liga,2024,Regular Season - 6,567,Plzen,2250,Sigma Olomouc,2,1,1,0,H,1,3
+1210420,2024-09-17 17:30:00,1726594200,Match Finished,FT,345,Czech Liga,2024,Regular Season - 6,640,Mlada Boleslav,560,Slavia Praha,0,2,0,2,A,-2,2
+1210448,2024-09-21 11:30:00,1726918200,Match Finished,FT,345,Czech Liga,2024,Regular Season - 9,3723,Hradec Králové,3719,Slovácko,3,0,1,0,H,3,3
+1210446,2024-09-21 14:00:00,1726927200,Match Finished,FT,345,Czech Liga,2024,Regular Season - 9,3720,Teplice,3713,Baník Ostrava,2,3,1,1,A,-1,5
+1210450,2024-09-21 14:00:00,1726927200,Match Finished,FT,345,Czech Liga,2024,Regular Season - 9,3716,Karviná,1122,FK Jablonec,1,0,1,0,H,1,1
+1210445,2024-09-21 17:00:00,1726938000,Match Finished,FT,345,Czech Liga,2024,Regular Season - 9,560,Slavia Praha,567,Plzen,3,0,3,0,H,3,3
+1210447,2024-09-22 11:00:00,1727002800,Match Finished,FT,345,Czech Liga,2024,Regular Season - 9,640,Mlada Boleslav,3724,Pardubice,2,2,1,1,D,0,4
+1210444,2024-09-22 13:30:00,1727011800,Match Finished,FT,345,Czech Liga,2024,Regular Season - 9,2250,Sigma Olomouc,3715,Dukla Praha,2,1,1,0,H,1,3
+1210449,2024-09-22 13:30:00,1727011800,Match Finished,FT,345,Czech Liga,2024,Regular Season - 9,3736,České Budějovice,628,Sparta Praha,0,2,0,1,A,-2,2
+1210443,2024-09-22 16:30:00,1727022600,Match Finished,FT,345,Czech Liga,2024,Regular Season - 9,782,Slovan Liberec,3714,Bohemians 1905,2,2,2,1,D,0,4
+1210456,2024-09-27 17:30:00,1727458200,Match Finished,FT,345,Czech Liga,2024,Regular Season - 10,628,Sparta Praha,2250,Sigma Olomouc,2,3,1,0,A,-1,5
+1210454,2024-09-28 11:30:00,1727523000,Match Finished,FT,345,Czech Liga,2024,Regular Season - 10,3715,Dukla Praha,782,Slovan Liberec,1,4,1,0,A,-3,5
+1210451,2024-09-28 14:00:00,1727532000,Match Finished,FT,345,Czech Liga,2024,Regular Season - 10,3724,Pardubice,3720,Teplice,0,1,0,0,A,-1,1
+1210458,2024-09-28 14:00:00,1727532000,Match Finished,FT,345,Czech Liga,2024,Regular Season - 10,3719,Slovácko,3716,Karviná,2,1,1,0,H,1,3
+1210457,2024-09-28 17:00:00,1727542800,Match Finished,FT,345,Czech Liga,2024,Regular Season - 10,1122,FK Jablonec,3723,Hradec Králové,2,0,0,0,H,2,2
+1210453,2024-09-29 11:00:00,1727607600,Match Finished,FT,345,Czech Liga,2024,Regular Season - 10,3713,Baník Ostrava,3736,České Budějovice,2,1,1,0,H,1,3
+1210452,2024-09-29 13:30:00,1727616600,Match Finished,FT,345,Czech Liga,2024,Regular Season - 10,567,Plzen,640,Mlada Boleslav,1,1,1,1,D,0,2
+1210455,2024-09-29 16:30:00,1727627400,Match Finished,FT,345,Czech Liga,2024,Regular Season - 10,3714,Bohemians 1905,560,Slavia Praha,0,4,0,3,A,-4,4
+1210465,2024-10-05 11:30:00,1728127800,Match Finished,FT,345,Czech Liga,2024,Regular Season - 11,3716,Karviná,3723,Hradec Králové,0,0,0,0,D,0,0
+1210462,2024-10-05 14:00:00,1728136800,Match Finished,FT,345,Czech Liga,2024,Regular Season - 11,3720,Teplice,3715,Dukla Praha,1,1,1,0,D,0,2
+1210466,2024-10-05 14:00:00,1728136800,Match Finished,FT,345,Czech Liga,2024,Regular Season - 11,3736,České Budějovice,3719,Slovácko,0,2,0,1,A,-2,2
+1210459,2024-10-05 17:00:00,1728147600,Match Finished,FT,345,Czech Liga,2024,Regular Season - 11,782,Slovan Liberec,1122,FK Jablonec,0,5,0,1,A,-5,5
+1210464,2024-10-06 11:00:00,1728212400,Match Finished,FT,345,Czech Liga,2024,Regular Season - 11,567,Plzen,3724,Pardubice,2,0,0,0,H,2,2
+1210460,2024-10-06 13:30:00,1728221400,Match Finished,FT,345,Czech Liga,2024,Regular Season - 11,2250,Sigma Olomouc,3714,Bohemians 1905,1,3,0,2,A,-2,4
+1210463,2024-10-06 13:30:00,1728221400,Match Finished,FT,345,Czech Liga,2024,Regular Season - 11,640,Mlada Boleslav,3713,Baník Ostrava,0,0,0,0,D,0,0
+1210461,2024-10-06 16:30:00,1728232200,Match Finished,FT,345,Czech Liga,2024,Regular Season - 11,560,Slavia Praha,628,Sparta Praha,2,1,2,0,H,1,3
+1210473,2024-10-19 11:30:00,1729337400,Match Finished,FT,345,Czech Liga,2024,Regular Season - 12,3723,Hradec Králové,2250,Sigma Olomouc,1,1,0,1,D,0,2
+1210467,2024-10-19 14:00:00,1729346400,Match Finished,FT,345,Czech Liga,2024,Regular Season - 12,3713,Baník Ostrava,567,Plzen,1,3,0,2,A,-2,4
+1210468,2024-10-19 14:00:00,1729346400,Match Finished,FT,345,Czech Liga,2024,Regular Season - 12,3715,Dukla Praha,3724,Pardubice,2,1,0,1,H,1,3
+1210471,2024-10-19 17:00:00,1729357200,Match Finished,FT,345,Czech Liga,2024,Regular Season - 12,628,Sparta Praha,782,Slovan Liberec,2,1,1,0,H,1,3
+1210469,2024-10-20 11:00:00,1729422000,Match Finished,FT,345,Czech Liga,2024,Regular Season - 12,3714,Bohemians 1905,640,Mlada Boleslav,2,2,0,1,D,0,4
+1210472,2024-10-20 13:30:00,1729431000,Match Finished,FT,345,Czech Liga,2024,Regular Season - 12,3719,Slovácko,3720,Teplice,0,2,0,1,A,-2,2
+1210474,2024-10-20 13:30:00,1729431000,Match Finished,FT,345,Czech Liga,2024,Regular Season - 12,3716,Karviná,3736,České Budějovice,4,1,2,0,H,3,5
+1210470,2024-10-20 16:30:00,1729441800,Match Finished,FT,345,Czech Liga,2024,Regular Season - 12,1122,FK Jablonec,560,Slavia Praha,1,2,0,1,A,-1,3
+1210475,2024-10-26 11:30:00,1729942200,Match Finished,FT,345,Czech Liga,2024,Regular Season - 13,782,Slovan Liberec,3719,Slovácko,4,0,3,0,H,4,4
+1210480,2024-10-26 14:00:00,1729951200,Match Finished,FT,345,Czech Liga,2024,Regular Season - 13,3724,Pardubice,3713,Baník Ostrava,2,3,1,0,A,-1,5
+1210482,2024-10-26 14:00:00,1729951200,Match Finished,FT,345,Czech Liga,2024,Regular Season - 13,3736,České Budějovice,3723,Hradec Králové,0,2,0,1,A,-2,2
+1210476,2024-10-26 17:00:00,1729962000,Match Finished,FT,345,Czech Liga,2024,Regular Season - 13,2250,Sigma Olomouc,1122,FK Jablonec,0,0,0,0,D,0,0
+1210478,2024-10-27 12:00:00,1730030400,Match Finished,FT,345,Czech Liga,2024,Regular Season - 13,3720,Teplice,3714,Bohemians 1905,1,2,0,2,A,-1,3
+1210477,2024-10-27 14:30:00,1730039400,Match Finished,FT,345,Czech Liga,2024,Regular Season - 13,560,Slavia Praha,3715,Dukla Praha,3,0,1,0,H,3,3
+1210479,2024-10-27 14:30:00,1730039400,Match Finished,FT,345,Czech Liga,2024,Regular Season - 13,640,Mlada Boleslav,3716,Karviná,1,1,1,0,D,0,2
+1210481,2024-10-27 17:30:00,1730050200,Match Finished,FT,345,Czech Liga,2024,Regular Season - 13,567,Plzen,628,Sparta Praha,1,0,1,0,H,1,1
+1210483,2024-11-02 12:30:00,1730550600,Match Finished,FT,345,Czech Liga,2024,Regular Season - 14,3715,Dukla Praha,640,Mlada Boleslav,0,1,0,0,A,-1,1
+1210486,2024-11-02 15:00:00,1730559600,Match Finished,FT,345,Czech Liga,2024,Regular Season - 14,1122,FK Jablonec,3720,Teplice,3,0,2,0,H,3,3
+1210489,2024-11-02 15:00:00,1730559600,Match Finished,FT,345,Czech Liga,2024,Regular Season - 14,3716,Karviná,2250,Sigma Olomouc,2,1,0,1,H,1,3
+1210485,2024-11-02 18:00:00,1730570400,Match Finished,FT,345,Czech Liga,2024,Regular Season - 14,628,Sparta Praha,3713,Baník Ostrava,1,3,1,2,A,-2,4
+1210490,2024-11-03 12:00:00,1730635200,Match Finished,FT,345,Czech Liga,2024,Regular Season - 14,3736,České Budějovice,782,Slovan Liberec,0,0,0,0,D,0,0
+1210484,2024-11-03 14:30:00,1730644200,Match Finished,FT,345,Czech Liga,2024,Regular Season - 14,3714,Bohemians 1905,3724,Pardubice,0,0,0,0,D,0,0
+1210487,2024-11-03 14:30:00,1730644200,Match Finished,FT,345,Czech Liga,2024,Regular Season - 14,3719,Slovácko,567,Plzen,1,0,0,0,H,1,1
+1210488,2024-11-03 17:30:00,1730655000,Match Finished,FT,345,Czech Liga,2024,Regular Season - 14,3723,Hradec Králové,560,Slavia Praha,1,1,0,0,D,0,2
+1210491,2024-11-09 12:30:00,1731155400,Match Finished,FT,345,Czech Liga,2024,Regular Season - 15,3713,Baník Ostrava,3715,Dukla Praha,6,0,3,0,H,6,6
+1210496,2024-11-09 15:00:00,1731164400,Match Finished,FT,345,Czech Liga,2024,Regular Season - 15,782,Slovan Liberec,3723,Hradec Králové,0,0,0,0,D,0,0
+1210497,2024-11-09 15:00:00,1731164400,Match Finished,FT,345,Czech Liga,2024,Regular Season - 15,3724,Pardubice,1122,FK Jablonec,2,0,0,0,H,2,2
+1210493,2024-11-10 12:00:00,1731240000,Match Finished,FT,345,Czech Liga,2024,Regular Season - 15,3720,Teplice,3736,České Budějovice,5,2,2,1,H,3,7
+1210492,2024-11-10 14:30:00,1731249000,Match Finished,FT,345,Czech Liga,2024,Regular Season - 15,567,Plzen,3714,Bohemians 1905,2,0,2,0,H,2,2
+1210494,2024-11-10 14:30:00,1731249000,Match Finished,FT,345,Czech Liga,2024,Regular Season - 15,640,Mlada Boleslav,628,Sparta Praha,2,2,1,1,D,0,4
+1210498,2024-11-10 17:30:00,1731259800,Match Finished,FT,345,Czech Liga,2024,Regular Season - 15,560,Slavia Praha,3716,Karviná,5,1,1,0,H,4,6
+1210503,2024-11-23 12:30:00,1732365000,Match Finished,FT,345,Czech Liga,2024,Regular Season - 16,1122,FK Jablonec,3713,Baník Ostrava,3,1,1,1,H,2,4
+1210502,2024-11-23 15:00:00,1732374000,Match Finished,FT,345,Czech Liga,2024,Regular Season - 16,3719,Slovácko,640,Mlada Boleslav,1,1,1,1,D,0,2
+1210505,2024-11-23 15:00:00,1732374000,Match Finished,FT,345,Czech Liga,2024,Regular Season - 16,628,Sparta Praha,3720,Teplice,1,1,0,0,D,0,2
+1210504,2024-11-23 18:00:00,1732384800,Match Finished,FT,345,Czech Liga,2024,Regular Season - 16,3723,Hradec Králové,567,Plzen,0,1,0,0,A,-1,1
+1210506,2024-11-24 12:00:00,1732449600,Match Finished,FT,345,Czech Liga,2024,Regular Season - 16,3714,Bohemians 1905,3715,Dukla Praha,3,1,0,0,H,2,4
+1210500,2024-11-24 14:30:00,1732458600,Match Finished,FT,345,Czech Liga,2024,Regular Season - 16,3716,Karviná,3724,Pardubice,1,0,1,0,H,1,1
+1210501,2024-11-24 14:30:00,1732458600,Match Finished,FT,345,Czech Liga,2024,Regular Season - 16,3736,České Budějovice,560,Slavia Praha,0,4,0,2,A,-4,4
+1210499,2024-11-24 17:30:00,1732469400,Match Finished,FT,345,Czech Liga,2024,Regular Season - 16,2250,Sigma Olomouc,782,Slovan Liberec,1,4,0,2,A,-3,5
+1210495,2024-11-27 16:00:00,1732723200,Match Finished,FT,345,Czech Liga,2024,Regular Season - 15,2250,Sigma Olomouc,3719,Slovácko,2,1,0,1,H,1,3
+1210511,2024-11-30 12:30:00,1732969800,Match Finished,FT,345,Czech Liga,2024,Regular Season - 17,3714,Bohemians 1905,3719,Slovácko,3,3,2,1,D,0,6
+1210508,2024-11-30 15:00:00,1732978800,Match Finished,FT,345,Czech Liga,2024,Regular Season - 17,3720,Teplice,2250,Sigma Olomouc,1,0,0,0,H,1,1
+1210513,2024-11-30 15:00:00,1732978800,Match Finished,FT,345,Czech Liga,2024,Regular Season - 17,3713,Baník Ostrava,3716,Karviná,2,1,0,1,H,1,3
+1210509,2024-11-30 18:00:00,1732989600,Match Finished,FT,345,Czech Liga,2024,Regular Season - 17,3715,Dukla Praha,628,Sparta Praha,1,1,0,1,D,0,2
+1210507,2024-12-01 12:00:00,1733054400,Match Finished,FT,345,Czech Liga,2024,Regular Season - 17,560,Slavia Praha,782,Slovan Liberec,1,0,1,0,H,1,1
+1210512,2024-12-01 14:30:00,1733063400,Match Finished,FT,345,Czech Liga,2024,Regular Season - 17,640,Mlada Boleslav,3723,Hradec Králové,3,0,1,0,H,3,3
+1210514,2024-12-01 14:30:00,1733063400,Match Finished,FT,345,Czech Liga,2024,Regular Season - 17,3724,Pardubice,3736,České Budějovice,0,0,0,0,D,0,0
+1210510,2024-12-01 17:30:00,1733074200,Match Finished,FT,345,Czech Liga,2024,Regular Season - 17,567,Plzen,1122,FK Jablonec,3,2,0,2,H,1,5
+1210440,2024-12-03 18:00:00,1733248800,Match Finished,FT,345,Czech Liga,2024,Regular Season - 8,628,Sparta Praha,3716,Karviná,4,1,3,1,H,3,5
+1210436,2024-12-04 16:30:00,1733329800,Match Finished,FT,345,Czech Liga,2024,Regular Season - 8,3724,Pardubice,2250,Sigma Olomouc,2,2,0,1,D,0,4
+1210439,2024-12-04 16:30:00,1733329800,Match Finished,FT,345,Czech Liga,2024,Regular Season - 8,3715,Dukla Praha,3719,Slovácko,1,2,1,0,A,-1,3
+1210442,2024-12-04 16:30:00,1733329800,Match Finished,FT,345,Czech Liga,2024,Regular Season - 8,1122,FK Jablonec,3736,České Budějovice,5,0,4,0,H,5,5
+1210441,2024-12-04 19:00:00,1733338800,Match Finished,FT,345,Czech Liga,2024,Regular Season - 8,3714,Bohemians 1905,3723,Hradec Králové,0,3,0,2,A,-3,3
+1210435,2024-12-05 16:30:00,1733416200,Match Finished,FT,345,Czech Liga,2024,Regular Season - 8,640,Mlada Boleslav,782,Slovan Liberec,1,0,0,0,H,1,1
+1210438,2024-12-05 16:30:00,1733416200,Match Finished,FT,345,Czech Liga,2024,Regular Season - 8,3713,Baník Ostrava,560,Slavia Praha,0,1,0,1,A,-1,1
+1210437,2024-12-05 19:00:00,1733425200,Match Finished,FT,345,Czech Liga,2024,Regular Season - 8,567,Plzen,3720,Teplice,1,1,0,0,D,0,2
+1210518,2024-12-07 12:30:00,1733574600,Match Finished,FT,345,Czech Liga,2024,Regular Season - 18,3719,Slovácko,3724,Pardubice,1,1,1,1,D,0,2
+1210521,2024-12-07 15:00:00,1733583600,Match Finished,FT,345,Czech Liga,2024,Regular Season - 18,1122,FK Jablonec,3715,Dukla Praha,2,1,2,1,H,1,3
+1210522,2024-12-07 18:00:00,1733594400,Match Finished,FT,345,Czech Liga,2024,Regular Season - 18,628,Sparta Praha,3714,Bohemians 1905,1,0,0,0,H,1,1
+1210517,2024-12-08 12:00:00,1733659200,Match Finished,FT,345,Czech Liga,2024,Regular Season - 18,3736,České Budějovice,640,Mlada Boleslav,0,4,0,0,A,-4,4
+1210519,2024-12-08 12:00:00,1733659200,Match Finished,FT,345,Czech Liga,2024,Regular Season - 18,3716,Karviná,567,Plzen,1,2,1,0,A,-1,3
+1210515,2024-12-08 14:30:00,1733668200,Match Finished,FT,345,Czech Liga,2024,Regular Season - 18,2250,Sigma Olomouc,560,Slavia Praha,1,2,1,0,A,-1,3
+1210516,2024-12-08 14:30:00,1733668200,Match Finished,FT,345,Czech Liga,2024,Regular Season - 18,782,Slovan Liberec,3720,Teplice,3,0,1,0,H,3,3
+1210520,2024-12-08 17:30:00,1733679000,Match Finished,FT,345,Czech Liga,2024,Regular Season - 18,3723,Hradec Králové,3713,Baník Ostrava,0,1,0,0,A,-1,1
+1210528,2024-12-14 12:30:00,1734179400,Match Finished,FT,345,Czech Liga,2024,Regular Season - 19,3715,Dukla Praha,3723,Hradec Králové,1,2,0,2,A,-1,3
+1210524,2024-12-14 15:00:00,1734188400,Match Finished,FT,345,Czech Liga,2024,Regular Season - 19,3724,Pardubice,782,Slovan Liberec,1,1,0,0,D,0,2
+1210529,2024-12-14 15:00:00,1734188400,Match Finished,FT,345,Czech Liga,2024,Regular Season - 19,3714,Bohemians 1905,3716,Karviná,3,3,1,3,D,0,6
+1210527,2024-12-14 18:00:00,1734199200,Match Finished,FT,345,Czech Liga,2024,Regular Season - 19,3713,Baník Ostrava,3719,Slovácko,3,1,2,0,H,2,4
+1210526,2024-12-15 12:00:00,1734264000,Match Finished,FT,345,Czech Liga,2024,Regular Season - 19,628,Sparta Praha,1122,FK Jablonec,2,1,0,1,H,1,3
+1210523,2024-12-15 14:30:00,1734273000,Match Finished,FT,345,Czech Liga,2024,Regular Season - 19,640,Mlada Boleslav,2250,Sigma Olomouc,1,3,0,2,A,-2,4
+1210525,2024-12-15 14:30:00,1734273000,Match Finished,FT,345,Czech Liga,2024,Regular Season - 19,3720,Teplice,560,Slavia Praha,1,0,0,0,H,1,1
+1210530,2024-12-15 17:30:00,1734283800,Match Finished,FT,345,Czech Liga,2024,Regular Season - 19,567,Plzen,3736,České Budějovice,7,2,4,1,H,5,9
+1210531,2025-02-01 12:30:00,1738413000,Match Finished,FT,345,Czech Liga,2024,Regular Season - 20,3716,Karviná,3720,Teplice,1,1,1,1,D,0,2
+1210535,2025-02-01 15:00:00,1738422000,Match Finished,FT,345,Czech Liga,2024,Regular Season - 20,782,Slovan Liberec,3713,Baník Ostrava,0,1,0,1,A,-1,1
+1210536,2025-02-01 15:00:00,1738422000,Match Finished,FT,345,Czech Liga,2024,Regular Season - 20,3736,České Budějovice,3715,Dukla Praha,0,0,0,0,D,0,0
+1210533,2025-02-01 18:00:00,1738432800,Match Finished,FT,345,Czech Liga,2024,Regular Season - 20,3723,Hradec Králové,3724,Pardubice,3,0,2,0,H,3,3
+1210538,2025-02-02 12:00:00,1738497600,Match Finished,FT,345,Czech Liga,2024,Regular Season - 20,3719,Slovácko,628,Sparta Praha,0,2,0,2,A,-2,2
+1210537,2025-02-02 14:30:00,1738506600,Match Finished,FT,345,Czech Liga,2024,Regular Season - 20,1122,FK Jablonec,3714,Bohemians 1905,0,1,0,0,A,-1,1
+1210532,2025-02-02 17:30:00,1738517400,Match Finished,FT,345,Czech Liga,2024,Regular Season - 20,560,Slavia Praha,640,Mlada Boleslav,1,0,0,0,H,1,1
+1210534,2025-02-03 17:00:00,1738602000,Match Finished,FT,345,Czech Liga,2024,Regular Season - 20,2250,Sigma Olomouc,567,Plzen,2,1,2,1,H,1,3
+1210542,2025-02-08 12:30:00,1739017800,Match Finished,FT,345,Czech Liga,2024,Regular Season - 21,640,Mlada Boleslav,3720,Teplice,2,1,1,0,H,1,3
+1210541,2025-02-08 15:00:00,1739026800,Match Finished,FT,345,Czech Liga,2024,Regular Season - 21,3724,Pardubice,560,Slavia Praha,0,2,0,0,A,-2,2
+1210539,2025-02-08 18:00:00,1739037600,Match Finished,FT,345,Czech Liga,2024,Regular Season - 21,567,Plzen,782,Slovan Liberec,3,2,2,1,H,1,5
+1210543,2025-02-09 12:00:00,1739102400,Match Finished,FT,345,Czech Liga,2024,Regular Season - 21,1122,FK Jablonec,3719,Slovácko,4,2,1,0,H,2,6
+1210540,2025-02-09 14:30:00,1739111400,Match Finished,FT,345,Czech Liga,2024,Regular Season - 21,3713,Baník Ostrava,2250,Sigma Olomouc,1,0,1,0,H,1,1
+1210546,2025-02-09 14:30:00,1739111400,Match Finished,FT,345,Czech Liga,2024,Regular Season - 21,3714,Bohemians 1905,3736,České Budějovice,1,0,1,0,H,1,1
+1210544,2025-02-09 17:30:00,1739122200,Match Finished,FT,345,Czech Liga,2024,Regular Season - 21,628,Sparta Praha,3723,Hradec Králové,3,0,1,0,H,3,3
+1210548,2025-02-15 12:30:00,1739622600,Match Finished,FT,345,Czech Liga,2024,Regular Season - 22,2250,Sigma Olomouc,3724,Pardubice,4,0,1,0,H,4,4
+1210551,2025-02-15 15:00:00,1739631600,Match Finished,FT,345,Czech Liga,2024,Regular Season - 22,3719,Slovácko,3715,Dukla Praha,0,0,0,0,D,0,0
+1210554,2025-02-15 15:00:00,1739631600,Match Finished,FT,345,Czech Liga,2024,Regular Season - 22,3736,České Budějovice,1122,FK Jablonec,2,3,0,1,A,-1,5
+1210552,2025-02-15 18:00:00,1739642400,Match Finished,FT,345,Czech Liga,2024,Regular Season - 22,3716,Karviná,628,Sparta Praha,2,3,2,2,A,-1,5
+1210553,2025-02-16 12:00:00,1739707200,Match Finished,FT,345,Czech Liga,2024,Regular Season - 22,3723,Hradec Králové,3714,Bohemians 1905,2,2,2,2,D,0,4
+1210547,2025-02-16 14:30:00,1739716200,Match Finished,FT,345,Czech Liga,2024,Regular Season - 22,782,Slovan Liberec,640,Mlada Boleslav,3,1,2,0,H,2,4
+1210549,2025-02-16 14:30:00,1739716200,Match Finished,FT,345,Czech Liga,2024,Regular Season - 22,3720,Teplice,567,Plzen,0,2,0,2,A,-2,2
+1210550,2025-02-16 17:30:00,1739727000,Match Finished,FT,345,Czech Liga,2024,Regular Season - 22,560,Slavia Praha,3713,Baník Ostrava,1,0,1,0,H,1,1
+1210556,2025-02-22 12:30:00,1740227400,Match Finished,FT,345,Czech Liga,2024,Regular Season - 23,3715,Dukla Praha,2250,Sigma Olomouc,1,3,0,1,A,-2,4
+1210558,2025-02-22 15:00:00,1740236400,Match Finished,FT,345,Czech Liga,2024,Regular Season - 23,3713,Baník Ostrava,3720,Teplice,2,0,0,0,H,2,2
+1210559,2025-02-22 15:00:00,1740236400,Match Finished,FT,345,Czech Liga,2024,Regular Season - 23,3724,Pardubice,640,Mlada Boleslav,0,3,0,2,A,-3,3
+1210561,2025-02-22 18:00:00,1740247200,Match Finished,FT,345,Czech Liga,2024,Regular Season - 23,628,Sparta Praha,3736,České Budějovice,2,1,0,0,H,1,3
+1210555,2025-02-23 12:00:00,1740312000,Match Finished,FT,345,Czech Liga,2024,Regular Season - 23,3714,Bohemians 1905,782,Slovan Liberec,0,0,0,0,D,0,0
+1210562,2025-02-23 14:30:00,1740321000,Match Finished,FT,345,Czech Liga,2024,Regular Season - 23,1122,FK Jablonec,3716,Karviná,5,0,2,0,H,5,5
+1210557,2025-02-23 17:30:00,1740331800,Match Finished,FT,345,Czech Liga,2024,Regular Season - 23,567,Plzen,560,Slavia Praha,1,3,1,2,A,-2,4
+1210567,2025-03-01 12:30:00,1740832200,Match Finished,FT,345,Czech Liga,2024,Regular Season - 24,3736,České Budějovice,3713,Baník Ostrava,0,4,0,2,A,-4,4
+1210568,2025-03-01 15:00:00,1740841200,Match Finished,FT,345,Czech Liga,2024,Regular Season - 24,2250,Sigma Olomouc,628,Sparta Praha,1,2,1,1,A,-1,3
+1210569,2025-03-01 15:00:00,1740841200,Match Finished,FT,345,Czech Liga,2024,Regular Season - 24,3723,Hradec Králové,1122,FK Jablonec,1,1,0,1,D,0,2
+1210563,2025-03-01 18:00:00,1740852000,Match Finished,FT,345,Czech Liga,2024,Regular Season - 24,3720,Teplice,3724,Pardubice,2,0,1,0,H,2,2
+1210566,2025-03-02 12:00:00,1740916800,Match Finished,FT,345,Czech Liga,2024,Regular Season - 24,782,Slovan Liberec,3715,Dukla Praha,1,1,1,0,D,0,2
+1210564,2025-03-02 14:30:00,1740925800,Match Finished,FT,345,Czech Liga,2024,Regular Season - 24,640,Mlada Boleslav,567,Plzen,0,2,0,1,A,-2,2
+1210570,2025-03-02 14:30:00,1740925800,Match Finished,FT,345,Czech Liga,2024,Regular Season - 24,3716,Karviná,3719,Slovácko,2,0,0,0,H,2,2
+1210565,2025-03-02 17:30:00,1740936600,Match Finished,FT,345,Czech Liga,2024,Regular Season - 24,560,Slavia Praha,3714,Bohemians 1905,2,0,0,0,H,2,2
+1210574,2025-03-08 12:30:00,1741437000,Match Finished,FT,345,Czech Liga,2024,Regular Season - 25,3715,Dukla Praha,3720,Teplice,1,1,1,0,D,0,2
+1210571,2025-03-08 15:00:00,1741446000,Match Finished,FT,345,Czech Liga,2024,Regular Season - 25,1122,FK Jablonec,782,Slovan Liberec,0,0,0,0,D,0,0
+1210578,2025-03-08 15:00:00,1741446000,Match Finished,FT,345,Czech Liga,2024,Regular Season - 25,3719,Slovácko,3736,České Budějovice,2,1,1,1,H,1,3
+1210573,2025-03-08 18:00:00,1741456800,Match Finished,FT,345,Czech Liga,2024,Regular Season - 25,628,Sparta Praha,560,Slavia Praha,2,0,0,0,H,2,2
+1210575,2025-03-09 12:00:00,1741521600,Match Finished,FT,345,Czech Liga,2024,Regular Season - 25,3713,Baník Ostrava,640,Mlada Boleslav,2,1,2,1,H,1,3
+1210572,2025-03-09 14:30:00,1741530600,Match Finished,FT,345,Czech Liga,2024,Regular Season - 25,3714,Bohemians 1905,2250,Sigma Olomouc,0,1,0,1,A,-1,1
+1210577,2025-03-09 14:30:00,1741530600,Match Finished,FT,345,Czech Liga,2024,Regular Season - 25,3723,Hradec Králové,3716,Karviná,1,1,1,1,D,0,2
+1210576,2025-03-09 17:30:00,1741541400,Match Finished,FT,345,Czech Liga,2024,Regular Season - 25,3724,Pardubice,567,Plzen,0,0,0,0,D,0,0
+1210545,2025-03-12 17:00:00,1741798800,Match Finished,FT,345,Czech Liga,2024,Regular Season - 21,3715,Dukla Praha,3716,Karviná,0,0,0,0,D,0,0
+1210581,2025-03-15 12:30:00,1742041800,Match Finished,FT,345,Czech Liga,2024,Regular Season - 26,640,Mlada Boleslav,3714,Bohemians 1905,1,2,0,2,A,-1,3
+1210580,2025-03-15 15:00:00,1742050800,Match Finished,FT,345,Czech Liga,2024,Regular Season - 26,3724,Pardubice,3715,Dukla Praha,0,1,0,0,A,-1,1
+1210584,2025-03-15 15:00:00,1742050800,Match Finished,FT,345,Czech Liga,2024,Regular Season - 26,3720,Teplice,3719,Slovácko,1,0,0,0,H,1,1
+1210583,2025-03-15 18:00:00,1742061600,Match Finished,FT,345,Czech Liga,2024,Regular Season - 26,782,Slovan Liberec,628,Sparta Praha,1,0,0,0,H,1,1
+1210585,2025-03-16 12:00:00,1742126400,Match Finished,FT,345,Czech Liga,2024,Regular Season - 26,2250,Sigma Olomouc,3723,Hradec Králové,1,2,0,2,A,-1,3
+1210579,2025-03-16 14:30:00,1742135400,Match Finished,FT,345,Czech Liga,2024,Regular Season - 26,567,Plzen,3713,Baník Ostrava,0,1,0,1,A,-1,1
+1210586,2025-03-16 14:30:00,1742135400,Match Finished,FT,345,Czech Liga,2024,Regular Season - 26,3736,České Budějovice,3716,Karviná,2,3,2,1,A,-1,5
+1210582,2025-03-16 17:30:00,1742146200,Match Finished,FT,345,Czech Liga,2024,Regular Season - 26,560,Slavia Praha,1122,FK Jablonec,3,0,3,0,H,3,3
+1210588,2025-03-29 12:30:00,1743251400,Match Finished,FT,345,Czech Liga,2024,Regular Season - 27,1122,FK Jablonec,2250,Sigma Olomouc,0,0,0,0,D,0,0
+1210590,2025-03-29 15:00:00,1743260400,Match Finished,FT,345,Czech Liga,2024,Regular Season - 27,3714,Bohemians 1905,3720,Teplice,1,1,0,1,D,0,2
+1210592,2025-03-29 15:00:00,1743260400,Match Finished,FT,345,Czech Liga,2024,Regular Season - 27,3713,Baník Ostrava,3724,Pardubice,5,2,2,1,H,3,7
+1210589,2025-03-29 18:00:00,1743271200,Match Finished,FT,345,Czech Liga,2024,Regular Season - 27,3715,Dukla Praha,560,Slavia Praha,0,0,0,0,D,0,0
+1210587,2025-03-30 11:00:00,1743332400,Match Finished,FT,345,Czech Liga,2024,Regular Season - 27,3719,Slovácko,782,Slovan Liberec,0,4,0,4,A,-4,4
+1210591,2025-03-30 13:30:00,1743341400,Match Finished,FT,345,Czech Liga,2024,Regular Season - 27,3716,Karviná,640,Mlada Boleslav,3,1,1,1,H,2,4
+1210594,2025-03-30 13:30:00,1743341400,Match Finished,FT,345,Czech Liga,2024,Regular Season - 27,3723,Hradec Králové,3736,České Budějovice,1,0,1,0,H,1,1
+1210593,2025-03-30 16:30:00,1743352200,Match Finished,FT,345,Czech Liga,2024,Regular Season - 27,628,Sparta Praha,567,Plzen,2,4,1,2,A,-2,6
+1210596,2025-04-05 11:30:00,1743852600,Match Finished,FT,345,Czech Liga,2024,Regular Season - 28,3724,Pardubice,3714,Bohemians 1905,2,0,1,0,H,2,2
+1210601,2025-04-05 11:30:00,1743852600,Match Finished,FT,345,Czech Liga,2024,Regular Season - 28,2250,Sigma Olomouc,3716,Karviná,1,2,1,1,A,-1,3
+1210597,2025-04-05 14:00:00,1743861600,Match Finished,FT,345,Czech Liga,2024,Regular Season - 28,3713,Baník Ostrava,628,Sparta Praha,1,1,1,0,D,0,2
+1210602,2025-04-05 14:00:00,1743861600,Match Finished,FT,345,Czech Liga,2024,Regular Season - 28,782,Slovan Liberec,3736,České Budějovice,2,0,1,0,H,2,2
+1210600,2025-04-05 17:00:00,1743872400,Match Finished,FT,345,Czech Liga,2024,Regular Season - 28,560,Slavia Praha,3723,Hradec Králové,2,1,1,1,H,1,3
+1210598,2025-04-06 11:00:00,1743937200,Match Finished,FT,345,Czech Liga,2024,Regular Season - 28,3720,Teplice,1122,FK Jablonec,0,1,0,1,A,-1,1
+1210595,2025-04-06 13:30:00,1743946200,Match Finished,FT,345,Czech Liga,2024,Regular Season - 28,640,Mlada Boleslav,3715,Dukla Praha,0,1,0,0,A,-1,1
+1210599,2025-04-06 16:30:00,1743957000,Match Finished,FT,345,Czech Liga,2024,Regular Season - 28,567,Plzen,3719,Slovácko,2,0,2,0,H,2,2
+1210560,2025-04-09 16:00:00,1744214400,Match Finished,FT,345,Czech Liga,2024,Regular Season - 23,3719,Slovácko,3723,Hradec Králové,1,5,0,3,A,-4,6
+1210609,2025-04-12 14:00:00,1744466400,Match Finished,FT,345,Czech Liga,2024,Regular Season - 29,3716,Karviná,560,Slavia Praha,0,4,0,2,A,-4,4
+1210603,2025-04-12 17:00:00,1744477200,Match Finished,FT,345,Czech Liga,2024,Regular Season - 29,3715,Dukla Praha,3713,Baník Ostrava,1,2,1,1,A,-1,3
+1210606,2025-04-13 11:00:00,1744542000,Match Finished,FT,345,Czech Liga,2024,Regular Season - 29,1122,FK Jablonec,3724,Pardubice,1,0,0,0,H,1,1
+1210610,2025-04-13 11:00:00,1744542000,Match Finished,FT,345,Czech Liga,2024,Regular Season - 29,3736,České Budějovice,3720,Teplice,1,1,1,0,D,0,2
+1210605,2025-04-13 13:30:00,1744551000,Match Finished,FT,345,Czech Liga,2024,Regular Season - 29,628,Sparta Praha,640,Mlada Boleslav,2,0,1,0,H,2,2
+1210607,2025-04-13 13:30:00,1744551000,Match Finished,FT,345,Czech Liga,2024,Regular Season - 29,3719,Slovácko,2250,Sigma Olomouc,2,2,1,1,D,0,4
+1210604,2025-04-13 16:30:00,1744561800,Match Finished,FT,345,Czech Liga,2024,Regular Season - 29,3714,Bohemians 1905,567,Plzen,1,2,0,1,A,-1,3
+1210608,2025-04-13 16:30:00,1744561800,Match Finished,FT,345,Czech Liga,2024,Regular Season - 29,3723,Hradec Králové,782,Slovan Liberec,0,2,0,1,A,-2,2
+1210611,2025-04-19 14:00:00,1745071200,Match Finished,FT,345,Czech Liga,2024,Regular Season - 30,782,Slovan Liberec,3716,Karviná,2,3,1,1,A,-1,5
+1210612,2025-04-19 14:00:00,1745071200,Match Finished,FT,345,Czech Liga,2024,Regular Season - 30,3713,Baník Ostrava,3714,Bohemians 1905,1,0,1,0,H,1,1
+1210613,2025-04-19 14:00:00,1745071200,Match Finished,FT,345,Czech Liga,2024,Regular Season - 30,2250,Sigma Olomouc,3736,České Budějovice,3,0,1,0,H,3,3
+1210614,2025-04-19 14:00:00,1745071200,Match Finished,FT,345,Czech Liga,2024,Regular Season - 30,560,Slavia Praha,3719,Slovácko,2,0,1,0,H,2,2
+1210615,2025-04-19 14:00:00,1745071200,Match Finished,FT,345,Czech Liga,2024,Regular Season - 30,3720,Teplice,3723,Hradec Králové,1,0,0,0,H,1,1
+1210616,2025-04-19 14:00:00,1745071200,Match Finished,FT,345,Czech Liga,2024,Regular Season - 30,640,Mlada Boleslav,1122,FK Jablonec,0,1,0,1,A,-1,1
+1210617,2025-04-19 14:00:00,1745071200,Match Finished,FT,345,Czech Liga,2024,Regular Season - 30,3724,Pardubice,628,Sparta Praha,1,2,0,1,A,-1,3
+1210618,2025-04-19 14:00:00,1745071200,Match Finished,FT,345,Czech Liga,2024,Regular Season - 30,567,Plzen,3715,Dukla Praha,4,2,2,1,H,2,6
+1372306,2025-04-26 11:30:00,1745667000,Match Finished,FT,345,Czech Liga,2024,Relegation Round - 1,3736,České Budějovice,640,Mlada Boleslav,1,2,0,0,A,-1,3
+1372307,2025-04-26 14:00:00,1745676000,Match Finished,FT,345,Czech Liga,2024,Relegation Round - 1,3719,Slovácko,3724,Pardubice,1,0,0,0,H,1,1
+1372291,2025-04-26 17:00:00,1745686800,Match Finished,FT,345,Czech Liga,2024,Championship Round - 1,2250,Sigma Olomouc,560,Slavia Praha,0,5,0,1,A,-5,5
+1372308,2025-04-27 11:00:00,1745751600,Match Finished,FT,345,Czech Liga,2024,Relegation Round - 1,3720,Teplice,3715,Dukla Praha,2,2,1,2,D,0,4
+1372292,2025-04-27 13:30:00,1745760600,Match Finished,FT,345,Czech Liga,2024,Championship Round - 1,3713,Baník Ostrava,1122,FK Jablonec,1,2,0,2,A,-1,3
+1372293,2025-04-27 16:30:00,1745771400,Match Finished,FT,345,Czech Liga,2024,Championship Round - 1,567,Plzen,628,Sparta Praha,2,0,1,0,H,2,2
+1372287,2025-05-03 11:30:00,1746271800,Match Finished,FT,345,Czech Liga,2024,Middle Play-offs - Semi-finals,3723,Hradec Králové,3716,Karviná,1,0,0,0,H,1,1
+1372309,2025-05-03 11:30:00,1746271800,Match Finished,FT,345,Czech Liga,2024,Relegation Round - 2,3715,Dukla Praha,3724,Pardubice,2,0,0,0,H,2,2
+1372294,2025-05-03 14:00:00,1746280800,Match Finished,FT,345,Czech Liga,2024,Championship Round - 2,560,Slavia Praha,567,Plzen,4,3,1,2,H,1,7
+1372295,2025-05-03 17:00:00,1746291600,Match Finished,FT,345,Czech Liga,2024,Championship Round - 2,3713,Baník Ostrava,2250,Sigma Olomouc,0,0,0,0,D,0,0
+1372310,2025-05-04 11:00:00,1746356400,Match Finished,FT,345,Czech Liga,2024,Relegation Round - 2,3719,Slovácko,3736,České Budějovice,0,0,0,0,D,0,0
+1372289,2025-05-04 13:30:00,1746365400,Match Finished,FT,345,Czech Liga,2024,Middle Play-offs - Semi-finals,3714,Bohemians 1905,782,Slovan Liberec,4,1,3,0,H,3,5
+1372311,2025-05-04 13:30:00,1746365400,Match Finished,FT,345,Czech Liga,2024,Relegation Round - 2,640,Mlada Boleslav,3720,Teplice,1,0,0,0,H,1,1
+1372296,2025-05-04 16:30:00,1746376200,Match Finished,FT,345,Czech Liga,2024,Championship Round - 2,628,Sparta Praha,1122,FK Jablonec,1,3,0,2,A,-2,4
+1372312,2025-05-10 11:30:00,1746876600,Match Finished,FT,345,Czech Liga,2024,Relegation Round - 3,3724,Pardubice,3736,České Budějovice,1,0,0,0,H,1,1
+1372288,2025-05-10 14:00:00,1746885600,Match Finished,FT,345,Czech Liga,2024,Middle Play-offs - Semi-finals,3716,Karviná,3723,Hradec Králové,0,4,0,3,A,-4,4
+1372299,2025-05-10 14:00:00,1746885600,Match Finished,FT,345,Czech Liga,2024,Championship Round - 3,1122,FK Jablonec,2250,Sigma Olomouc,4,0,2,0,H,4,4
+1372298,2025-05-10 17:00:00,1746896400,Match Finished,FT,345,Czech Liga,2024,Championship Round - 3,560,Slavia Praha,628,Sparta Praha,2,1,1,0,H,1,3
+1372313,2025-05-11 11:00:00,1746961200,Match Finished,FT,345,Czech Liga,2024,Relegation Round - 3,3720,Teplice,3719,Slovácko,1,0,0,0,H,1,1
+1372290,2025-05-11 13:00:00,1746968400,Match Finished,FT,345,Czech Liga,2024,Middle Play-offs - Semi-finals,782,Slovan Liberec,3714,Bohemians 1905,1,0,0,0,H,1,1
+1372314,2025-05-11 13:00:00,1746968400,Match Finished,FT,345,Czech Liga,2024,Relegation Round - 3,640,Mlada Boleslav,3715,Dukla Praha,2,3,1,1,A,-1,5
+1372297,2025-05-11 15:30:00,1746977400,Match Finished,FT,345,Czech Liga,2024,Championship Round - 3,567,Plzen,3713,Baník Ostrava,1,2,0,0,A,-1,3
+1372315,2025-05-17 15:00:00,1747494000,Match Finished,FT,345,Czech Liga,2024,Relegation Round - 4,3724,Pardubice,640,Mlada Boleslav,2,1,1,1,H,1,3
+1372316,2025-05-17 15:00:00,1747494000,Match Finished,FT,345,Czech Liga,2024,Relegation Round - 4,3736,České Budějovice,3720,Teplice,0,3,0,1,A,-3,3
+1372317,2025-05-17 15:00:00,1747494000,Match Finished,FT,345,Czech Liga,2024,Relegation Round - 4,3719,Slovácko,3715,Dukla Praha,3,2,0,1,H,1,5
+1375252,2025-05-18 12:30:00,1747571400,Match Finished,FT,345,Czech Liga,2024,Middle Play-offs - Final,3714,Bohemians 1905,3723,Hradec Králové,1,0,1,0,H,1,1
+1372300,2025-05-18 15:00:00,1747580400,Match Finished,FT,345,Czech Liga,2024,Championship Round - 4,1122,FK Jablonec,560,Slavia Praha,3,2,0,1,H,1,5
+1372301,2025-05-18 15:00:00,1747580400,Match Finished,FT,345,Czech Liga,2024,Championship Round - 4,2250,Sigma Olomouc,567,Plzen,1,2,1,0,A,-1,3
+1372302,2025-05-18 15:00:00,1747580400,Match Finished,FT,345,Czech Liga,2024,Championship Round - 4,3713,Baník Ostrava,628,Sparta Praha,3,2,3,0,H,1,5
+1372303,2025-05-24 14:00:00,1748095200,Match Finished,FT,345,Czech Liga,2024,Championship Round - 5,560,Slavia Praha,3713,Baník Ostrava,3,0,2,0,H,3,3
+1372304,2025-05-24 14:00:00,1748095200,Match Finished,FT,345,Czech Liga,2024,Championship Round - 5,567,Plzen,1122,FK Jablonec,4,1,3,0,H,3,5
+1372305,2025-05-24 14:00:00,1748095200,Match Finished,FT,345,Czech Liga,2024,Championship Round - 5,628,Sparta Praha,2250,Sigma Olomouc,1,1,0,0,D,0,2
+1375253,2025-05-25 11:30:00,1748172600,Match Finished,FT,345,Czech Liga,2024,Middle Play-offs - Final,3723,Hradec Králové,3714,Bohemians 1905,2,0,1,0,H,2,2
+1372318,2025-05-25 14:00:00,1748181600,Match Finished,FT,345,Czech Liga,2024,Relegation Round - 5,640,Mlada Boleslav,3719,Slovácko,2,2,0,0,D,0,4
+1372319,2025-05-25 14:00:00,1748181600,Match Finished,FT,345,Czech Liga,2024,Relegation Round - 5,3720,Teplice,3724,Pardubice,3,0,1,0,H,3,3
+1372320,2025-05-25 14:00:00,1748181600,Match Finished,FT,345,Czech Liga,2024,Relegation Round - 5,3715,Dukla Praha,3736,České Budějovice,2,1,2,1,H,1,3
+1376688,2025-05-28 16:00:00,1748448000,Match Finished,FT,345,Czech Liga,2024,Relegation Round,3724,Pardubice,3722,Chrudim,2,0,0,0,H,2,2
+1376690,2025-05-28 16:00:00,1748448000,Match Finished,FT,345,Czech Liga,2024,Relegation Round,7379,Vyškov,3715,Dukla Praha,0,0,0,0,D,0,0
+1376689,2025-06-01 13:00:00,1748782800,Match Finished,FT,345,Czech Liga,2024,Relegation Round,3722,Chrudim,3724,Pardubice,1,0,0,0,H,1,1
+1376691,2025-06-01 13:00:00,1748782800,Match Finished,PEN,345,Czech Liga,2024,Relegation Round,3715,Dukla Praha,7379,Vyškov,1,1,0,1,D,0,2

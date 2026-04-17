@@ -1,0 +1,570 @@
+{
+  "get": "leagues",
+  "parameters": {
+    "country": "Czech-Republic",
+    "season": "2024"
+  },
+  "errors": [],
+  "results": 15,
+  "paging": {
+    "current": 1,
+    "total": 1
+  },
+  "response": [
+    {
+      "league": {
+        "id": 345,
+        "name": "Czech Liga",
+        "type": "League",
+        "logo": "https://media.api-sports.io/football/leagues/345.png"
+      },
+      "country": {
+        "name": "Czech-Republic",
+        "code": "CZ",
+        "flag": "https://media.api-sports.io/flags/cz.svg"
+      },
+      "seasons": [
+        {
+          "year": 2024,
+          "start": "2024-07-19",
+          "end": "2025-06-01",
+          "current": false,
+          "coverage": {
+            "fixtures": {
+              "events": true,
+              "lineups": true,
+              "statistics_fixtures": true,
+              "statistics_players": true
+            },
+            "standings": true,
+            "players": true,
+            "top_scorers": true,
+            "top_assists": true,
+            "top_cards": true,
+            "injuries": false,
+            "predictions": true,
+            "odds": false
+          }
+        }
+      ]
+    },
+    {
+      "league": {
+        "id": 346,
+        "name": "FNL",
+        "type": "League",
+        "logo": "https://media.api-sports.io/football/leagues/346.png"
+      },
+      "country": {
+        "name": "Czech-Republic",
+        "code": "CZ",
+        "flag": "https://media.api-sports.io/flags/cz.svg"
+      },
+      "seasons": [
+        {
+          "year": 2024,
+          "start": "2024-07-20",
+          "end": "2025-05-24",
+          "current": false,
+          "coverage": {
+            "fixtures": {
+              "events": true,
+              "lineups": true,
+              "statistics_fixtures": false,
+              "statistics_players": false
+            },
+            "standings": true,
+            "players": true,
+            "top_scorers": true,
+            "top_assists": true,
+            "top_cards": true,
+            "injuries": false,
+            "predictions": true,
+            "odds": false
+          }
+        }
+      ]
+    },
+    {
+      "league": {
+        "id": 669,
+        "name": "1. Liga Women",
+        "type": "League",
+        "logo": "https://media.api-sports.io/football/leagues/669.png"
+      },
+      "country": {
+        "name": "Czech-Republic",
+        "code": "CZ",
+        "flag": "https://media.api-sports.io/flags/cz.svg"
+      },
+      "seasons": [
+        {
+          "year": 2024,
+          "start": "2024-08-17",
+          "end": "2025-05-24",
+          "current": false,
+          "coverage": {
+            "fixtures": {
+              "events": false,
+              "lineups": false,
+              "statistics_fixtures": false,
+              "statistics_players": false
+            },
+            "standings": true,
+            "players": true,
+            "top_scorers": true,
+            "top_assists": true,
+            "top_cards": true,
+            "injuries": false,
+            "predictions": true,
+            "odds": false
+          }
+        }
+      ]
+    },
+    {
+      "league": {
+        "id": 349,
+        "name": "3. liga - MSFL",
+        "type": "League",
+        "logo": "https://media.api-sports.io/football/leagues/349.png"
+      },
+      "country": {
+        "name": "Czech-Republic",
+        "code": "CZ",
+        "flag": "https://media.api-sports.io/flags/cz.svg"
+      },
+      "seasons": [
+        {
+          "year": 2024,
+          "start": "2024-08-02",
+          "end": "2025-06-15",
+          "current": false,
+          "coverage": {
+            "fixtures": {
+              "events": true,
+              "lineups": false,
+              "statistics_fixtures": false,
+              "statistics_players": false
+            },
+            "standings": true,
+            "players": true,
+            "top_scorers": true,
+            "top_assists": true,
+            "top_cards": true,
+            "injuries": false,
+            "predictions": true,
+            "odds": false
+          }
+        }
+      ]
+    },
+    {
+      "league": {
+        "id": 348,
+        "name": "3. liga - CFL A",
+        "type": "League",
+        "logo": "https://media.api-sports.io/football/leagues/348.png"
+      },
+      "country": {
+        "name": "Czech-Republic",
+        "code": "CZ",
+        "flag": "https://media.api-sports.io/flags/cz.svg"
+      },
+      "seasons": [
+        {
+          "year": 2024,
+          "start": "2024-08-09",
+          "end": "2025-06-07",
+          "current": false,
+          "coverage": {
+            "fixtures": {
+              "events": true,
+              "lineups": false,
+              "statistics_fixtures": false,
+              "statistics_players": false
+            },
+            "standings": true,
+            "players": true,
+            "top_scorers": true,
+            "top_assists": true,
+            "top_cards": true,
+            "injuries": false,
+            "predictions": true,
+            "odds": false
+          }
+        }
+      ]
+    },
+    {
+      "league": {
+        "id": 685,
+        "name": "3. liga - CFL B",
+        "type": "League",
+        "logo": "https://media.api-sports.io/football/leagues/685.png"
+      },
+      "country": {
+        "name": "Czech-Republic",
+        "code": "CZ",
+        "flag": "https://media.api-sports.io/flags/cz.svg"
+      },
+      "seasons": [
+        {
+          "year": 2024,
+          "start": "2024-08-10",
+          "end": "2025-06-07",
+          "current": false,
+          "coverage": {
+            "fixtures": {
+              "events": true,
+              "lineups": false,
+              "statistics_fixtures": false,
+              "statistics_players": false
+            },
+            "standings": true,
+            "players": true,
+            "top_scorers": true,
+            "top_assists": true,
+            "top_cards": true,
+            "injuries": false,
+            "predictions": true,
+            "odds": false
+          }
+        }
+      ]
+    },
+    {
+      "league": {
+        "id": 668,
+        "name": "1. Liga U19",
+        "type": "League",
+        "logo": "https://media.api-sports.io/football/leagues/668.png"
+      },
+      "country": {
+        "name": "Czech-Republic",
+        "code": "CZ",
+        "flag": "https://media.api-sports.io/flags/cz.svg"
+      },
+      "seasons": [
+        {
+          "year": 2024,
+          "start": "2024-08-09",
+          "end": "2025-06-14",
+          "current": false,
+          "coverage": {
+            "fixtures": {
+              "events": true,
+              "lineups": false,
+              "statistics_fixtures": false,
+              "statistics_players": false
+            },
+            "standings": true,
+            "players": true,
+            "top_scorers": true,
+            "top_assists": true,
+            "top_cards": true,
+            "injuries": false,
+            "predictions": true,
+            "odds": false
+          }
+        }
+      ]
+    },
+    {
+      "league": {
+        "id": 686,
+        "name": "4. liga - Divizie F",
+        "type": "League",
+        "logo": "https://media.api-sports.io/football/leagues/686.png"
+      },
+      "country": {
+        "name": "Czech-Republic",
+        "code": "CZ",
+        "flag": "https://media.api-sports.io/flags/cz.svg"
+      },
+      "seasons": [
+        {
+          "year": 2024,
+          "start": "2024-08-03",
+          "end": "2025-06-15",
+          "current": false,
+          "coverage": {
+            "fixtures": {
+              "events": false,
+              "lineups": false,
+              "statistics_fixtures": false,
+              "statistics_players": false
+            },
+            "standings": true,
+            "players": true,
+            "top_scorers": true,
+            "top_assists": true,
+            "top_cards": true,
+            "injuries": false,
+            "predictions": true,
+            "odds": false
+          }
+        }
+      ]
+    },
+    {
+      "league": {
+        "id": 354,
+        "name": "4. liga - Divizie E",
+        "type": "League",
+        "logo": "https://media.api-sports.io/football/leagues/354.png"
+      },
+      "country": {
+        "name": "Czech-Republic",
+        "code": "CZ",
+        "flag": "https://media.api-sports.io/flags/cz.svg"
+      },
+      "seasons": [
+        {
+          "year": 2024,
+          "start": "2024-08-02",
+          "end": "2025-06-15",
+          "current": false,
+          "coverage": {
+            "fixtures": {
+              "events": false,
+              "lineups": false,
+              "statistics_fixtures": false,
+              "statistics_players": false
+            },
+            "standings": true,
+            "players": true,
+            "top_scorers": true,
+            "top_assists": true,
+            "top_cards": true,
+            "injuries": false,
+            "predictions": true,
+            "odds": false
+          }
+        }
+      ]
+    },
+    {
+      "league": {
+        "id": 353,
+        "name": "4. liga - Divizie D",
+        "type": "League",
+        "logo": "https://media.api-sports.io/football/leagues/353.png"
+      },
+      "country": {
+        "name": "Czech-Republic",
+        "code": "CZ",
+        "flag": "https://media.api-sports.io/flags/cz.svg"
+      },
+      "seasons": [
+        {
+          "year": 2024,
+          "start": "2024-08-02",
+          "end": "2025-06-15",
+          "current": false,
+          "coverage": {
+            "fixtures": {
+              "events": true,
+              "lineups": false,
+              "statistics_fixtures": false,
+              "statistics_players": false
+            },
+            "standings": true,
+            "players": true,
+            "top_scorers": true,
+            "top_assists": true,
+            "top_cards": true,
+            "injuries": false,
+            "predictions": true,
+            "odds": false
+          }
+        }
+      ]
+    },
+    {
+      "league": {
+        "id": 352,
+        "name": "4. liga - Divizie C",
+        "type": "League",
+        "logo": "https://media.api-sports.io/football/leagues/352.png"
+      },
+      "country": {
+        "name": "Czech-Republic",
+        "code": "CZ",
+        "flag": "https://media.api-sports.io/flags/cz.svg"
+      },
+      "seasons": [
+        {
+          "year": 2024,
+          "start": "2024-08-09",
+          "end": "2025-06-14",
+          "current": false,
+          "coverage": {
+            "fixtures": {
+              "events": true,
+              "lineups": false,
+              "statistics_fixtures": false,
+              "statistics_players": false
+            },
+            "standings": true,
+            "players": true,
+            "top_scorers": true,
+            "top_assists": true,
+            "top_cards": true,
+            "injuries": false,
+            "predictions": true,
+            "odds": false
+          }
+        }
+      ]
+    },
+    {
+      "league": {
+        "id": 351,
+        "name": "4. liga - Divizie B",
+        "type": "League",
+        "logo": "https://media.api-sports.io/football/leagues/351.png"
+      },
+      "country": {
+        "name": "Czech-Republic",
+        "code": "CZ",
+        "flag": "https://media.api-sports.io/flags/cz.svg"
+      },
+      "seasons": [
+        {
+          "year": 2024,
+          "start": "2024-08-09",
+          "end": "2025-06-15",
+          "current": false,
+          "coverage": {
+            "fixtures": {
+              "events": false,
+              "lineups": false,
+              "statistics_fixtures": false,
+              "statistics_players": false
+            },
+            "standings": true,
+            "players": true,
+            "top_scorers": true,
+            "top_assists": true,
+            "top_cards": true,
+            "injuries": false,
+            "predictions": true,
+            "odds": false
+          }
+        }
+      ]
+    },
+    {
+      "league": {
+        "id": 350,
+        "name": "4. liga - Divizie A",
+        "type": "League",
+        "logo": "https://media.api-sports.io/football/leagues/350.png"
+      },
+      "country": {
+        "name": "Czech-Republic",
+        "code": "CZ",
+        "flag": "https://media.api-sports.io/flags/cz.svg"
+      },
+      "seasons": [
+        {
+          "year": 2024,
+          "start": "2024-08-09",
+          "end": "2025-06-14",
+          "current": false,
+          "coverage": {
+            "fixtures": {
+              "events": false,
+              "lineups": false,
+              "statistics_fixtures": false,
+              "statistics_players": false
+            },
+            "standings": true,
+            "players": true,
+            "top_scorers": true,
+            "top_assists": true,
+            "top_cards": true,
+            "injuries": false,
+            "predictions": true,
+            "odds": false
+          }
+        }
+      ]
+    },
+    {
+      "league": {
+        "id": 347,
+        "name": "Cup",
+        "type": "Cup",
+        "logo": "https://media.api-sports.io/football/leagues/347.png"
+      },
+      "country": {
+        "name": "Czech-Republic",
+        "code": "CZ",
+        "flag": "https://media.api-sports.io/flags/cz.svg"
+      },
+      "seasons": [
+        {
+          "year": 2024,
+          "start": "2024-07-20",
+          "end": "2025-05-13",
+          "current": false,
+          "coverage": {
+            "fixtures": {
+              "events": true,
+              "lineups": true,
+              "statistics_fixtures": false,
+              "statistics_players": false
+            },
+            "standings": false,
+            "players": true,
+            "top_scorers": true,
+            "top_assists": true,
+            "top_cards": true,
+            "injuries": false,
+            "predictions": true,
+            "odds": false
+          }
+        }
+      ]
+    },
+    {
+      "league": {
+        "id": 1010,
+        "name": "3. liga - Promotion Play-off",
+        "type": "League",
+        "logo": "https://media.api-sports.io/football/leagues/1010.png"
+      },
+      "country": {
+        "name": "Czech-Republic",
+        "code": "CZ",
+        "flag": "https://media.api-sports.io/flags/cz.svg"
+      },
+      "seasons": [
+        {
+          "year": 2024,
+          "start": "2025-06-11",
+          "end": "2025-06-14",
+          "current": true,
+          "coverage": {
+            "fixtures": {
+              "events": true,
+              "lineups": false,
+              "statistics_fixtures": false,
+              "statistics_players": false
+            },
+            "standings": false,
+            "players": true,
+            "top_scorers": true,
+            "top_assists": true,
+            "top_cards": true,
+            "injuries": false,
+            "predictions": true,
+            "odds": false
+          }
+        }
+      ]
+    }
+  ]
+}
