@@ -1,36 +1,51 @@
-# Match Prediction Project Guide
+# Match Prediction: Bundesliga Forecasting Workflow
 
-## Project Goal
+This section of the practical thesis is focused on building and evaluating predictive models for matches in the current German Bundesliga season. The project combines classical machine learning, a double Poisson approach, and a benchmark against betting-market probabilities.
 
-This project builds and evaluates predictive models for Bundesliga match outcomes.
-The workflow includes:
+## Main Goal
 
-- multiclass ML models for `1X2`,
-- binary ML models for `home win` vs `away not lose`,
-- multiclass double Poisson models,
-- binary double Poisson models,
-- market benchmark preparation from pre-match odds.
+The aim is to build a reproducible pipeline that:
 
-The project is notebook-driven, but the main preprocessing, modeling, and persistence logic lives in `src`.
+- prepares a unified match-level dataset from multiple sources,
+- creates strictly pre-match variables without data leakage,
+- compares multiclass and binary modeling approaches,
+- evaluates models against market odds,
+- stores the best models for later reuse,
+- produces predictions for the next Bundesliga matchday without retraining the full workflow.
 
-## Folder Structure
+## Analytical Layers of the Project
 
-- `notebooks/`
-  Contains the main analysis and modeling notebooks.
-- `src/`
-  Shared Python helpers for preprocessing, modeling, odds processing, and artifact persistence.
-- `data/raw/`
-  Raw source files.
-- `data/interim/`
-  Intermediate tables produced during preprocessing.
-- `data/processed/`
-  Processed modeling tables and saved notebook run outputs.
-- `outputs/models/`
-  Deployment-ready fitted models saved after the main modeling notebooks finish.
+The project can be understood as four connected layers:
+
+1. Data collection and integration  
+   Understat, FBref, and Football-Data are combined into one modeling table.
+
+2. Feature engineering  
+   The workflow builds rolling, cumulative, venue-specific, Elo-based, and rest-based features.
+
+3. Modeling  
+   The project compares `1X2` and binary classifiers, double Poisson models, and market-aware approaches.
+
+4. Evaluation and deployment  
+   Outputs are stored as tables, figures, and deployment artifacts for later scoring.
+
+## Main Navigation Points
+
+- [`notebooks/`](notebooks/README.md)  
+  The main analytical notebook flow.
+
+- [`src/`](src/README.md)  
+  Shared logic for data handling, feature engineering, modeling, evaluation, and deployment.
+
+- [`data/`](data/README.md)  
+  The data pipeline split into `raw`, `interim`, and `processed`.
+
+- [`outputs/`](outputs/README.md)  
+  Outputs intended for interpretation, reporting, and reuse.
 
 ## Recommended Notebook Order
 
-Run the notebooks in this order:
+For a full rerun of the project, the recommended order is:
 
 1. `01_data_collection.ipynb`
 2. `02_build_match_dataset.ipynb`
@@ -45,44 +60,55 @@ Run the notebooks in this order:
 11. `09_season_report.ipynb`
 12. `10_next_matchday_predictions.ipynb`
 
-The reporting and live-prediction notebooks sit on top of these saved outputs and do not retrain the models.
+Notes:
 
-## What Each Main Notebook Does
+- `03_feature_engineering.ipynb` represents an earlier or simpler feature-engineering layer.
+- `04_ml_baselines.ipynb.ipynb` is a historical baseline notebook rather than part of the final main workflow.
+- Notebooks `09` and `10` sit on top of saved artifacts and are not the primary training stage.
 
-- `02_build_match_dataset.ipynb`
-  Combines the raw match sources into a clean base match table.
-- `03b_advanced_feature_engineering.ipynb`
-  Builds pre-match rolling, cumulative, Elo, and rest-based predictors.
-- `05_ml_models_and_tuning.ipynb`
-  Benchmarks multiclass ML models for `1X2`.
-- `05b_ml_models_binary.ipynb`
-  Benchmarks binary ML models for `home win` vs `away not lose`.
-- `05c_market_aware_betting_models.ipynb`
-  Builds market-aware binary pricing models aimed at betting-style probability evaluation.
-- `06_double_poisson_models.ipynb`
-  Benchmarks multiclass double Poisson models.
-- `06b_double_poisson_binary.ipynb`
-  Benchmarks binary double Poisson models.
-- `07_market_odds_benchmark.ipynb`
-  Downloads and prepares the market benchmark from pre-match odds.
-- `08_market_evaluation.ipynb`
-  Compares the saved model outputs with the market benchmark without retraining.
-- `09_season_report.ipynb`
-  Builds a compact season report from the saved evaluation tables and deployment metadata.
-- `10_next_matchday_predictions.ipynb`
-  Loads the saved deployment models and scores only the immediate next Bundesliga matchday without retraining.
+## What the Main Notebooks Do
 
-## What Gets Saved Automatically
+- `01_data_collection.ipynb`  
+  Downloads or prepares raw data from external sources.
 
-The main modeling notebooks now save two kinds of outputs:
+- `02_build_match_dataset.ipynb`  
+  Builds the rich match table and attaches matchday metadata.
 
-1. Run outputs in `data/processed/model_runs/<run_key>/`
-   These include predictions, tuning summaries, diagnostic tables, feature documentation, and metadata.
+- `03b_advanced_feature_engineering.ipynb`  
+  Creates the main pre-match feature layer.
 
-2. Deployment artifacts in `outputs/models/deployment/<run_key>/`
-   These contain the fitted best model for the notebook, together with metadata needed for reuse.
+- `05_ml_models_and_tuning.ipynb`  
+  Benchmarks multiclass models for `1X2`.
 
-Current run keys:
+- `05b_ml_models_binary.ipynb`  
+  Benchmarks binary models.
+
+- `05c_market_aware_betting_models.ipynb`  
+  Extends the workflow with market-aware probability and betting-oriented models.
+
+- `06_double_poisson_models.ipynb` and `06b_double_poisson_binary.ipynb`  
+  Test alternative modeling through goal-distribution estimation.
+
+- `08_market_evaluation.ipynb`  
+  Compares saved model outputs with market probabilities.
+
+- `09_season_report.ipynb`  
+  Summarizes the seasonal outputs in a compact reporting layer.
+
+- `10_next_matchday_predictions.ipynb`  
+  Generates predictions for the next matchday using saved deployment models.
+
+## What Gets Saved
+
+The project stores two main types of artifacts:
+
+1. Run outputs in [`data/processed/model_runs/`](data/processed/model_runs/README.md)  
+   These include predictions, tuning results, feature documentation, diagnostics, and run metadata.
+
+2. Deployment models in [`outputs/models/deployment/`](outputs/models/deployment/README.md)  
+   These contain the final saved models and the metadata required for later scoring.
+
+The current `run_key` values are:
 
 - `ml_multiclass`
 - `ml_binary`
@@ -90,45 +116,19 @@ Current run keys:
 - `double_poisson_multiclass`
 - `double_poisson_binary`
 
-## How to Rerun the Core Modeling Pipeline
+## Data Sources
 
-After updating the raw data or the feature engineering tables, rerun:
+- Understat: match schedules, team-match statistics, and expected-value metrics.
+- FBref: match metadata and season-level team statistics.
+- Football-Data.co.uk: pre-match odds used for the market benchmark.
 
-1. `03b_advanced_feature_engineering.ipynb`
-2. `05_ml_models_and_tuning.ipynb`
-3. `05b_ml_models_binary.ipynb`
-4. `06_double_poisson_models.ipynb`
-5. `06b_double_poisson_binary.ipynb`
-6. `07_market_odds_benchmark.ipynb`
-7. `05c_market_aware_betting_models.ipynb`
-8. `08_market_evaluation.ipynb`
-9. `09_season_report.ipynb`
-10. `10_next_matchday_predictions.ipynb`
+## How to Approach This Section
 
-This order ensures that:
+- If the goal is to understand the methodology, follow the notebooks from `01` onward.
+- If the goal is to interpret results, start with `08` and `09`.
+- If the goal is only to generate new predictions, focus on `10` and the deployment artifacts.
+- If the workflow is being extended, start with [`src/README.md`](src/README.md), which documents the reusable logic behind the notebooks.
 
-- the feature table is up to date,
-- the multiclass and binary models are retrained on the latest available data,
-- the deployment models are refreshed,
-- the market benchmark is aligned with the same match table.
+## Reproducibility
 
-## Methodological Notes
-
-- Only clearly pre-match variables are included in the modeling feature pool.
-- Validation is rolling and expanding-window based, not random.
-- The faster model set is intentionally preferred for regular seasonal reruns.
-- The classical `gradient_boosting` classifier was removed because it was too slow relative to its practical value in this workflow.
-- The market benchmark in notebook `07` is based on Football-Data.co.uk and uses normalized implied probabilities.
-
-## Known Limitations
-
-- Market coverage depends on team-name harmonization and source availability.
-- Binary models may look stronger partly because they avoid the hardest `draw` class.
-- Double Poisson models rely on an independence assumption between home and away goal counts.
-- Historical performance does not guarantee future betting profitability.
-
-## Reporting and Deployment Notes
-
-- `09_season_report.ipynb` is the main compact reporting layer after notebook `08`.
-- `10_next_matchday_predictions.ipynb` is the lightweight inference layer for the immediate next Bundesliga round.
-- If future fixtures are not yet present in the processed feature table, notebook `10` can still identify the upcoming round from the raw schedule, but the ML models will require refreshed upstream preprocessing before they can all be scored.
+The core dependencies are listed in `requirments.txt`. The project assumes a standard Python data-science stack with notebook support and libraries such as `pandas`, `soccerdata`, `pyarrow`, `matplotlib`, and `scikit-learn`.
