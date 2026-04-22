@@ -1,0 +1,7 @@
+run_key,display_name,bet_view,strategy_type,edge_threshold,n_bets,hit_rate,roi,avg_edge,avg_offered_odds,total_profit
+ml_binary,ML binary,Bet every home win,blanket_all,0.0,240,0.44166666666666665,-0.13262500000000002,0.0,2.5926666666666667,-31.830000000000002
+ml_binary,ML binary,Bet every away not lose,blanket_all,0.0,240,0.5583333333333333,-0.025700802779218802,0.0,2.0596950588927125,-6.168192667012512
+ml_betting_binary,ML betting binary,Bet every home win,blanket_all,0.0,240,0.44166666666666665,-0.13262500000000002,0.0,2.5926666666666667,-31.830000000000002
+ml_betting_binary,ML betting binary,Bet every away not lose,blanket_all,0.0,240,0.5583333333333333,-0.025700802779218802,0.0,2.0596950588927125,-6.168192667012512
+double_poisson_binary,Double Poisson binary,Bet every home win,blanket_all,0.0,240,0.44166666666666665,-0.13262500000000002,0.0,2.5926666666666667,-31.830000000000002
+double_poisson_binary,Double Poisson binary,Bet every away not lose,blanket_all,0.0,240,0.5583333333333333,-0.025700802779218802,0.0,2.0596950588927125,-6.168192667012512

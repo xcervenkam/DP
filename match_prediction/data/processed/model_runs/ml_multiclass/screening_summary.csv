@@ -1,0 +1,29 @@
+model,feature_set,n_features,accuracy,macro_f1,weighted_f1,best_params,best_feature_set_selected
+logistic_regression,full_filtered,159,0.5029239766081871,0.5024743087492193,0.5032918866746153,{'model__C': 0.1},True
+logistic_regression,top_35_rf,35,0.49122807017543857,0.4871448355252003,0.4943106858182862,{'model__C': 0.1},False
+logistic_regression,top_20_rf,20,0.47953216374269003,0.4792395701486611,0.48505660945852336,{'model__C': 0.1},False
+logistic_regression,compact_domain,73,0.4619883040935672,0.44711027609929116,0.45885893991705906,{'model__C': 0.1},False
+naive_bayes,top_20_rf,20,0.4678362573099415,0.4658869634160154,0.47544112404695055,{'model__var_smoothing': 1e-09},True
+naive_bayes,compact_domain,73,0.4678362573099415,0.4600622423257885,0.4729643274042733,{'model__var_smoothing': 1e-09},False
+naive_bayes,top_35_rf,35,0.4619883040935672,0.46160008216082976,0.4698149639615453,{'model__var_smoothing': 1e-09},False
+naive_bayes,full_filtered,159,0.4444444444444444,0.43887470971005493,0.4485919853553084,{'model__var_smoothing': 1e-09},False
+knn,compact_domain,73,0.5321637426900585,0.4860913252417041,0.5077941329857019,"{'model__n_neighbors': 5, 'model__weights': 'uniform'}",True
+knn,top_20_rf,20,0.5029239766081871,0.4767184970073283,0.4924038673427646,"{'model__n_neighbors': 9, 'model__weights': 'uniform'}",False
+knn,top_35_rf,35,0.5029239766081871,0.4704192521093929,0.487468342546178,"{'model__n_neighbors': 3, 'model__weights': 'uniform'}",False
+knn,full_filtered,159,0.4502923976608187,0.3870594371724498,0.4128688088003555,"{'model__n_neighbors': 5, 'model__weights': 'uniform'}",False
+svm,top_20_rf,20,0.5263157894736842,0.5157184085755514,0.5255644522561815,"{'model__C': 0.5, 'model__gamma': 'scale', 'model__kernel': 'rbf'}",True
+svm,top_35_rf,35,0.5146198830409356,0.5055128861580475,0.5141066525333645,"{'model__C': 1.0, 'model__gamma': 'scale', 'model__kernel': 'rbf'}",False
+svm,full_filtered,159,0.5029239766081871,0.502730323318358,0.5094164339607232,"{'model__C': 0.5, 'model__gamma': 'scale', 'model__kernel': 'rbf'}",False
+svm,compact_domain,73,0.4678362573099415,0.45210443950251217,0.46822207483125905,"{'model__C': 0.5, 'model__gamma': 'scale', 'model__kernel': 'rbf'}",False
+decision_tree,top_20_rf,20,0.4502923976608187,0.4464213432792668,0.4519521455936948,"{'model__max_depth': None, 'model__min_samples_leaf': 1}",True
+decision_tree,compact_domain,73,0.4444444444444444,0.4343780723587309,0.43766599513597104,"{'model__max_depth': 8, 'model__min_samples_leaf': 5}",False
+decision_tree,full_filtered,159,0.4269005847953216,0.42008398044291057,0.4281873565132272,"{'model__max_depth': 8, 'model__min_samples_leaf': 5}",False
+decision_tree,top_35_rf,35,0.42105263157894735,0.4151228889742884,0.41383751331059937,"{'model__max_depth': None, 'model__min_samples_leaf': 5}",False
+random_forest,top_20_rf,20,0.5321637426900585,0.5282059334083514,0.5343702114172897,"{'model__max_depth': 5, 'model__min_samples_leaf': 5, 'model__n_estimators': 200}",True
+random_forest,full_filtered,159,0.49122807017543857,0.47972655463313113,0.4899348571328371,"{'model__max_depth': 5, 'model__min_samples_leaf': 3, 'model__n_estimators': 200}",False
+random_forest,top_35_rf,35,0.49122807017543857,0.4727757781274173,0.48387416323591875,"{'model__max_depth': 8, 'model__min_samples_leaf': 3, 'model__n_estimators': 200}",False
+random_forest,compact_domain,73,0.4853801169590643,0.4718679445022156,0.4835487301768094,"{'model__max_depth': 5, 'model__min_samples_leaf': 3, 'model__n_estimators': 200}",False
+hist_gradient_boosting,top_20_rf,20,0.4619883040935672,0.4469062112947005,0.4547784560090505,"{'model__learning_rate': 0.1, 'model__max_depth': 3, 'model__max_leaf_nodes': 15, 'model__min_samples_leaf': 20}",True
+hist_gradient_boosting,top_35_rf,35,0.4502923976608187,0.43226961901660693,0.4378300304108801,"{'model__learning_rate': 0.1, 'model__max_depth': 3, 'model__max_leaf_nodes': 15, 'model__min_samples_leaf': 20}",False
+hist_gradient_boosting,full_filtered,159,0.4444444444444444,0.41839209274126876,0.42536749945018654,"{'model__learning_rate': 0.1, 'model__max_depth': 3, 'model__max_leaf_nodes': 15, 'model__min_samples_leaf': 20}",False
+hist_gradient_boosting,compact_domain,73,0.4444444444444444,0.41069602109849795,0.4233358076995033,"{'model__learning_rate': 0.05, 'model__max_depth': 3, 'model__max_leaf_nodes': 15, 'model__min_samples_leaf': 20}",False

@@ -1,0 +1,19 @@
+date,matchday,home_team,away_team,display_name,best_model_name,prediction_label,p_home_win_model,p_draw_model,p_away_win_model
+2026-04-24,31,RasenBallsport Leipzig,Union Berlin,Double Poisson multiclass,double_poisson_alpha_0_1,H,0.5457742610139167,0.2258635993426215,0.22836213964346175
+2026-04-24,31,RasenBallsport Leipzig,Union Berlin,ML multiclass,knn,D,0.19971714120332681,0.46964544576212636,0.3306374130345468
+2026-04-25,31,Augsburg,Eintracht Frankfurt,Double Poisson multiclass,double_poisson_alpha_0_1,A,0.36541805170770686,0.23842624705670715,0.3961557012355861
+2026-04-25,31,Augsburg,Eintracht Frankfurt,ML multiclass,knn,A,0.1353150043916796,0.40599585974042096,0.4586891358678995
+2026-04-25,31,FC Cologne,Bayer Leverkusen,Double Poisson multiclass,double_poisson_alpha_0_1,A,0.2748692226690641,0.22900245412790163,0.4961283232030341
+2026-04-25,31,FC Cologne,Bayer Leverkusen,ML multiclass,knn,D,0.13183703383852421,0.4675854238346694,0.4005775423268065
+2026-04-25,31,FC Heidenheim,St. Pauli,Double Poisson multiclass,double_poisson_alpha_0_1,H,0.4007418407101875,0.25309087198566876,0.3461672873041439
+2026-04-25,31,FC Heidenheim,St. Pauli,ML multiclass,knn,A,0.13781748032693464,0.40133381536932883,0.46084870430373653
+2026-04-25,31,Hamburger SV,Hoffenheim,Double Poisson multiclass,double_poisson_alpha_0_1,H,0.4120118482723608,0.23273426416902213,0.355253887558617
+2026-04-25,31,Hamburger SV,Hoffenheim,ML multiclass,knn,A,0.13527820111018332,0.40530081869676854,0.4594209801930481
+2026-04-25,31,Mainz 05,Bayern Munich,Double Poisson multiclass,double_poisson_alpha_0_1,A,0.24708436597499372,0.21189592848161,0.5410197055433965
+2026-04-25,31,Mainz 05,Bayern Munich,ML multiclass,knn,A,0.06508215622656469,0.40472617074306483,0.5301916730303704
+2026-04-25,31,Wolfsburg,Borussia M.Gladbach,Double Poisson multiclass,double_poisson_alpha_0_1,H,0.41886983907758457,0.2333496302505071,0.3477805306719084
+2026-04-25,31,Wolfsburg,Borussia M.Gladbach,ML multiclass,knn,A,0.1372423764368743,0.40285024099803585,0.45990738256508995
+2026-04-26,31,Dortmund,Freiburg,Double Poisson multiclass,double_poisson_alpha_0_1,H,0.44342698366824795,0.23700281199531048,0.3195702043364415
+2026-04-26,31,Dortmund,Freiburg,ML multiclass,knn,A,0.1354368471241876,0.40638097906453813,0.4581821738112743
+2026-04-26,31,VfB Stuttgart,Werder Bremen,Double Poisson multiclass,double_poisson_alpha_0_1,H,0.5322892502842232,0.2176397045710407,0.2500710451447359
+2026-04-26,31,VfB Stuttgart,Werder Bremen,ML multiclass,knn,D,0.13637348250174733,0.47020504230774424,0.3934214751905084

@@ -1,0 +1,22 @@
+run_key,display_name,bet_view,strategy_type,edge_threshold,n_bets,hit_rate,roi,avg_edge,avg_offered_odds,total_profit
+ml_binary,ML binary,Bet every home win,blanket_all,0.0,240,0.4416666666666666,-0.132625,0.0,2.5926666666666667,-31.83
+ml_binary,ML binary,Bet every away not lose,blanket_all,0.0,240,0.5583333333333333,-0.0257008027792188,0.0,2.0596950588927125,-6.168192667012512
+ml_betting_binary,ML betting binary,Bet every home win,blanket_all,0.0,240,0.4416666666666666,-0.132625,0.0,2.5926666666666667,-31.83
+ml_betting_binary,ML betting binary,Bet every away not lose,blanket_all,0.0,240,0.5583333333333333,-0.0257008027792188,0.0,2.0596950588927125,-6.168192667012512
+ml_betting_binary,ML betting binary,Home win value bets,value_edge,0.025,43,0.6976744186046512,0.0569767441860465,0.0461460765608937,1.5202325581395346,2.4500000000000006
+ml_betting_binary,ML betting binary,Away not lose value bets,value_edge,0.025,117,0.6837606837606838,0.0380668076607576,0.0694553015095885,1.6508546658731618,4.453816496308644
+ml_betting_binary,ML betting binary,Home win value bets,value_edge,0.05,16,0.5625,-0.2018749999999999,0.0639045969129423,1.433125,-3.2299999999999995
+ml_betting_binary,ML betting binary,Away not lose value bets,value_edge,0.05,68,0.5882352941176471,-0.0155769046528989,0.0928164554071767,1.7947925610982394,-1.0592295163971273
+ml_betting_binary,ML betting binary,Home win value bets,value_edge,0.075,2,0.5,-0.3349999999999999,0.078206991523676,1.37,-0.6699999999999999
+ml_betting_binary,ML betting binary,Away not lose value bets,value_edge,0.075,41,0.5853658536585366,0.0011321277438496,0.1147311867325442,1.791556428521654,0.0464172374978342
+double_poisson_multiclass,Double Poisson multiclass,1X2 value bets,value_edge,0.025,216,0.2037037037037037,-0.285324074074074,0.0792319282722774,4.688518518518519,-61.63
+double_poisson_multiclass,Double Poisson multiclass,1X2 value bets,value_edge,0.05,161,0.1801242236024844,-0.2754658385093167,0.0928360179400396,5.302422360248448,-44.35
+double_poisson_multiclass,Double Poisson multiclass,1X2 value bets,value_edge,0.075,99,0.1414141414141414,-0.3204040404040404,0.1125350151575915,6.310909090909091,-31.72
+double_poisson_binary,Double Poisson binary,Bet every home win,blanket_all,0.0,240,0.4416666666666666,-0.132625,0.0,2.5926666666666667,-31.83
+double_poisson_binary,Double Poisson binary,Bet every away not lose,blanket_all,0.0,240,0.5583333333333333,-0.0257008027792188,0.0,2.0596950588927125,-6.168192667012512
+double_poisson_binary,Double Poisson binary,Home win value bets,value_edge,0.025,82,0.2317073170731707,-0.3935365853658537,0.0790294022216314,3.784756097560975,-32.27
+double_poisson_binary,Double Poisson binary,Away not lose value bets,value_edge,0.025,101,0.3564356435643564,-0.1509186153000052,0.0963612304165934,2.7345439068543533,-15.242780145300532
+double_poisson_binary,Double Poisson binary,Home win value bets,value_edge,0.05,59,0.2033898305084746,-0.4062711864406779,0.0939088608089514,4.273389830508474,-23.97
+double_poisson_binary,Double Poisson binary,Away not lose value bets,value_edge,0.05,76,0.3289473684210526,-0.1470576306708038,0.1158785075647974,2.9965904441103004,-11.176379930981092
+double_poisson_binary,Double Poisson binary,Home win value bets,value_edge,0.075,35,0.1428571428571428,-0.5271428571428571,0.1169968185327917,5.330857142857142,-18.45
+double_poisson_binary,Double Poisson binary,Away not lose value bets,value_edge,0.075,55,0.3090909090909091,-0.110367002796193,0.135242864025535,3.3240790082123297,-6.070185153790616

@@ -1,0 +1,6 @@
+run_key,display_name,task_group,best_model_name,trained_through_matchday,n_predictions,n_merged_matches,merge_coverage
+double_poisson_binary,Double Poisson binary,binary,double_poisson_alpha_0_1,34,270,270,1.0
+ml_betting_binary,ML betting binary,binary,logistic_regression,30,270,270,1.0
+ml_binary,ML binary,binary,naive_bayes,34,270,270,1.0
+double_poisson_multiclass,Double Poisson multiclass,multiclass,double_poisson_alpha_0_1,34,270,270,1.0
+ml_multiclass,ML multiclass,multiclass,knn,34,270,270,1.0

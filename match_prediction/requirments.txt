@@ -1,0 +1,6 @@
+pandas
+soccerdata
+jupyter
+pyarrow
+matplotlib
+scikit-learn

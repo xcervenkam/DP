@@ -1,0 +1,2 @@
+run_key,display_name,best_model_name,error
+ml_betting_binary,ML betting binary,logistic_regression,"Cannot score run 'ml_betting_binary' because candidate fixtures are missing features: ['benchmark_home_prob', 'benchmark_home_odds', 'benchmark_away_not_lose_fair_odds', 'benchmark_overround']"

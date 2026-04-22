@@ -1,0 +1,37 @@
+date,season_id,game_id,home_team,away_team,round,week,matchday
+2026-04-24,2025,,RasenBallsport Leipzig,Union Berlin,,31,31
+2026-04-25,2025,,Augsburg,Eintracht Frankfurt,,31,31
+2026-04-25,2025,,Hamburger SV,Hoffenheim,,31,31
+2026-04-25,2025,,FC Heidenheim,St. Pauli,,31,31
+2026-04-25,2025,,FC Cologne,Bayer Leverkusen,,31,31
+2026-04-25,2025,,Mainz 05,Bayern Munich,,31,31
+2026-04-25,2025,,Wolfsburg,Borussia M.Gladbach,,31,31
+2026-04-26,2025,,Dortmund,Freiburg,,31,31
+2026-04-26,2025,,VfB Stuttgart,Werder Bremen,,31,31
+2026-05-02,2025,,Bayern Munich,FC Heidenheim,,32,32
+2026-05-02,2025,,Eintracht Frankfurt,Hamburger SV,,32,32
+2026-05-02,2025,,Hoffenheim,VfB Stuttgart,,32,32
+2026-05-02,2025,,Bayer Leverkusen,RasenBallsport Leipzig,,32,32
+2026-05-02,2025,,Union Berlin,FC Cologne,,32,32
+2026-05-02,2025,,Werder Bremen,Augsburg,,32,32
+2026-05-03,2025,,Freiburg,Wolfsburg,,32,32
+2026-05-03,2025,,Borussia M.Gladbach,Dortmund,,32,32
+2026-05-03,2025,,St. Pauli,Mainz 05,,32,32
+2026-05-08,2025,,Dortmund,Eintracht Frankfurt,,33,33
+2026-05-09,2025,,Augsburg,Borussia M.Gladbach,,33,33
+2026-05-09,2025,,Hoffenheim,Werder Bremen,,33,33
+2026-05-09,2025,,RasenBallsport Leipzig,St. Pauli,,33,33
+2026-05-09,2025,,VfB Stuttgart,Bayer Leverkusen,,33,33
+2026-05-09,2025,,Wolfsburg,Bayern Munich,,33,33
+2026-05-10,2025,,Hamburger SV,Freiburg,,33,33
+2026-05-10,2025,,FC Cologne,FC Heidenheim,,33,33
+2026-05-10,2025,,Mainz 05,Union Berlin,,33,33
+2026-05-16,2025,,Bayern Munich,FC Cologne,,34,34
+2026-05-16,2025,,Eintracht Frankfurt,VfB Stuttgart,,34,34
+2026-05-16,2025,,Freiburg,RasenBallsport Leipzig,,34,34
+2026-05-16,2025,,Borussia M.Gladbach,Hoffenheim,,34,34
+2026-05-16,2025,,FC Heidenheim,Mainz 05,,34,34
+2026-05-16,2025,,Bayer Leverkusen,Hamburger SV,,34,34
+2026-05-16,2025,,St. Pauli,Wolfsburg,,34,34
+2026-05-16,2025,,Union Berlin,Augsburg,,34,34
+2026-05-16,2025,,Werder Bremen,Dortmund,,34,34

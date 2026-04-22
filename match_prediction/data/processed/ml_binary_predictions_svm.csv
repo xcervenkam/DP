@@ -1,0 +1,271 @@
+batch_id,date,season_id,game_id,home_win,target,target_col,y_pred,model,n_selected_features,home_team,away_team,round,week,matchday
+1,2025-08-22 18:30:00,2025,30224,1,1,home_win,1,svm,20,Bayern Munich,RasenBallsport Leipzig,,1,1
+2,2025-08-23 13:30:00,2025,30225,0,0,home_win,0,svm,20,FC Heidenheim,Wolfsburg,,1,1
+2,2025-08-23 13:30:00,2025,30226,0,0,home_win,0,svm,20,Bayer Leverkusen,Hoffenheim,,1,1
+2,2025-08-23 13:30:00,2025,30227,1,1,home_win,0,svm,20,Union Berlin,VfB Stuttgart,,1,1
+2,2025-08-23 13:30:00,2025,30228,1,1,home_win,1,svm,20,Eintracht Frankfurt,Werder Bremen,,1,1
+2,2025-08-23 13:30:00,2025,30229,0,0,home_win,0,svm,20,Freiburg,Augsburg,,1,1
+3,2025-08-23 16:30:00,2025,30230,0,0,home_win,0,svm,20,St. Pauli,Borussia Dortmund,,,
+4,2025-08-24 13:30:00,2025,30231,0,0,home_win,0,svm,20,Mainz 05,FC Cologne,,1,1
+5,2025-08-24 15:30:00,2025,30232,0,0,home_win,0,svm,20,Borussia M.Gladbach,Hamburger SV,,1,1
+6,2025-08-29 18:30:00,2025,30233,0,0,home_win,0,svm,20,Hamburger SV,St. Pauli,,2,2
+7,2025-08-30 13:30:00,2025,30234,0,0,home_win,0,svm,20,Hoffenheim,Eintracht Frankfurt,,2,2
+7,2025-08-30 13:30:00,2025,30235,1,1,home_win,0,svm,20,RasenBallsport Leipzig,FC Heidenheim,,2,2
+7,2025-08-30 13:30:00,2025,30236,0,0,home_win,0,svm,20,Werder Bremen,Bayer Leverkusen,,2,2
+7,2025-08-30 13:30:00,2025,30237,1,1,home_win,1,svm,20,VfB Stuttgart,Borussia M.Gladbach,,2,2
+8,2025-08-30 16:30:00,2025,30238,0,0,home_win,0,svm,20,Augsburg,Bayern Munich,,2,2
+9,2025-08-31 13:30:00,2025,30239,0,0,home_win,1,svm,20,Wolfsburg,Mainz 05,,2,2
+10,2025-08-31 15:30:00,2025,30240,1,1,home_win,1,svm,20,Borussia Dortmund,Union Berlin,,,
+11,2025-08-31 17:30:00,2025,30241,1,1,home_win,0,svm,20,FC Cologne,Freiburg,,2,2
+12,2025-09-12 18:30:00,2025,30242,1,1,home_win,0,svm,20,Bayer Leverkusen,Eintracht Frankfurt,,3,3
+13,2025-09-13 13:30:00,2025,30243,1,1,home_win,0,svm,20,Freiburg,VfB Stuttgart,,3,3
+13,2025-09-13 13:30:00,2025,30244,0,0,home_win,0,svm,20,FC Heidenheim,Borussia Dortmund,,,
+13,2025-09-13 13:30:00,2025,30245,0,0,home_win,1,svm,20,Mainz 05,RasenBallsport Leipzig,,3,3
+13,2025-09-13 13:30:00,2025,30246,0,0,home_win,0,svm,20,Wolfsburg,FC Cologne,,3,3
+13,2025-09-13 13:30:00,2025,30247,0,0,home_win,0,svm,20,Union Berlin,Hoffenheim,,3,3
+14,2025-09-13 16:30:00,2025,30248,1,1,home_win,1,svm,20,Bayern Munich,Hamburger SV,,3,3
+15,2025-09-14 13:30:00,2025,30249,1,1,home_win,1,svm,20,St. Pauli,Augsburg,,3,3
+16,2025-09-14 15:30:00,2025,30250,0,0,home_win,0,svm,20,Borussia M.Gladbach,Werder Bremen,,3,3
+17,2025-09-19 18:30:00,2025,30251,1,1,home_win,0,svm,20,VfB Stuttgart,St. Pauli,,4,4
+18,2025-09-20 13:30:00,2025,30252,0,0,home_win,1,svm,20,Werder Bremen,Freiburg,,4,4
+18,2025-09-20 13:30:00,2025,30253,0,0,home_win,0,svm,20,Augsburg,Mainz 05,,4,4
+18,2025-09-20 13:30:00,2025,30254,1,1,home_win,0,svm,20,Hamburger SV,FC Heidenheim,,4,4
+18,2025-09-20 13:30:00,2025,30255,0,0,home_win,0,svm,20,Hoffenheim,Bayern Munich,,4,4
+19,2025-09-20 16:30:00,2025,30256,1,1,home_win,0,svm,20,RasenBallsport Leipzig,FC Cologne,,4,4
+20,2025-09-21 13:30:00,2025,30257,0,0,home_win,1,svm,20,Eintracht Frankfurt,Union Berlin,,4,4
+21,2025-09-21 15:30:00,2025,30258,0,0,home_win,0,svm,20,Bayer Leverkusen,Borussia M.Gladbach,,4,4
+22,2025-09-21 17:30:00,2025,30259,1,1,home_win,1,svm,20,Borussia Dortmund,Wolfsburg,,,
+23,2025-09-26 18:30:00,2025,30260,1,1,home_win,1,svm,20,Bayern Munich,Werder Bremen,,5,5
+24,2025-09-27 13:30:00,2025,30261,1,1,home_win,0,svm,20,FC Heidenheim,Augsburg,,5,5
+24,2025-09-27 13:30:00,2025,30262,0,0,home_win,0,svm,20,Mainz 05,Borussia Dortmund,,,
+24,2025-09-27 13:30:00,2025,30263,0,0,home_win,0,svm,20,St. Pauli,Bayer Leverkusen,,5,5
+24,2025-09-27 13:30:00,2025,30264,0,0,home_win,0,svm,20,Wolfsburg,RasenBallsport Leipzig,,5,5
+25,2025-09-27 16:30:00,2025,30265,0,0,home_win,0,svm,20,Borussia M.Gladbach,Eintracht Frankfurt,,5,5
+26,2025-09-28 13:30:00,2025,30266,0,0,home_win,1,svm,20,Freiburg,Hoffenheim,,5,5
+27,2025-09-28 15:30:00,2025,30267,0,0,home_win,0,svm,20,FC Cologne,VfB Stuttgart,,5,5
+28,2025-09-28 17:30:00,2025,30268,0,0,home_win,0,svm,20,Union Berlin,Hamburger SV,,5,5
+29,2025-10-03 18:30:00,2025,30274,0,0,home_win,0,svm,20,Hoffenheim,FC Cologne,,6,6
+30,2025-10-04 13:30:00,2025,30269,1,1,home_win,1,svm,20,Bayer Leverkusen,Union Berlin,,6,6
+30,2025-10-04 13:30:00,2025,30271,0,0,home_win,1,svm,20,Borussia Dortmund,RasenBallsport Leipzig,,,
+30,2025-10-04 13:30:00,2025,30276,1,1,home_win,0,svm,20,Augsburg,Wolfsburg,,6,6
+30,2025-10-04 13:30:00,2025,30277,1,1,home_win,0,svm,20,Werder Bremen,St. Pauli,,6,6
+31,2025-10-04 16:30:00,2025,30272,0,0,home_win,0,svm,20,Eintracht Frankfurt,Bayern Munich,,6,6
+32,2025-10-05 13:30:00,2025,30275,1,1,home_win,1,svm,20,VfB Stuttgart,FC Heidenheim,,6,6
+33,2025-10-05 15:30:00,2025,30273,1,1,home_win,0,svm,20,Hamburger SV,Mainz 05,,6,6
+34,2025-10-05 17:30:00,2025,30270,0,0,home_win,0,svm,20,Borussia M.Gladbach,Freiburg,,6,6
+35,2025-10-17 18:30:00,2025,30285,1,1,home_win,0,svm,20,Union Berlin,Borussia M.Gladbach,,7,7
+36,2025-10-18 13:30:00,2025,30279,0,0,home_win,0,svm,20,FC Cologne,Augsburg,,7,7
+36,2025-10-18 13:30:00,2025,30281,0,0,home_win,0,svm,20,FC Heidenheim,Werder Bremen,,7,7
+36,2025-10-18 13:30:00,2025,30282,0,0,home_win,0,svm,20,Mainz 05,Bayer Leverkusen,,7,7
+36,2025-10-18 13:30:00,2025,30283,1,1,home_win,1,svm,20,RasenBallsport Leipzig,Hamburger SV,,7,7
+36,2025-10-18 13:30:00,2025,30286,0,0,home_win,0,svm,20,Wolfsburg,VfB Stuttgart,,7,7
+37,2025-10-18 16:30:00,2025,30278,1,1,home_win,1,svm,20,Bayern Munich,Borussia Dortmund,,,
+38,2025-10-19 13:30:00,2025,30280,0,0,home_win,0,svm,20,Freiburg,Eintracht Frankfurt,,7,7
+39,2025-10-19 15:30:00,2025,30284,0,0,home_win,0,svm,20,St. Pauli,Hoffenheim,,7,7
+40,2025-10-24 18:30:00,2025,30295,1,1,home_win,0,svm,20,Werder Bremen,Union Berlin,,8,8
+41,2025-10-25 13:30:00,2025,30287,0,0,home_win,0,svm,20,Augsburg,RasenBallsport Leipzig,,8,8
+41,2025-10-25 13:30:00,2025,30289,0,0,home_win,0,svm,20,Borussia M.Gladbach,Bayern Munich,,8,8
+41,2025-10-25 13:30:00,2025,30291,1,1,home_win,1,svm,20,Eintracht Frankfurt,St. Pauli,,8,8
+41,2025-10-25 13:30:00,2025,30292,0,0,home_win,0,svm,20,Hamburger SV,Wolfsburg,,8,8
+41,2025-10-25 13:30:00,2025,30293,1,1,home_win,0,svm,20,Hoffenheim,FC Heidenheim,,8,8
+42,2025-10-25 16:30:00,2025,30290,1,1,home_win,1,svm,20,Borussia Dortmund,FC Cologne,,,
+43,2025-10-26 13:30:00,2025,30288,1,1,home_win,1,svm,20,Bayer Leverkusen,Freiburg,,8,8
+44,2025-10-26 15:30:00,2025,30294,1,1,home_win,1,svm,20,VfB Stuttgart,Mainz 05,,8,8
+45,2025-10-31 19:30:00,2025,30296,0,0,home_win,0,svm,20,Augsburg,Borussia Dortmund,,,
+46,2025-11-01 14:30:00,2025,30299,0,0,home_win,0,svm,20,FC Heidenheim,Eintracht Frankfurt,,9,9
+46,2025-11-01 14:30:00,2025,30300,0,0,home_win,0,svm,20,Mainz 05,Werder Bremen,,9,9
+46,2025-11-01 14:30:00,2025,30301,1,1,home_win,1,svm,20,RasenBallsport Leipzig,VfB Stuttgart,,9,9
+46,2025-11-01 14:30:00,2025,30302,0,0,home_win,0,svm,20,St. Pauli,Borussia M.Gladbach,,9,9
+46,2025-11-01 14:30:00,2025,30303,0,0,home_win,0,svm,20,Union Berlin,Freiburg,,9,9
+47,2025-11-01 17:30:00,2025,30297,1,1,home_win,1,svm,20,Bayern Munich,Bayer Leverkusen,,9,9
+48,2025-11-02 14:30:00,2025,30298,1,1,home_win,0,svm,20,FC Cologne,Hamburger SV,,9,9
+49,2025-11-02 16:30:00,2025,30304,0,0,home_win,0,svm,20,Wolfsburg,Hoffenheim,,9,9
+50,2025-11-07 19:30:00,2025,30313,1,1,home_win,0,svm,20,Werder Bremen,Wolfsburg,,10,10
+51,2025-11-08 14:30:00,2025,30305,1,1,home_win,1,svm,20,Bayer Leverkusen,FC Heidenheim,,10,10
+51,2025-11-08 14:30:00,2025,30309,0,0,home_win,0,svm,20,Hamburger SV,Borussia Dortmund,,,
+51,2025-11-08 14:30:00,2025,30310,1,1,home_win,0,svm,20,Hoffenheim,RasenBallsport Leipzig,,10,10
+51,2025-11-08 14:30:00,2025,30312,0,0,home_win,0,svm,20,Union Berlin,Bayern Munich,,10,10
+52,2025-11-08 17:30:00,2025,30306,1,1,home_win,0,svm,20,Borussia M.Gladbach,FC Cologne,,10,10
+53,2025-11-09 14:30:00,2025,30308,1,1,home_win,0,svm,20,Freiburg,St. Pauli,,10,10
+54,2025-11-09 16:30:00,2025,30311,1,1,home_win,1,svm,20,VfB Stuttgart,Augsburg,,10,10
+55,2025-11-09 18:30:00,2025,30307,1,1,home_win,1,svm,20,Eintracht Frankfurt,Mainz 05,,10,10
+56,2025-11-21 19:30:00,2025,30319,0,0,home_win,0,svm,20,Mainz 05,Hoffenheim,,11,11
+57,2025-11-22 14:30:00,2025,30314,1,1,home_win,0,svm,20,Augsburg,Hamburger SV,,11,11
+57,2025-11-22 14:30:00,2025,30315,1,1,home_win,1,svm,20,Bayern Munich,Freiburg,,11,11
+57,2025-11-22 14:30:00,2025,30316,0,0,home_win,1,svm,20,Borussia Dortmund,VfB Stuttgart,,,
+57,2025-11-22 14:30:00,2025,30318,0,0,home_win,0,svm,20,FC Heidenheim,Borussia M.Gladbach,,11,11
+57,2025-11-22 14:30:00,2025,30322,0,0,home_win,0,svm,20,Wolfsburg,Bayer Leverkusen,,11,11
+58,2025-11-22 17:30:00,2025,30317,0,0,home_win,0,svm,20,FC Cologne,Eintracht Frankfurt,,11,11
+59,2025-11-23 14:30:00,2025,30320,1,1,home_win,1,svm,20,RasenBallsport Leipzig,Werder Bremen,,11,11
+60,2025-11-23 16:30:00,2025,30321,0,0,home_win,0,svm,20,St. Pauli,Union Berlin,,11,11
+61,2025-11-28 19:30:00,2025,30325,0,0,home_win,0,svm,20,Borussia M.Gladbach,RasenBallsport Leipzig,,12,12
+62,2025-11-29 14:30:00,2025,30324,1,1,home_win,1,svm,20,Bayern Munich,St. Pauli,,12,12
+62,2025-11-29 14:30:00,2025,30329,1,1,home_win,1,svm,20,Hoffenheim,Augsburg,,12,12
+62,2025-11-29 14:30:00,2025,30330,0,0,home_win,0,svm,20,Union Berlin,FC Heidenheim,,12,12
+62,2025-11-29 14:30:00,2025,30331,0,0,home_win,0,svm,20,Werder Bremen,FC Cologne,,12,12
+63,2025-11-29 17:30:00,2025,30323,0,0,home_win,1,svm,20,Bayer Leverkusen,Borussia Dortmund,,,
+64,2025-11-30 14:30:00,2025,30328,1,1,home_win,0,svm,20,Hamburger SV,VfB Stuttgart,,12,12
+65,2025-11-30 16:30:00,2025,30326,0,0,home_win,1,svm,20,Eintracht Frankfurt,Wolfsburg,,12,12
+66,2025-11-30 18:30:00,2025,30327,1,1,home_win,0,svm,20,Freiburg,Mainz 05,,12,12
+67,2025-12-05 19:30:00,2025,30339,0,0,home_win,0,svm,20,Mainz 05,Borussia M.Gladbach,,13,13
+68,2025-12-06 14:30:00,2025,30332,0,0,home_win,0,svm,20,VfB Stuttgart,Bayern Munich,,13,13
+68,2025-12-06 14:30:00,2025,30333,1,1,home_win,0,svm,20,Wolfsburg,Union Berlin,,13,13
+68,2025-12-06 14:30:00,2025,30334,1,1,home_win,0,svm,20,Augsburg,Bayer Leverkusen,,13,13
+68,2025-12-06 14:30:00,2025,30336,0,0,home_win,0,svm,20,FC Cologne,St. Pauli,,13,13
+68,2025-12-06 14:30:00,2025,30338,1,1,home_win,0,svm,20,FC Heidenheim,Freiburg,,13,13
+69,2025-12-06 17:30:00,2025,30340,1,1,home_win,1,svm,20,RasenBallsport Leipzig,Eintracht Frankfurt,,13,13
+70,2025-12-07 14:30:00,2025,30337,1,1,home_win,0,svm,20,Hamburger SV,Werder Bremen,,13,13
+71,2025-12-07 16:30:00,2025,30335,1,1,home_win,1,svm,20,Borussia Dortmund,Hoffenheim,,,
+72,2025-12-12 19:30:00,2025,30348,1,1,home_win,0,svm,20,Union Berlin,RasenBallsport Leipzig,,14,14
+73,2025-12-13 14:30:00,2025,30343,0,0,home_win,1,svm,20,Borussia M.Gladbach,Wolfsburg,,14,14
+73,2025-12-13 14:30:00,2025,30344,1,1,home_win,1,svm,20,Eintracht Frankfurt,Augsburg,,14,14
+73,2025-12-13 14:30:00,2025,30346,1,1,home_win,1,svm,20,Hoffenheim,Hamburger SV,,14,14
+73,2025-12-13 14:30:00,2025,30347,1,1,home_win,0,svm,20,St. Pauli,FC Heidenheim,,14,14
+74,2025-12-13 17:30:00,2025,30341,1,1,home_win,1,svm,20,Bayer Leverkusen,FC Cologne,,14,14
+75,2025-12-14 14:30:00,2025,30345,0,0,home_win,0,svm,20,Freiburg,Borussia Dortmund,,,
+76,2025-12-14 16:30:00,2025,30342,0,0,home_win,1,svm,20,Bayern Munich,Mainz 05,,14,14
+77,2025-12-14 18:30:00,2025,30349,0,0,home_win,0,svm,20,Werder Bremen,VfB Stuttgart,,14,14
+78,2025-12-19 19:30:00,2025,30351,1,1,home_win,1,svm,20,Borussia Dortmund,Borussia M.Gladbach,,,
+79,2025-12-20 14:30:00,2025,30350,0,0,home_win,0,svm,20,Augsburg,Werder Bremen,,15,15
+79,2025-12-20 14:30:00,2025,30352,0,0,home_win,0,svm,20,FC Cologne,Union Berlin,,15,15
+79,2025-12-20 14:30:00,2025,30353,0,0,home_win,0,svm,20,Hamburger SV,Eintracht Frankfurt,,15,15
+79,2025-12-20 14:30:00,2025,30357,0,0,home_win,0,svm,20,VfB Stuttgart,Hoffenheim,,15,15
+79,2025-12-20 14:30:00,2025,30358,0,0,home_win,0,svm,20,Wolfsburg,Freiburg,,15,15
+80,2025-12-20 17:30:00,2025,30356,0,0,home_win,1,svm,20,RasenBallsport Leipzig,Bayer Leverkusen,,15,15
+81,2025-12-21 14:30:00,2025,30355,0,0,home_win,0,svm,20,Mainz 05,St. Pauli,,15,15
+82,2025-12-21 16:30:00,2025,30354,0,0,home_win,0,svm,20,FC Heidenheim,Bayern Munich,,15,15
+83,2026-01-09 19:30:00,2025,30362,0,0,home_win,0,svm,20,Eintracht Frankfurt,Borussia Dortmund,,,
+84,2026-01-10 14:30:00,2025,30363,1,1,home_win,0,svm,20,Freiburg,Hamburger SV,,16,16
+84,2026-01-10 14:30:00,2025,30364,0,0,home_win,0,svm,20,FC Heidenheim,FC Cologne,,16,16
+84,2026-01-10 14:30:00,2025,30366,0,0,home_win,0,svm,20,Union Berlin,Mainz 05,,16,16
+85,2026-01-10 17:30:00,2025,30359,0,0,home_win,1,svm,20,Bayer Leverkusen,VfB Stuttgart,,16,16
+86,2026-01-11 14:30:00,2025,30361,1,1,home_win,0,svm,20,Borussia M.Gladbach,Augsburg,,16,16
+87,2026-01-11 16:30:00,2025,30360,1,1,home_win,1,svm,20,Bayern Munich,Wolfsburg,,16,16
+88,2026-01-13 17:30:00,2025,30375,1,1,home_win,1,svm,20,VfB Stuttgart,Eintracht Frankfurt,,17,17
+89,2026-01-13 19:30:00,2025,30369,1,1,home_win,1,svm,20,Borussia Dortmund,Werder Bremen,,,
+89,2026-01-13 19:30:00,2025,30373,1,1,home_win,0,svm,20,Mainz 05,FC Heidenheim,,17,17
+90,2026-01-14 17:30:00,2025,30376,1,1,home_win,0,svm,20,Wolfsburg,St. Pauli,,17,17
+91,2026-01-14 19:30:00,2025,30370,0,0,home_win,0,svm,20,FC Cologne,Bayern Munich,,17,17
+91,2026-01-14 19:30:00,2025,30372,1,1,home_win,1,svm,20,Hoffenheim,Borussia M.Gladbach,,17,17
+91,2026-01-14 19:30:00,2025,30374,1,1,home_win,1,svm,20,RasenBallsport Leipzig,Freiburg,,17,17
+92,2026-01-15 19:30:00,2025,30368,0,0,home_win,0,svm,20,Augsburg,Union Berlin,,17,17
+93,2026-01-16 19:30:00,2025,30384,0,0,home_win,0,svm,20,Werder Bremen,Eintracht Frankfurt,,18,18
+94,2026-01-17 14:30:00,2025,30378,1,1,home_win,1,svm,20,Borussia Dortmund,St. Pauli,,,
+94,2026-01-17 14:30:00,2025,30379,1,1,home_win,0,svm,20,FC Cologne,Mainz 05,,18,18
+94,2026-01-17 14:30:00,2025,30380,0,0,home_win,0,svm,20,Hamburger SV,Borussia M.Gladbach,,18,18
+94,2026-01-17 14:30:00,2025,30381,1,1,home_win,0,svm,20,Hoffenheim,Bayer Leverkusen,,18,18
+94,2026-01-17 14:30:00,2025,30385,0,0,home_win,0,svm,20,Wolfsburg,FC Heidenheim,,18,18
+95,2026-01-17 17:30:00,2025,30382,0,0,home_win,0,svm,20,RasenBallsport Leipzig,Bayern Munich,,18,18
+96,2026-01-18 14:30:00,2025,30383,0,0,home_win,1,svm,20,VfB Stuttgart,Union Berlin,,18,18
+97,2026-01-18 16:30:00,2025,30377,0,0,home_win,0,svm,20,Augsburg,Freiburg,,18,18
+98,2026-01-23 19:30:00,2025,30393,0,0,home_win,0,svm,20,St. Pauli,Hamburger SV,,19,19
+99,2026-01-24 14:30:00,2025,30386,1,1,home_win,1,svm,20,Bayer Leverkusen,Werder Bremen,,19,19
+99,2026-01-24 14:30:00,2025,30387,0,0,home_win,1,svm,20,Bayern Munich,Augsburg,,19,19
+99,2026-01-24 14:30:00,2025,30389,0,0,home_win,0,svm,20,Eintracht Frankfurt,Hoffenheim,,19,19
+99,2026-01-24 14:30:00,2025,30391,0,0,home_win,0,svm,20,FC Heidenheim,RasenBallsport Leipzig,,19,19
+99,2026-01-24 14:30:00,2025,30392,1,1,home_win,0,svm,20,Mainz 05,Wolfsburg,,19,19
+100,2026-01-24 17:30:00,2025,30394,0,0,home_win,0,svm,20,Union Berlin,Borussia Dortmund,,,
+101,2026-01-25 14:30:00,2025,30388,0,0,home_win,0,svm,20,Borussia M.Gladbach,VfB Stuttgart,,19,19
+102,2026-01-25 16:30:00,2025,30390,1,1,home_win,1,svm,20,Freiburg,FC Cologne,,19,19
+103,2026-01-27 19:30:00,2025,30365,0,0,home_win,0,svm,20,St. Pauli,RasenBallsport Leipzig,,16,16
+103,2026-01-27 19:30:00,2025,30367,0,0,home_win,0,svm,20,Werder Bremen,Hoffenheim,,16,16
+104,2026-01-30 19:30:00,2025,30398,1,1,home_win,0,svm,20,FC Cologne,Wolfsburg,,20,20
+105,2026-01-31 14:30:00,2025,30395,1,1,home_win,0,svm,20,Augsburg,St. Pauli,,20,20
+105,2026-01-31 14:30:00,2025,30397,0,0,home_win,0,svm,20,Eintracht Frankfurt,Bayer Leverkusen,,20,20
+105,2026-01-31 14:30:00,2025,30400,1,1,home_win,1,svm,20,Hoffenheim,Union Berlin,,20,20
+105,2026-01-31 14:30:00,2025,30401,0,0,home_win,1,svm,20,RasenBallsport Leipzig,Mainz 05,,20,20
+105,2026-01-31 14:30:00,2025,30403,0,0,home_win,0,svm,20,Werder Bremen,Borussia M.Gladbach,,20,20
+106,2026-01-31 17:30:00,2025,30399,0,0,home_win,0,svm,20,Hamburger SV,Bayern Munich,,20,20
+107,2026-02-01 14:30:00,2025,30402,1,1,home_win,1,svm,20,VfB Stuttgart,Freiburg,,20,20
+108,2026-02-01 16:30:00,2025,30396,1,1,home_win,1,svm,20,Borussia Dortmund,FC Heidenheim,,,
+109,2026-02-06 19:30:00,2025,30411,0,0,home_win,0,svm,20,Union Berlin,Eintracht Frankfurt,,21,21
+110,2026-02-07 14:30:00,2025,30407,1,1,home_win,1,svm,20,Freiburg,Werder Bremen,,21,21
+110,2026-02-07 14:30:00,2025,30408,0,0,home_win,0,svm,20,FC Heidenheim,Hamburger SV,,21,21
+110,2026-02-07 14:30:00,2025,30409,1,1,home_win,1,svm,20,Mainz 05,Augsburg,,21,21
+110,2026-02-07 14:30:00,2025,30410,1,1,home_win,0,svm,20,St. Pauli,VfB Stuttgart,,21,21
+110,2026-02-07 14:30:00,2025,30412,0,0,home_win,0,svm,20,Wolfsburg,Borussia Dortmund,,,
+111,2026-02-07 17:30:00,2025,30405,0,0,home_win,0,svm,20,Borussia M.Gladbach,Bayer Leverkusen,,21,21
+112,2026-02-08 14:30:00,2025,30406,0,0,home_win,0,svm,20,FC Cologne,RasenBallsport Leipzig,,21,21
+113,2026-02-08 16:30:00,2025,30404,1,1,home_win,1,svm,20,Bayern Munich,Hoffenheim,,21,21
+114,2026-02-13 19:30:00,2025,30415,1,1,home_win,1,svm,20,Borussia Dortmund,Mainz 05,,,
+115,2026-02-14 14:30:00,2025,30414,1,1,home_win,1,svm,20,Bayer Leverkusen,St. Pauli,,22,22
+115,2026-02-14 14:30:00,2025,30416,1,1,home_win,0,svm,20,Eintracht Frankfurt,Borussia M.Gladbach,,22,22
+115,2026-02-14 14:30:00,2025,30417,1,1,home_win,0,svm,20,Hamburger SV,Union Berlin,,22,22
+115,2026-02-14 14:30:00,2025,30418,1,1,home_win,1,svm,20,Hoffenheim,Freiburg,,22,22
+115,2026-02-14 14:30:00,2025,30421,0,0,home_win,0,svm,20,Werder Bremen,Bayern Munich,,22,22
+116,2026-02-14 17:30:00,2025,30420,1,1,home_win,1,svm,20,VfB Stuttgart,FC Cologne,,22,22
+117,2026-02-15 14:30:00,2025,30413,1,1,home_win,0,svm,20,Augsburg,FC Heidenheim,,22,22
+118,2026-02-15 16:30:00,2025,30419,0,0,home_win,1,svm,20,RasenBallsport Leipzig,Wolfsburg,,22,22
+119,2026-02-20 19:30:00,2025,30426,0,0,home_win,1,svm,20,Mainz 05,Hamburger SV,,23,23
+120,2026-02-21 14:30:00,2025,30422,1,1,home_win,1,svm,20,Bayern Munich,Eintracht Frankfurt,,23,23
+120,2026-02-21 14:30:00,2025,30423,0,0,home_win,0,svm,20,FC Cologne,Hoffenheim,,23,23
+120,2026-02-21 14:30:00,2025,30429,1,1,home_win,0,svm,20,Union Berlin,Bayer Leverkusen,,23,23
+120,2026-02-21 14:30:00,2025,30430,0,0,home_win,0,svm,20,Wolfsburg,Augsburg,,23,23
+121,2026-02-21 17:30:00,2025,30427,0,0,home_win,1,svm,20,RasenBallsport Leipzig,Borussia Dortmund,,,
+122,2026-02-22 14:30:00,2025,30424,1,1,home_win,0,svm,20,Freiburg,Borussia M.Gladbach,,23,23
+123,2026-02-22 16:30:00,2025,30428,1,1,home_win,0,svm,20,St. Pauli,Werder Bremen,,23,23
+124,2026-02-22 18:30:00,2025,30425,0,0,home_win,0,svm,20,FC Heidenheim,VfB Stuttgart,,23,23
+125,2026-02-27 19:30:00,2025,30431,1,1,home_win,0,svm,20,Augsburg,FC Cologne,,24,24
+126,2026-02-28 14:30:00,2025,30432,0,0,home_win,1,svm,20,Bayer Leverkusen,Mainz 05,,24,24
+126,2026-02-28 14:30:00,2025,30433,1,1,home_win,0,svm,20,Borussia M.Gladbach,Union Berlin,,24,24
+126,2026-02-28 14:30:00,2025,30437,0,0,home_win,1,svm,20,Hoffenheim,St. Pauli,,24,24
+126,2026-02-28 14:30:00,2025,30439,1,1,home_win,0,svm,20,Werder Bremen,FC Heidenheim,,24,24
+127,2026-02-28 17:30:00,2025,30434,0,0,home_win,0,svm,20,Borussia Dortmund,Bayern Munich,,,
+128,2026-03-01 14:30:00,2025,30438,1,1,home_win,1,svm,20,VfB Stuttgart,Wolfsburg,,24,24
+129,2026-03-01 16:30:00,2025,30435,1,1,home_win,0,svm,20,Eintracht Frankfurt,Freiburg,,24,24
+130,2026-03-01 18:30:00,2025,30436,0,0,home_win,0,svm,20,Hamburger SV,RasenBallsport Leipzig,,24,24
+131,2026-03-04 19:30:00,2025,30371,0,0,home_win,0,svm,20,Hamburger SV,Bayer Leverkusen,,17,17
+132,2026-03-06 19:30:00,2025,30440,1,1,home_win,1,svm,20,Bayern Munich,Borussia M.Gladbach,,25,25
+133,2026-03-07 14:30:00,2025,30442,0,0,home_win,0,svm,20,Freiburg,Bayer Leverkusen,,25,25
+133,2026-03-07 14:30:00,2025,30443,0,0,home_win,0,svm,20,FC Heidenheim,Hoffenheim,,25,25
+133,2026-03-07 14:30:00,2025,30444,0,0,home_win,0,svm,20,Mainz 05,VfB Stuttgart,,25,25
+133,2026-03-07 14:30:00,2025,30445,1,1,home_win,1,svm,20,RasenBallsport Leipzig,Augsburg,,25,25
+133,2026-03-07 14:30:00,2025,30448,0,0,home_win,0,svm,20,Wolfsburg,Hamburger SV,,25,25
+134,2026-03-07 17:30:00,2025,30441,0,0,home_win,0,svm,20,FC Cologne,Borussia Dortmund,,,
+135,2026-03-08 14:30:00,2025,30446,0,0,home_win,0,svm,20,St. Pauli,Eintracht Frankfurt,,25,25
+136,2026-03-08 16:30:00,2025,30447,0,0,home_win,0,svm,20,Union Berlin,Werder Bremen,,25,25
+137,2026-03-13 19:30:00,2025,30450,1,1,home_win,0,svm,20,Borussia M.Gladbach,St. Pauli,,26,26
+138,2026-03-14 14:30:00,2025,30449,0,0,home_win,0,svm,20,Bayer Leverkusen,Bayern Munich,,26,26
+138,2026-03-14 14:30:00,2025,30451,1,1,home_win,1,svm,20,Borussia Dortmund,Augsburg,,,
+138,2026-03-14 14:30:00,2025,30452,1,1,home_win,1,svm,20,Eintracht Frankfurt,FC Heidenheim,,26,26
+138,2026-03-14 14:30:00,2025,30455,0,0,home_win,1,svm,20,Hoffenheim,Wolfsburg,,26,26
+139,2026-03-14 17:30:00,2025,30454,0,0,home_win,0,svm,20,Hamburger SV,FC Cologne,,26,26
+140,2026-03-15 14:30:00,2025,30457,0,0,home_win,0,svm,20,Werder Bremen,Mainz 05,,26,26
+141,2026-03-15 16:30:00,2025,30453,0,0,home_win,0,svm,20,Freiburg,Union Berlin,,26,26
+142,2026-03-15 18:30:00,2025,30456,1,1,home_win,1,svm,20,VfB Stuttgart,RasenBallsport Leipzig,,26,26
+143,2026-03-20 19:30:00,2025,30464,1,1,home_win,1,svm,20,RasenBallsport Leipzig,Hoffenheim,,27,27
+144,2026-03-21 14:30:00,2025,30459,1,1,home_win,1,svm,20,Bayern Munich,Union Berlin,,27,27
+144,2026-03-21 14:30:00,2025,30461,0,0,home_win,0,svm,20,FC Cologne,Borussia M.Gladbach,,27,27
+144,2026-03-21 14:30:00,2025,30462,0,0,home_win,0,svm,20,FC Heidenheim,Bayer Leverkusen,,27,27
+144,2026-03-21 14:30:00,2025,30466,0,0,home_win,0,svm,20,Wolfsburg,Werder Bremen,,27,27
+145,2026-03-21 17:30:00,2025,30460,1,1,home_win,1,svm,20,Borussia Dortmund,Hamburger SV,,,
+146,2026-03-22 14:30:00,2025,30463,1,1,home_win,1,svm,20,Mainz 05,Eintracht Frankfurt,,27,27
+147,2026-03-22 16:30:00,2025,30465,0,0,home_win,0,svm,20,St. Pauli,Freiburg,,27,27
+148,2026-03-22 18:30:00,2025,30458,0,0,home_win,0,svm,20,Augsburg,VfB Stuttgart,,27,27
+149,2026-04-04 13:30:00,2025,30467,1,1,home_win,1,svm,20,Bayer Leverkusen,Wolfsburg,,28,28
+149,2026-04-04 13:30:00,2025,30468,0,0,home_win,1,svm,20,Borussia M.Gladbach,FC Heidenheim,,28,28
+149,2026-04-04 13:30:00,2025,30470,0,0,home_win,0,svm,20,Freiburg,Bayern Munich,,28,28
+149,2026-04-04 13:30:00,2025,30471,0,0,home_win,0,svm,20,Hamburger SV,Augsburg,,28,28
+149,2026-04-04 13:30:00,2025,30472,0,0,home_win,1,svm,20,Hoffenheim,Mainz 05,,28,28
+149,2026-04-04 13:30:00,2025,30475,0,0,home_win,0,svm,20,Werder Bremen,RasenBallsport Leipzig,,28,28
+150,2026-04-04 16:30:00,2025,30473,0,0,home_win,1,svm,20,VfB Stuttgart,Borussia Dortmund,,,
+151,2026-04-05 13:30:00,2025,30474,0,0,home_win,0,svm,20,Union Berlin,St. Pauli,,28,28
+152,2026-04-05 15:30:00,2025,30469,0,0,home_win,1,svm,20,Eintracht Frankfurt,FC Cologne,,28,28
+153,2026-04-10 18:30:00,2025,30476,0,0,home_win,0,svm,20,Augsburg,Hoffenheim,,29,29
+154,2026-04-11 13:30:00,2025,30477,0,0,home_win,1,svm,20,Borussia Dortmund,Bayer Leverkusen,,,
+154,2026-04-11 13:30:00,2025,30479,1,1,home_win,0,svm,20,FC Heidenheim,Union Berlin,,29,29
+154,2026-04-11 13:30:00,2025,30481,1,1,home_win,1,svm,20,RasenBallsport Leipzig,Borussia M.Gladbach,,29,29
+154,2026-04-11 13:30:00,2025,30484,0,0,home_win,0,svm,20,Wolfsburg,Eintracht Frankfurt,,29,29
+155,2026-04-11 16:30:00,2025,30482,0,0,home_win,0,svm,20,St. Pauli,Bayern Munich,,29,29
+156,2026-04-12 13:30:00,2025,30478,1,1,home_win,0,svm,20,FC Cologne,Werder Bremen,,29,29
+157,2026-04-12 15:30:00,2025,30483,1,1,home_win,1,svm,20,VfB Stuttgart,Hamburger SV,,29,29
+158,2026-04-12 17:30:00,2025,30480,0,0,home_win,1,svm,20,Mainz 05,Freiburg,,29,29
+159,2026-04-17 18:30:00,2025,30491,0,0,home_win,0,svm,20,St. Pauli,FC Cologne,,30,30
+160,2026-04-18 13:30:00,2025,30485,0,0,home_win,1,svm,20,Bayer Leverkusen,Augsburg,,30,30
+160,2026-04-18 13:30:00,2025,30490,1,1,home_win,0,svm,20,Hoffenheim,Borussia Dortmund,,,
+160,2026-04-18 13:30:00,2025,30492,0,0,home_win,0,svm,20,Union Berlin,Wolfsburg,,30,30
+160,2026-04-18 13:30:00,2025,30493,1,1,home_win,0,svm,20,Werder Bremen,Hamburger SV,,30,30
+161,2026-04-18 16:30:00,2025,30488,0,0,home_win,0,svm,20,Eintracht Frankfurt,RasenBallsport Leipzig,,30,30
+162,2026-04-19 13:30:00,2025,30489,1,1,home_win,1,svm,20,Freiburg,FC Heidenheim,,30,30
+163,2026-04-19 15:30:00,2025,30486,1,1,home_win,1,svm,20,Bayern Munich,VfB Stuttgart,,30,30
+164,2026-04-19 17:30:00,2025,30487,0,0,home_win,0,svm,20,Borussia M.Gladbach,Mainz 05,,30,30
