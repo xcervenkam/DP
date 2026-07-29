@@ -1,0 +1,7 @@
+Oblast,Strukturální model,Model s tržními informacemi
+Bundesliga,multinomická logistická regrese (14),"kombinovaný model: metoda k nejbližších sousedů, multinomická logistická regrese a lineární SVM (18)"
+Premier League,"kombinovaný model: CatBoost, náhodný les a metoda k nejbližších sousedů (14)",CatBoost (18)
+La Liga,metoda k nejbližších sousedů (14),metoda k nejbližších sousedů (18)
+Ligue 1,"kombinovaný model: lineární SVM, multinomická logistická regrese a náhodný les (18)","kombinovaný model: metoda k nejbližších sousedů, lineární SVM a CatBoost (22)"
+Serie A,multinomická logistická regrese (18),lineární SVM (22)
+Společný model,multinomická logistická regrese (15),"kombinovaný model: multinomická logistická regrese, lineární SVM a CatBoost (19)"

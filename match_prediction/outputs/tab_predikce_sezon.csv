@@ -1,0 +1,11 @@
+Liga,Časový řez,Odehráno,RMSE bodů,MSE pořadí,Kendallovo τ,TRPS,Mistr,Evropa,Přímý sestup
+Bundesliga,Před sezonou,0.0 %,9.27,11.45,0.556,0.1090,1/1,4/6,1/2
+Bundesliga,Přibližně 75 %,73.5 %,3.78,2.82,0.817,0.0503,1/1,5/6,1/2
+Premier League,Před sezonou,0.0 %,13.56,17.71,0.463,0.1206,0/1,6/7,1/3
+Premier League,Přibližně 75 %,73.9 %,4.57,2.46,0.863,0.0399,1/1,6/7,3/3
+La Liga,Před sezonou,0.0 %,10.18,19.82,0.537,0.1288,0/1,6/8,2/3
+La Liga,Přibližně 75 %,76.1 %,4.64,5.91,0.832,0.0609,1/1,8/8,2/3
+Ligue 1,Před sezonou,0.0 %,10.62,12.35,0.529,0.1173,1/1,5/7,1/2
+Ligue 1,Přibližně 75 %,73.5 %,3.45,0.64,0.935,0.0260,1/1,7/7,2/2
+Serie A,Před sezonou,0.0 %,8.55,5.06,0.758,0.0656,0/1,4/6,1/3
+Serie A,Přibližně 75 %,73.7 %,3.80,1.65,0.863,0.0361,0/1,4/6,3/3
