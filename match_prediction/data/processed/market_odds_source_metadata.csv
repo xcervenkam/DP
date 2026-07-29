@@ -1,2 +1,0 @@
-source_name,country_page_url,notes_url,general_data_page_url,coverage,benchmark_priority,double_chance_policy,pinnacle_caveat
-Football-Data.co.uk,https://www.football-data.co.uk/germanym.php,https://www.football-data.co.uk/notes.txt,https://www.football-data.co.uk/data.php,Bundesliga historical CSV files by season,market-average closing -> bet365 closing -> market-average opening -> bet365 opening,Derived from normalized 1X2 implied probabilities,Football-Data warns from 2025-07-23 that Pinnacle odds are unreliable and excluded from market averages

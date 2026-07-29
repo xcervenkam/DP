@@ -1,4 +1,0 @@
-display_name,n_matches,mean_abs_home_win_gap,mean_home_win_gap,mean_abs_away_not_lose_gap,mean_away_not_lose_gap,mean_abs_home_prob_gap,mean_home_prob_gap,mean_abs_draw_prob_gap,mean_draw_prob_gap,mean_abs_away_prob_gap,mean_away_prob_gap
-Double Poisson binary,270,0.07067835014705566,-0.01360463950329018,0.07067835014705566,0.013604639503290173,,,,,,
-Double Poisson multiclass,270,,,,,0.07067835014705566,-0.01360463950329018,0.028692648053403345,-0.01039317337425932,0.06763167888926919,0.023997812877549488
-ML betting binary,270,0.04585260460753415,-0.025268935423558257,0.04585260460753416,0.02526893542355825,,,,,,

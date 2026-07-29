@@ -1,5 +1,0 @@
-run_key,display_name,task_group,probability_view,competitor,n_matches,log_loss,brier_score,multiclass_brier
-ml_betting_binary,ML betting binary,binary,Home win,ML betting binary,270,0.6017070294991266,0.20698193926023328,
-ml_betting_binary,ML betting binary,binary,Home win,Market benchmark,240,0.5876412000115304,0.20101609124330647,
-ml_betting_binary,ML betting binary,binary,Away not lose,ML betting binary,270,0.6017070294991266,0.20698193926023328,
-ml_betting_binary,ML betting binary,binary,Away not lose,Market benchmark,240,0.5876412000115304,0.20101609124330647,
