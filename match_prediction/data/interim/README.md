@@ -1,12 +1,7 @@
-# interim
+# Interim data
 
-This folder contains intermediate outputs between `raw` and `processed`.
+This folder contains the combined match-level dataset created during data preparation.
 
-## Files
+- `base_matches.csv` is produced by notebook 01. It combines the Understat match data with ClubElo ratings, SoFIFA squad information, and market odds.
 
-- `base_matches.parquet`  
-  The integrated base match table created after combining the main data sources. It acts as the stable input for downstream feature engineering.
-
-## Role in the Pipeline
-
-This layer sits between building the base match dataset and generating the richer pre-match modeling features.
+The table also contains the prediction targets and the role of each season in the analysis. Seasons 2021/22 to 2023/24 form the development period, season 2024/25 is reserved for the final walk-forward evaluation, and season 2025/26 is outside the main study.

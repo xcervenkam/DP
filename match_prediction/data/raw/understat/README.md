@@ -1,18 +1,8 @@
-# understat
+# Understat data
 
-Raw Understat data forms the main base of the match-level pipeline.
+This folder contains the Understat data for the Premier League, La Liga, Bundesliga, Serie A, and Ligue 1.
 
-## Files
+- `schedule_top5_2015_2025.csv` contains match dates, teams, final scores, and expected goals.
+- `team_match_stats_top5_2015_2025.csv` contains additional team statistics, including expected points, non-penalty expected goals, PPDA, and deep completions.
 
-- `schedule.parquet`  
-  The basic match schedule with result information.
-
-- `team_match_stats.parquet`  
-  Team-level match statistics used to attach expected metrics and related match features.
-
-- `player_season_stats.parquet`  
-  Player-level season statistics stored as an additional raw source.
-
-## Role in the Project
-
-The main Understat inputs are combined in `02_build_match_dataset.ipynb` and in [`../../../src/data_builder.py`](../../../src/data_builder.py).
+The data cover seasons from 2015/16 to 2025/26. When the statistics are used for prediction, only information available before the predicted match is included.

@@ -1,134 +1,98 @@
-# Match Prediction: Bundesliga Forecasting Workflow
+# Football Match and Season Prediction
 
-This section of the practical thesis is focused on building and evaluating predictive models for matches in the current German Bundesliga season. The project combines classical machine learning, a double Poisson approach, and a benchmark against betting-market probabilities.
+This folder contains the match and season prediction part of my master's thesis in Applied Mathematics, specialising in Statistics and Data Analysis.
 
-## Main Goal
+The aim of the project is to study how football data can be used to predict individual match results and the final league table. The analysis covers the Premier League, La Liga, Bundesliga, Serie A, and Ligue 1.
 
-The aim is to build a reproducible pipeline that:
+## Main tasks
 
-- prepares a unified match-level dataset from multiple sources,
-- creates strictly pre-match variables without data leakage,
-- compares multiclass and binary modeling approaches,
-- evaluates models against market odds,
-- stores the best models for later reuse,
-- produces predictions for the next Bundesliga matchday without retraining the full workflow.
+The main prediction task is the three-class result of a match:
 
-## Analytical Layers of the Project
+- home win,
+- draw,
+- away win.
 
-The project can be understood as four connected layers:
+The models return probabilities for all three outcomes. A supplementary binary task distinguishes a home win from a draw or an away win.
 
-1. Data collection and integration  
-   Understat, FBref, and Football-Data are combined into one modeling table.
+An independent Poisson model is also used to estimate the probabilities of exact scores. These score probabilities are later used to simulate complete league seasons.
 
-2. Feature engineering  
-   The workflow builds rolling, cumulative, venue-specific, Elo-based, and rest-based features.
+## Data
 
-3. Modeling  
-   The project compares `1X2` and binary classifiers, double Poisson models, and market-aware approaches.
+The project combines four data sources:
 
-4. Evaluation and deployment  
-   Outputs are stored as tables, figures, and deployment artifacts for later scoring.
+- Understat for match results, expected-goal statistics, and team performance;
+- ClubElo for historical team-strength ratings;
+- SoFIFA for squad-quality ratings;
+- Football-Data for pre-match betting odds.
 
-## Main Navigation Points
+The raw files cover a longer period where the sources allow it, but the final modelling experiment uses four seasons from 2021/22 to 2024/25. The analytical sample contains 7,156 matches.
 
-- [`notebooks/`](notebooks/README.md)  
-  The main analytical notebook flow.
+The first three seasons are used for model development:
 
-- [`src/`](src/README.md)  
-  Shared logic for data handling, feature engineering, modeling, evaluation, and deployment.
+- 2021/22,
+- 2022/23,
+- 2023/24.
 
-- [`data/`](data/README.md)  
-  The data pipeline split into `raw`, `interim`, and `processed`.
+The 2024/25 season is kept as the final out-of-time test and is not used to select features, models, or their settings.
 
-- [`outputs/`](outputs/README.md)  
-  Outputs intended for interpretation, reporting, and reuse.
+## Prediction design
 
-## Recommended Notebook Order
+Two groups of predictors are compared.
 
-For a full rerun of the project, the recommended order is:
+The structural branch uses information available before a match without betting odds. It contains lagged Understat statistics, recent form, internal and external team-strength ratings, squad ratings, rest information, and differences between the home and away teams.
 
-1. `01_data_collection.ipynb`
-2. `02_build_match_dataset.ipynb`
-3. `03b_advanced_feature_engineering.ipynb`
-4. `05_ml_models_and_tuning.ipynb`
-5. `05b_ml_models_binary.ipynb`
-6. `06_double_poisson_models.ipynb`
-7. `06b_double_poisson_binary.ipynb`
-8. `07_market_odds_benchmark.ipynb`
-9. `05c_market_aware_betting_models.ipynb`
-10. `08_market_evaluation.ipynb`
-11. `09_season_report.ipynb`
-12. `10_next_matchday_predictions.ipynb`
+The market branch contains the same structural information together with the latest valid pre-match 1X2 odds.
 
-Notes:
+Both league-specific and pooled models are considered. Model selection is based on two expanding chronological validation folds:
 
-- `03_feature_engineering.ipynb` represents an earlier or simpler feature-engineering layer.
-- `04_ml_baselines.ipynb.ipynb` is a historical baseline notebook rather than part of the final main workflow.
-- Notebooks `09` and `10` sit on top of saved artifacts and are not the primary training stage.
+1. training on 2021/22 and validation on 2022/23;
+2. training on 2021/22–2022/23 and validation on 2023/24.
 
-## What the Main Notebooks Do
+The selected models are then evaluated retrospectively through the 2024/25 season in chronological order. Predictions are always created before the corresponding match result is used to update the available information.
 
-- `01_data_collection.ipynb`  
-  Downloads or prepares raw data from external sources.
+The analysis compares statistical and machine-learning classifiers, equal-weight ensembles, historical outcome frequencies, market probabilities, and the independent Poisson benchmark. The results are assessed using classification accuracy and probability-based measures.
 
-- `02_build_match_dataset.ipynb`  
-  Builds the rich match table and attaches matchday metadata.
+## Season simulation
 
-- `03b_advanced_feature_engineering.ipynb`  
-  Creates the main pre-match feature layer.
+The Poisson model is also used to simulate the final table of each league in the 2024/25 season.
 
-- `05_ml_models_and_tuning.ipynb`  
-  Benchmarks multiclass models for `1X2`.
+For every league, 20,000 simulations are performed at four information points:
 
-- `05b_ml_models_binary.ipynb`  
-  Benchmarks binary models.
+- before the season,
+- after 25% of the matches,
+- after 50% of the matches,
+- after 75% of the matches.
 
-- `05c_market_aware_betting_models.ipynb`  
-  Extends the workflow with market-aware probability and betting-oriented models.
+The simulations produce expected points, predicted positions, uncertainty intervals, and probabilities of events such as winning the title, qualifying for European competitions, or being relegated.
 
-- `06_double_poisson_models.ipynb` and `06b_double_poisson_binary.ipynb`  
-  Test alternative modeling through goal-distribution estimation.
+## Main findings
 
-- `08_market_evaluation.ipynb`  
-  Compares saved model outputs with market probabilities.
+The market models achieved higher final accuracy than the corresponding structural models in all five leagues. Direct market probabilities nevertheless remained a strong benchmark.
 
-- `09_season_report.ipynb`  
-  Summarizes the seasonal outputs in a compact reporting layer.
+Draws were the most difficult outcome to predict. In several cases, a draw received a meaningful probability but was not selected as the most likely result.
 
-- `10_next_matchday_predictions.ipynb`  
-  Generates predictions for the next matchday using saved deployment models.
+The season predictions generally became more accurate as more matches were completed. Their predicted position intervals also became narrower during the season.
 
-## What Gets Saved
+## Notebooks
 
-The project stores two main types of artifacts:
+The notebooks form one connected analysis and are intended to be read in numerical order.
 
-1. Run outputs in [`data/processed/model_runs/`](data/processed/model_runs/README.md)  
-   These include predictions, tuning results, feature documentation, diagnostics, and run metadata.
+1. `01_data_preparation.ipynb` describes the data sources, creates the match-level dataset, and defines the development and test periods.
+2. `02_feature_engineering.ipynb` creates the pre-match predictors while preventing future match information from entering earlier rows.
+3. `03_multiclass_models.ipynb` selects features and compares the models for the home-win, draw, and away-win task.
+4. `04_poisson_models.ipynb` estimates the league-specific Poisson score models and evaluates their match probabilities.
+5. `05_binary_models.ipynb` studies the supplementary home-win versus non-home-win task.
+6. `06_walk_forward_2024_25.ipynb` performs the final chronological evaluation on the 2024/25 season.
+7. `07_season_simulation_2024_25.ipynb` simulates the final league tables at different stages of the season.
+8. `08_thesis_outputs_cs.ipynb` creates the Czech tables and figures used in the thesis.
 
-2. Deployment models in [`outputs/models/deployment/`](outputs/models/deployment/README.md)  
-   These contain the final saved models and the metadata required for later scoring.
+The first seven notebooks contain the main analytical workflow in English. The final notebook is written in Czech because it prepares outputs directly for the Czech thesis text.
 
-The current `run_key` values are:
+## Folder structure
 
-- `ml_multiclass`
-- `ml_binary`
-- `ml_betting_binary`
-- `double_poisson_multiclass`
-- `double_poisson_binary`
+- `data/` contains the raw source snapshots and the two derived analytical datasets.
+- `notebooks/` contains the complete analysis.
+- `src/` contains calculations reused in several notebooks.
+- `outputs/` contains the final thesis figures in PDF format and tables in CSV format.
 
-## Data Sources
-
-- Understat: match schedules, team-match statistics, and expected-value metrics.
-- FBref: match metadata and season-level team statistics.
-- Football-Data.co.uk: pre-match odds used for the market benchmark.
-
-## How to Approach This Section
-
-- If the goal is to understand the methodology, follow the notebooks from `01` onward.
-- If the goal is to interpret results, start with `08` and `09`.
-- If the goal is only to generate new predictions, focus on `10` and the deployment artifacts.
-- If the workflow is being extended, start with [`src/README.md`](src/README.md), which documents the reusable logic behind the notebooks.
-
-## Reproducibility
-
-The core dependencies are listed in `requirments.txt`. The project assumes a standard Python data-science stack with notebook support and libraries such as `pandas`, `soccerdata`, `pyarrow`, `matplotlib`, and `scikit-learn`.
+The notebooks contain the explanation of the methods, mathematical notation, model comparison, and interpretation. The reusable Python files in `src` keep repeated calculations separate from the written analysis.

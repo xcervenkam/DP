@@ -1,18 +1,8 @@
-# raw
+# Raw data
 
-This folder contains the raw source data for the prediction project.
+This folder contains the source tables used in the project.
 
-## Providers
+- `understat/` contains match results, expected goals, and other team match statistics.
+- `external/` contains ClubElo ratings, SoFIFA squad ratings, and football betting odds.
 
-- [`understat/`](understat/README.md)  
-  Match-level and expected-metric data from Understat.
-
-- [`fbref/`](fbref/README.md)  
-  Supporting match metadata and season-level team statistics from FBref.
-
-- [`football_data/`](football_data/README.md)  
-  Odds data used for the market benchmark.
-
-## Working Principle
-
-Files in this folder should be treated as source inputs. Downstream steps should not manually edit them, but instead create new tables in `interim` or `processed`.
+The saved CSV files allow the analysis to be reproduced without downloading the source data again. Cleaning, team-name matching, and the combination of sources are performed in notebook 01.

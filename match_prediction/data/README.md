@@ -1,24 +1,9 @@
-# data
+# Data
 
-This folder contains the full data pipeline for the prediction section.
+This folder contains the source and prepared datasets used for match-result prediction and season simulation.
 
-## Structure
+- `raw/` contains saved data from Understat, ClubElo, SoFIFA, and Football-Data.
+- `interim/` contains the combined match-level dataset created in notebook 01.
+- `processed/` contains the model-ready feature table created in notebook 02.
 
-- [`raw/`](raw/README.md)  
-  Raw source data downloaded or collected from external providers.
-
-- [`interim/`](interim/README.md)  
-  Intermediate tables between raw inputs and final feature-ready data.
-
-- [`processed/`](processed/README.md)  
-  Cleaned and modeling-ready data, run outputs, and support tables for evaluation and reporting.
-
-## How to Read This Folder
-
-The project follows a standard pipeline logic:
-
-1. `raw` stores source data.
-2. `interim` stores the stabilized intermediate match table.
-3. `processed` stores the main analytical working layer used by models and reports.
-
-If it is not clear where a table comes from, trace it backward in this order: `outputs` or `processed` -> `interim` -> `raw`.
+The source data cover the five major European leagues. Earlier seasons provide the historical information needed to construct pre-match features, while the main modelling experiment uses seasons 2021/22 to 2024/25.

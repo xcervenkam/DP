@@ -1,30 +1,9 @@
-# processed
+# Processed data
 
-This folder contains cleaned and final data used for modeling, evaluation, and reporting.
+This folder contains the dataset prepared for modelling.
 
-## Main Files
+- `match_features.csv` is created by notebook 02. Each row represents one match and contains its prediction targets together with pre-match explanatory variables.
 
-- `match_features.csv`
-- `match_features_advanced.csv`
-- `match_features_advanced.parquet`
-- `market_odds_bundesliga.csv`
-- `market_odds_source_metadata.csv`
-- additional helper tables with tuning results, predictions, and summaries
+The variables describe recent results, expected-goal performance, home and away form, internal and external Elo ratings, squad strength, rest time, league context, and market probabilities. Historical team statistics are shifted so that the predicted match cannot influence its own features.
 
-## Subfolders
-
-- [`model_runs/`](model_runs/README.md)  
-  Detailed artifacts from individual model runs.
-
-- [`market_evaluation/`](market_evaluation/README.md)  
-  Tables used to compare saved models with the market.
-
-- [`season_report/`](season_report/README.md)  
-  Tables used in the compact season report.
-
-- [`next_matchday_predictions/`](next_matchday_predictions/README.md)  
-  Tables used for scoring the next matchday.
-
-## How to Think About This Folder
-
-If `raw` is the source layer and `interim` is the stabilized middle layer, then `processed` is the main analytical working layer of the project.
+This table is used by the modelling, final evaluation, and season-simulation notebooks.
