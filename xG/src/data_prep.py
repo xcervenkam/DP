@@ -32,6 +32,7 @@ def standardize_column_names(df: pd.DataFrame) -> pd.DataFrame:
     alias_map = {
         "unnamed_0": "league",
         "unnamed_1": "season_year",
+        "year": "season_year",
         "seasonyear": "season_year",
         "season_year": "season_year",
         "xg": "xg",
@@ -49,12 +50,12 @@ def standardize_column_names(df: pd.DataFrame) -> pd.DataFrame:
 
 def strip_string_columns(df: pd.DataFrame) -> pd.DataFrame:
     """
-    Remove leading and trailing whitespace from string columns.
+    Remove leading and trailing whitespace while preserving missing values.
     """
     df = df.copy()
-    object_cols = df.select_dtypes(include="object").columns
-    for col in object_cols:
-        df[col] = df[col].astype(str).str.strip()
+    string_cols = df.select_dtypes(include=["object", "string"]).columns
+    for col in string_cols:
+        df[col] = df[col].astype("string").str.strip()
     return df
 
 
@@ -90,6 +91,10 @@ def basic_cleaning(df: pd.DataFrame) -> pd.DataFrame:
     df = strip_string_columns(df)
     df = convert_numeric_columns(df)
     df = standardize_league_names(df)
+
+    if "date" in df.columns:
+        df["date"] = pd.to_datetime(df["date"], errors="coerce")
+
     df = df.drop_duplicates().reset_index(drop=True)
     return df
 

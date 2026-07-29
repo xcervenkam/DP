@@ -7,8 +7,10 @@ from typing import Iterable
 import matplotlib.pyplot as plt
 import numpy as np
 import pandas as pd
+from adjustText import adjust_text
 from scipy.cluster.hierarchy import dendrogram, fcluster, linkage
 from sklearn.cluster import DBSCAN
+from sklearn.neighbors import NearestNeighbors
 from sklearn.preprocessing import StandardScaler
 
 
@@ -147,7 +149,9 @@ def plot_cluster_scatter(
     title: str = "",
     annotate: bool = True,
     labels_to_annotate: list[str] | None = None,
-) -> None:
+    cluster_colours: dict[int, str] | None = None,
+    cluster_names: dict[int, str] | None = None,
+) -> tuple[plt.Figure, plt.Axes]:
     """
     Plot a 2D cluster scatter plot for DBSCAN or hierarchical clustering.
     """
@@ -157,6 +161,15 @@ def plot_cluster_scatter(
     _check_required_columns(df, required_cols)
 
     labels_to_annotate = labels_to_annotate or []
+    cluster_names = cluster_names or {}
+
+    cluster_colours = cluster_colours or {
+        -1: "#1f77b4",
+        0: "#ff7f0e",
+        1: "#2ca02c",
+        2: "#d62728",
+        3: "#9467bd",
+    }
 
     fig, ax = plt.subplots()
 
@@ -167,10 +180,12 @@ def plot_cluster_scatter(
         ax.scatter(
             cluster_df[x],
             cluster_df[y],
-            label=f"Cluster {cluster_id}",
+            label=cluster_names.get(cluster_id, f"Cluster {cluster_id}"),
             alpha=0.85,
+            color=cluster_colours.get(cluster_id),
         )
 
+    texts = []
     if annotate:
         if labels_to_annotate:
             annotate_df = df[df[label_col].isin(labels_to_annotate)]
@@ -178,20 +193,36 @@ def plot_cluster_scatter(
             annotate_df = df
 
         for _, row in annotate_df.iterrows():
-            ax.annotate(
+            texts.append(ax.text(
+                row[x],
+                row[y],
                 row[label_col],
-                (row[x], row[y]),
-                xytext=(4, 4),
-                textcoords="offset points",
                 fontsize=9,
-            )
+            ))
 
     ax.set_title(title)
     ax.set_xlabel(x)
     ax.set_ylabel(y)
     ax.legend()
-    plt.tight_layout()
-    plt.show()
+    ax.margins(0.08)
+    if texts:
+        adjust_text(
+            texts,
+            ax=ax,
+            x=df[x].to_numpy(),
+            y=df[y].to_numpy(),
+            ensure_inside_axes=True,
+            expand_axes=False,
+            iter_lim=500,
+            arrowprops={
+                "arrowstyle": "-",
+                "color": "#666666",
+                "linewidth": 0.45,
+                "alpha": 0.55,
+            },
+        )
+    fig.tight_layout()
+    return fig, ax
 
 
 def run_hierarchical_clustering(
@@ -256,22 +287,45 @@ def plot_dendrogram(
     figsize: tuple[int, int] = (12, 6),
     leaf_rotation: float = 90,
     leaf_font_size: int = 10,
-) -> None:
+    n_clusters: int | None = None,
+    xlabel: str = "Teams",
+    ylabel: str = "Linkage Distance",
+    cut_label: str | None = None,
+) -> tuple[plt.Figure, plt.Axes, float | None]:
     """
     Plot a dendrogram from a linkage matrix.
     """
-    plt.figure(figsize=figsize)
+    fig, ax = plt.subplots(figsize=figsize)
+    color_threshold = None
+    if n_clusters is not None:
+        if not 2 <= n_clusters < len(linkage_matrix) + 1:
+            raise ValueError("n_clusters is outside the valid range.")
+        lower = linkage_matrix[-n_clusters, 2]
+        upper = linkage_matrix[-(n_clusters - 1), 2]
+        color_threshold = float((lower + upper) / 2)
+
     dendrogram(
         linkage_matrix,
         labels=labels,
         leaf_rotation=leaf_rotation,
         leaf_font_size=leaf_font_size,
+        color_threshold=color_threshold,
+        ax=ax,
     )
-    plt.title(title)
-    plt.xlabel("Teams")
-    plt.ylabel("Linkage Distance")
-    plt.tight_layout()
-    plt.show()
+    if color_threshold is not None:
+        ax.axhline(
+            color_threshold,
+            color="#666666",
+            linestyle="--",
+            linewidth=1.2,
+            label=cut_label or f"Cut for {n_clusters} clusters",
+        )
+        ax.legend(loc="upper right")
+    ax.set_title(title)
+    ax.set_xlabel(xlabel)
+    ax.set_ylabel(ylabel)
+    fig.tight_layout()
+    return fig, ax, color_threshold
 
 
 def summarize_clusters(
@@ -341,3 +395,113 @@ def get_cluster_members(
     )
 
     return members
+
+
+def get_dbscan_k_distance_table(
+    df: pd.DataFrame,
+    feature_cols: list[str],
+    min_samples: int = 3,
+    scale: bool = True,
+    label_col: str = "team",
+) -> pd.DataFrame:
+    """
+    Return sorted k-nearest-neighbour distances used to inspect ``eps``.
+
+    The selected neighbour count matches ``min_samples`` and includes the
+    observation itself, following the convention used by DBSCAN.
+    """
+    clustering_df = prepare_clustering_data(
+        df,
+        feature_cols,
+        label_cols=[label_col],
+    )
+    if min_samples < 2 or min_samples > len(clustering_df):
+        raise ValueError("min_samples must be between 2 and n_observations.")
+
+    if scale:
+        X, _ = scale_features(clustering_df, feature_cols)
+    else:
+        X = clustering_df[feature_cols].copy()
+
+    neighbours = NearestNeighbors(n_neighbors=min_samples)
+    neighbours.fit(X)
+    distances, _ = neighbours.kneighbors(X)
+
+    result = clustering_df[[label_col]].copy()
+    result["k_distance"] = distances[:, -1]
+    return result.sort_values("k_distance").reset_index(drop=True)
+
+
+def summarize_dbscan_sensitivity(
+    df: pd.DataFrame,
+    feature_cols: list[str],
+    eps_values: Iterable[float],
+    min_samples: int = 3,
+    scale: bool = True,
+) -> pd.DataFrame:
+    """
+    Summarize the number and size of clusters around a selected ``eps``.
+    """
+    records: list[dict[str, object]] = []
+    for eps in eps_values:
+        result = run_dbscan(
+            df,
+            feature_cols=feature_cols,
+            eps=float(eps),
+            min_samples=min_samples,
+            scale=scale,
+        )
+        labels = result["dbscan_cluster"]
+        cluster_labels = sorted(label for label in labels.unique() if label != -1)
+        cluster_sizes = [
+            int(labels.eq(label).sum()) for label in cluster_labels
+        ]
+        records.append(
+            {
+                "eps": float(eps),
+                "n_clusters": len(cluster_labels),
+                "n_noise": int(labels.eq(-1).sum()),
+                "cluster_sizes": ", ".join(map(str, sorted(cluster_sizes))),
+            }
+        )
+    return pd.DataFrame(records)
+
+
+def relabel_clusters_by_anchors(
+    df: pd.DataFrame,
+    cluster_col: str,
+    label_col: str,
+    anchor_by_new_label: dict[int, str],
+    output_col: str | None = None,
+) -> pd.DataFrame:
+    """
+    Relabel arbitrary cluster identifiers using stable anchor observations.
+
+    This is useful when numeric labels must remain aligned with an existing
+    thesis table even though clustering algorithms assign label numbers
+    arbitrarily.
+    """
+    _check_required_columns(df, [cluster_col, label_col])
+    output_col = output_col or cluster_col
+
+    mapping: dict[object, int] = {}
+    for new_label, anchor in anchor_by_new_label.items():
+        anchor_rows = df.loc[df[label_col].eq(anchor), cluster_col]
+        if len(anchor_rows) != 1:
+            raise ValueError(
+                f"Anchor {anchor!r} must identify exactly one observation."
+            )
+        old_label = anchor_rows.iloc[0]
+        if old_label in mapping:
+            raise ValueError("Two anchors refer to the same source cluster.")
+        mapping[old_label] = int(new_label)
+
+    observed_labels = set(df[cluster_col].unique())
+    if observed_labels != set(mapping):
+        raise ValueError(
+            "Anchor mapping does not cover every observed cluster label."
+        )
+
+    result = df.copy()
+    result[output_col] = result[cluster_col].map(mapping).astype(int)
+    return result
