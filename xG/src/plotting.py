@@ -2,81 +2,10 @@ from __future__ import annotations
 
 import matplotlib.pyplot as plt
 import matplotlib.dates as mdates
-import numpy as np
 import pandas as pd
 from adjustText import adjust_text
 
-from src.config import (
-    LEAGUE_DISPLAY_NAMES,
-    LEAGUE_DISPLAY_ORDER,
-    METRIC_COLOURS,
-)
-
-
-def plot_league_comparison(
-    summary_df: pd.DataFrame,
-    x_col: str = "avg_xg",
-    y_col: str = "avg_goals",
-    label_col: str = "league",
-    title: str = "Average xG vs Goals by League",
-    annotate: bool = True,
-) -> tuple[plt.Figure, plt.Axes]:
-    """
-    Scatter plot for league-level comparison of average xG and goals.
-    """
-    fig, ax = plt.subplots()
-
-    ax.scatter(summary_df[x_col], summary_df[y_col])
-
-    _add_identity_line(ax, summary_df[x_col], summary_df[y_col])
-
-    if annotate:
-        for _, row in summary_df.iterrows():
-            ax.annotate(
-                row[label_col],
-                (row[x_col], row[y_col]),
-                xytext=(5, 5),
-                textcoords="offset points",
-            )
-
-    ax.set_title(title)
-    ax.set_xlabel("Average Expected Goals")
-    ax.set_ylabel("Average Goals Scored")
-    fig.tight_layout()
-    return fig, ax
-
-
-def plot_league_trends(
-    summary_df: pd.DataFrame,
-    league: str | None = None,
-    title: str | None = None,
-) -> tuple[plt.Figure, plt.Axes]:
-    """
-    Plot average xG and average goals over time.
-    If a league is provided, plot only that competition.
-    """
-    df = summary_df.copy()
-
-    if league is not None:
-        df = df[df["league"] == league].copy()
-
-    fig, ax = plt.subplots()
-
-    if league is None:
-        for league_name in df["league"].unique():
-            league_df = df[df["league"] == league_name]
-            ax.plot(league_df["season_year"], league_df["avg_xg"], label=f"{league_name} - xG")
-            ax.plot(league_df["season_year"], league_df["avg_goals"], linestyle="--", label=f"{league_name} - Goals")
-    else:
-        ax.plot(df["season_year"], df["avg_xg"], label="xG")
-        ax.plot(df["season_year"], df["avg_goals"], linestyle="--", label="Goals")
-
-    ax.set_title(title or "Seasonal Development of xG and Goals")
-    ax.set_xlabel("Season")
-    ax.set_ylabel("Average Value")
-    ax.legend()
-    fig.tight_layout()
-    return fig, ax
+from src.config import METRIC_COLOURS
 
 
 def plot_identity_scatter(
@@ -151,54 +80,13 @@ def plot_identity_scatter(
     return fig, ax
 
 
-def plot_quadrant_scatter(
-    df: pd.DataFrame,
-    x: str,
-    y: str,
-    label_col: str = "team",
-    x_ref: float | None = None,
-    y_ref: float | None = None,
-    title: str = "",
-    xlabel: str | None = None,
-    ylabel: str | None = None,
-    annotate: bool = True,
-) -> tuple[plt.Figure, plt.Axes]:
-    """
-    Scatter plot with vertical and horizontal reference lines.
-    """
-    fig, ax = plt.subplots()
-    ax.scatter(df[x], df[y])
-
-    if x_ref is not None:
-        ax.axvline(x_ref, linestyle="--")
-    if y_ref is not None:
-        ax.axhline(y_ref, linestyle="--")
-
-    if annotate:
-        for _, row in df.iterrows():
-            ax.annotate(
-                row[label_col],
-                (row[x], row[y]),
-                xytext=(4, 4),
-                textcoords="offset points",
-                fontsize=9,
-            )
-
-    ax.set_title(title)
-    ax.set_xlabel(xlabel or x)
-    ax.set_ylabel(ylabel or y)
-    ax.margins(0.08)
-    fig.tight_layout()
-    return fig, ax
-
-
 def plot_rolling_time_series(
     series_df: pd.DataFrame,
     title: str,
     xlabel: str = "Date",
     ylabel: str = "Goals per team-match",
-    xg_label: str = r"$xG$ - trailing MA(10 rounds)",
-    goals_label: str = "Goals - trailing MA(10 rounds)",
+    xg_label: str = r"$xG$ - moving average",
+    goals_label: str = "Goals - moving average",
     annotation: str | None = None,
     figsize: tuple[float, float] = (12, 5.5),
     max_gap_days: int | None = None,
@@ -264,98 +152,6 @@ def plot_rolling_time_series(
 
     fig.tight_layout()
     return fig, ax
-
-
-def plot_rolling_league_panels(
-    league_series: pd.DataFrame,
-    title: str,
-    league_order: list[str] | None = None,
-    display_names: dict[str, str] | None = None,
-    xlabel: str = "Date",
-    ylabel: str = "Goals per team-match",
-    xg_label: str = r"$xG$ - trailing MA(10 rounds)",
-    goals_label: str = "Goals - trailing MA(10 rounds)",
-    max_gap_days: int | None = None,
-) -> tuple[plt.Figure, np.ndarray]:
-    """
-    Plot xG and goals as comparable small multiples for all leagues.
-    """
-    required_cols = [
-        "league",
-        "season_year",
-        "date",
-        "xg_ma",
-        "goals_ma",
-    ]
-    _check_required_columns(league_series, required_cols)
-    league_order = league_order or LEAGUE_DISPLAY_ORDER
-    display_names = display_names or LEAGUE_DISPLAY_NAMES
-    leagues = [
-        league for league in league_order
-        if league in set(league_series["league"])
-    ]
-
-    n_cols = 3 if len(leagues) >= 5 else 2
-    n_rows = int(np.ceil(len(leagues) / n_cols))
-    fig, axes = plt.subplots(
-        n_rows,
-        n_cols,
-        figsize=(13, 3.7 * n_rows),
-        sharex=True,
-        sharey=True,
-        squeeze=False,
-    )
-    flat_axes = axes.ravel()
-
-    for panel_index, (axis, league) in enumerate(
-        zip(flat_axes, leagues)
-    ):
-        league_df = league_series.loc[
-            league_series["league"].eq(league)
-        ].sort_values("date")
-        first_panel_segment = panel_index == 0
-        for segment_df in _contiguous_date_segments(
-            league_df,
-            max_gap_days=max_gap_days,
-        ):
-            axis.plot(
-                segment_df["date"],
-                segment_df["xg_ma"],
-                color=METRIC_COLOURS["xg"],
-                linewidth=1.6,
-                label=xg_label if first_panel_segment else None,
-            )
-            axis.plot(
-                segment_df["date"],
-                segment_df["goals_ma"],
-                color=METRIC_COLOURS["goals"],
-                linestyle="--",
-                linewidth=1.5,
-                label=goals_label if first_panel_segment else None,
-            )
-            first_panel_segment = False
-
-        axis.set_title(display_names.get(league, league))
-        axis.set_xlabel(xlabel)
-        axis.set_ylabel(ylabel)
-        axis.grid(axis="y", alpha=0.22)
-        axis.xaxis.set_major_locator(mdates.YearLocator())
-        axis.xaxis.set_major_formatter(mdates.DateFormatter("%Y"))
-
-    for axis in flat_axes[len(leagues):]:
-        axis.set_visible(False)
-
-    handles, labels = flat_axes[0].get_legend_handles_labels()
-    fig.legend(
-        handles,
-        labels,
-        loc="lower center",
-        ncol=2,
-        bbox_to_anchor=(0.5, 0.005),
-    )
-    fig.suptitle(title, y=0.995)
-    fig.tight_layout(rect=[0, 0.045, 1, 0.98])
-    return fig, axes
 
 
 def _add_identity_line(ax, x_values: pd.Series, y_values: pd.Series) -> None:

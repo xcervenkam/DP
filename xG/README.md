@@ -1,49 +1,45 @@
-# xG: Exploratory Analysis of Expected Metrics
+# Expected Goals and Team Performance in Football
 
-This section of the practical thesis focuses on the exploratory analysis of expected football metrics, especially `xG`, `xGA`, and `xPts`. The goal is to show how these indicators help interpret team performance across leagues and seasons, and how they can also support a deeper structural view of playing styles.
+This folder contains the application part of my master's thesis focused on the use of Data Science in football. The analysis works with expected goals and other expected metrics to compare the underlying performance of football teams with their actual results.
 
-## What This Section Covers
+The aim is not to create a new expected goals model. The project uses metrics already calculated by Understat and studies how they can be used for evaluating teams, leagues and selected seasons.
 
-- comparison of expected and actual performance metrics across major European leagues,
-- analysis of metric development over time,
-- identification of long-term offensive and defensive overperformance,
-- a case study of the 2015/16 Premier League season with a focus on Leicester City,
-- structural analysis of team profiles using DBSCAN and hierarchical clustering.
+## Main parts of the analysis
 
-## Main Entry Points
+The analysis includes:
 
-- [`xG_analysis.ipynb`](xG_analysis.ipynb)  
-  The main analytical notebook containing the full narrative of this section.
+- a comparison of expected and actual goals in the five major European leagues;
+- the development of expected goals and actual goals over time;
+- long-term attacking and defensive performance above or below expectation;
+- a case study of Leicester City in the 2015/16 Premier League season;
+- an analysis of pressing profiles using DBSCAN;
+- hierarchical clustering of teams based on their performance and playing characteristics.
 
-- [`Data/`](Data/README.md)  
-  Source datasets used in the analysis.
+Only complete league-seasons are used for the time-series analysis. The 2019/20 season is incomplete for Ligue 1 and slightly incomplete for Serie A.
 
-- [`src/`](src/README.md)  
-  Helper functions for preprocessing, calculations, visualization, and clustering.
+## Data
 
-- [`Plots/`](Plots/README.md)  
-  Exported figures created during the analysis.
+The `data` folder contains two datasets:
 
-## Recommended Reading Path
+- `understat.csv` contains data aggregated by team and season;
+- `understat_per_game.csv` contains data for individual teams and matches.
 
-1. Start with [`xG_analysis.ipynb`](xG_analysis.ipynb).
-2. Use [`src/`](src/README.md) whenever you want to verify how metrics or figures are calculated.
-3. Use [`Plots/`](Plots/README.md) when selecting visuals for the written thesis.
+The analysis covers the Bundesliga, Premier League, La Liga, Ligue 1 and Serie A from the 2014/15 season to the 2019/20 season.
 
-## Internal Logic of the Notebook
+Each match is represented twice in the match-level dataset, once from the perspective of each team. When the analysis is performed at the level of individual matches, these two observations are combined into one match record.
 
-The notebook is organized into several thematic blocks:
+## Notebooks
 
-1. Introduction, dataset description, and preprocessing.
-2. League-level comparison of `xG` and goals.
-3. Long-term overperformance and underperformance.
-4. Leicester City 2015/16 case study.
-5. Structural analysis of playing styles.
-6. Hierarchical clustering summary.
-7. Interpretation of key findings and conclusion.
+- `xG_analysis.ipynb` contains the main analysis in English. It includes data preparation, league comparisons, moving averages, the Leicester City case study and clustering.
+- `xG_thesis_outputs_cs.ipynb` contains the Czech versions of the selected figures and tables used in the thesis.
 
-## How to Use This Section
+## Project structure
 
-- If the goal is methodological interpretation, read the notebook linearly from start to finish.
-- If the goal is to reuse selected outputs in the thesis text, focus on the Leicester case study, the clustering sections, and the exported figures.
-- If the section is extended in the future, the current structure already supports adding more leagues, seasons, or team characteristics without rewriting the whole notebook.
+- `data` contains the original datasets;
+- `src` contains supporting functions for data preparation, calculations, plots and clustering;
+- `outputs` contains the final figures in PDF format and the resulting tables in CSV format;
+- the two notebooks contain the analytical workflow and its Czech outputs.
+
+## Outputs
+
+The `outputs` folder contains seven figures used in the thesis and eight tables with the main numerical results. Temporary plots, preview versions and unused outputs are not included.

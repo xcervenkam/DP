@@ -3,22 +3,6 @@ import pandas as pd
 
 TOP5_LEAGUES = ["EPL", "La Liga", "Bundesliga", "Serie A", "Ligue 1"]
 
-LEAGUE_DISPLAY_ORDER = [
-    "Bundesliga",
-    "EPL",
-    "La Liga",
-    "Ligue 1",
-    "Serie A",
-]
-
-LEAGUE_DISPLAY_NAMES = {
-    "Bundesliga": "Bundesliga",
-    "EPL": "Premier League",
-    "La Liga": "La Liga",
-    "Ligue 1": "Ligue 1",
-    "Serie A": "Serie A",
-}
-
 EXPECTED_MATCHES_PER_TEAM = {
     "Bundesliga": 34,
     "EPL": 38,

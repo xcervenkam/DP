@@ -1,35 +1,19 @@
-# src
+# Source Files
 
-This folder contains helper Python modules for the `xG` section. The purpose is to keep repeated logic outside the notebook itself and make the analytical workflow cleaner and easier to reuse.
+This folder contains the supporting Python functions used in the two notebooks. The functions are separated from the notebooks to avoid repeating the same calculations and plotting code.
 
-## Module Overview
+## Files
 
-- `config.py`  
-  Basic project configuration, league-name mapping, key numeric columns, and default output styling.
+- `data_prep.py` loads the datasets, adjusts column names and prepares the data for analysis.
 
-- `data_prep.py`  
-  Dataset loading, column-name standardization, string cleanup, type conversion, and basic dataset diagnostics.
+- `metrics.py` calculates league summaries, season completeness, moving averages and long-term attacking and defensive ratios.
 
-- `metrics.py`  
-  Functions for summary tables, league and season aggregation, and the calculation of overperformance or underperformance metrics.
+- `plotting.py` contains functions used to create the figures in a consistent visual style.
 
-- `plotting.py`  
-  Shared figure-building functions used in the notebook.
+- `clustering.py` contains the functions used for DBSCAN and hierarchical clustering.
 
-- `clustering.py`  
-  Data preparation for clustering, feature scaling, DBSCAN, hierarchical clustering, and cluster interpretation helpers.
+- `config.py` stores shared league names, colours and basic plotting settings.
 
-## How the Modules Work Together
+- `__init__.py` marks the folder as a Python module.
 
-The typical flow is:
-
-1. `data_prep.py` loads and cleans the data.
-2. `metrics.py` prepares analytical summary tables.
-3. `plotting.py` and `clustering.py` build the interpretation layer.
-4. `config.py` keeps the environment and defaults consistent.
-
-## When to Open This Folder
-
-- when you want to verify how a metric is calculated,
-- when you want to convert part of the notebook into a reusable script,
-- when you want to extend the section with additional metrics or visualizations.
+The main analytical steps and their interpretation remain in the notebooks.
