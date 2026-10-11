@@ -13,6 +13,7 @@ This folder contains Python functions that are used in more than one notebook. T
 - `evaluation.py` calculates the evaluation measures used for match predictions.
 - `poisson_models.py` estimates the goal models and produces score and result probabilities.
 - `final_model_registry.py` loads the model choices saved in notebooks 03 and 05 so that they are not selected again after observing the test season.
+- `notebook_presentation.py` renders compact reader views and complete collapsible HTML tables, summarises selection stages, and derives the notebook 06 input guide from the locked registries without changing model or export objects.
 - `season_simulation.py` calculates league tables and simulates the remaining matches of a season.
 
 The main checks of data quality, time ordering, and model evaluation are shown directly in the notebooks.

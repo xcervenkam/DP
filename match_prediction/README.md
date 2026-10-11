@@ -88,11 +88,15 @@ The notebooks form one connected analysis and are intended to be read in numeric
 
 The first seven notebooks contain the main analytical workflow in English. The final notebook is written in Czech because it prepares outputs directly for the Czech thesis text.
 
+The notebooks show compact, reader-oriented comparisons first. Long candidate lists, selection audits, tuning results, model parameters, and season snapshots are available in collapsed technical sections. Open a section to inspect its complete saved table; the usual 30-row display limit applies only to ordinary previews.
+
+The executed outputs of notebooks 03 and 05 record the locked 1X2 and binary model choices, including ordered input lists and hyperparameters. Notebook 06 reads those saved registries and derives its model and input guide from them before the 2024/25 walk-forward evaluation. Keep the complete registry tables in the saved outputs when editing or re-executing notebooks 03 and 05, or the later notebooks cannot load the locked choices.
+
 ## Folder structure
 
 - `data/` contains the raw source snapshots and the two derived analytical datasets.
 - `notebooks/` contains the complete analysis.
-- `src/` contains calculations reused in several notebooks.
+- `src/` contains calculations reused in several notebooks and presentation helpers for their HTML tables.
 - `outputs/` contains the final thesis figures in PDF format and tables in CSV format.
 
 The notebooks contain the explanation of the methods, mathematical notation, model comparison, and interpretation. The reusable Python files in `src` keep repeated calculations separate from the written analysis.
